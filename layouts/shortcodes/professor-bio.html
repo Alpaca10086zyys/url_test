@@ -1,0 +1,28 @@
+<div class="professor-bio">
+    {{ with .Get "content" }}
+    <div class="bio-content">
+        <h3>个人简介</h3>
+        <p>{{ . }}</p>
+    </div>
+    {{ end }}
+    <div style="display: flex; justify-content: space-between;">
+        <div class="research-interests">
+            <h3>研究方向</h3>
+            <ul>
+                {{ range split (.Get "interests") "," }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    
+        <div class="education">
+            <h3>教育经历</h3>
+            <ul>
+                {{ range split (.Get "education") "|" }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>    
+    </div>
+    
+</div>

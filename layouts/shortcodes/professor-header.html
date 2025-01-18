@@ -1,0 +1,17 @@
+<div class="professor-profile">
+    <div class="profile-header">
+        <div class="profile-photo">
+            {{ with .Get "photo"}}
+            <img src="{{ . }}" alt="Professor Photo">
+            {{ end }}
+        </div>
+        <div class="profile-info">
+            <h3>{{ .Get "title" }} | <a href="{{ .Get "link" }}">🔗</a></h3>
+            <div class="contact-info">
+                {{ with .Get "email" }}<p>📧 {{ . }}</p>{{ end }}
+                {{ with .Get "phone" }}<p>📞 {{ . }}</p>{{ end }}
+                {{ with .Get "office" }}<p>🏢 {{ . }}</p>{{ end }}
+            </div>
+        </div>
+    </div>
+</div>

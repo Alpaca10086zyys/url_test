@@ -35,7 +35,8 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "南开大学URL实验室"
+      filename: "icon.png"
 
 # Site footer
 footer:
@@ -58,3 +59,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  page_width: wide

@@ -1,0 +1,144 @@
+<div class="professor-publications">
+    <h2 class="publications-title">学术论著</h2>
+    <div class="publication-list">
+        {{ range split (.Get "publications") "|" }}
+        <div class="publication-item">
+            <div class="publication-content">
+                <div class="publication-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                        <path
+                            d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                    </svg>
+                </div>
+                <p class="publication-text">{{ . }}</p>
+                <div class="publication-links">
+                    <a href="#" class="link-btn doi-btn">DOI</a>
+                    <a href="#" class="link-btn pdf-btn">PDF</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .professor-publications {
+        max-width: 1200px;
+        margin: 0.5rem auto;
+        padding: 0 0.5rem;
+    }
+
+    .publications-title {
+        font-size: 1.4rem;
+        color: #2c3e50;
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 2px solid #eee;
+    }
+
+    .publication-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .publication-item {
+        background: white;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .publication-item:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .publication-content {
+        display: flex;
+        padding: 0.8rem;
+        gap: 0.8rem;
+        align-items: center;
+    }
+
+    .publication-icon {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        background: #f8f9fa;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #004A8C;
+    }
+
+    .icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .publication-text {
+        flex-grow: 1;
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #2c3e50;
+    }
+
+    .publication-links {
+        display: flex;
+        gap: 0.4rem;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    .link-btn {
+        padding: 0.25rem 0.6rem;
+        border-radius: 3px;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transition: all 0.2s;
+        font-weight: 500;
+    }
+
+    .doi-btn {
+        background: #e3f2fd;
+        color: #1976d2;
+    }
+
+    .pdf-btn {
+        background: #fbe9e7;
+        color: #d84315;
+    }
+
+    .link-btn:hover {
+        filter: brightness(0.95);
+    }
+
+    @media (max-width: 768px) {
+        .publication-content {
+            flex-direction: column;
+            gap: 0.6rem;
+            padding: 0.6rem;
+        }
+
+        .publication-links {
+            margin-left: 0;
+            margin-top: 0.4rem;
+        }
+
+        .publication-icon {
+            margin: 0 auto;
+        }
+
+        .publication-text {
+            text-align: center;
+        }
+
+        .publication-links {
+            justify-content: center;
+        }
+    }
+</style>

@@ -1,0 +1,245 @@
+<div class="carousel-container">
+    <h3 style="margin-top: 0px;">最近新闻</h3>
+    <div class="carousel">
+        {{ $posts := where .Site.RegularPages "Section" "post" }}
+        {{ range $index, $item := first 4 (sort $posts "Date" "desc") }}
+        <div class="carousel-item">
+            {{ $image := printf "%sfeatured.jpg" $item.RelPermalink | default "/images/default-news.jpg" }}
+            <a href="{{ .RelPermalink }}" class="carousel-link">
+                <div class="carousel-image-container">
+                    <img src="{{ $image }}" alt="{{ .Title }}">
+                </div>
+                <div class="carousel-caption">
+                    <!-- <h3>{{ .Title }}</h3> -->
+                    <p>{{ .Date.Format "2006-01-02" }} | {{ .Params.summary | default (.Summary | truncate 120) }}</p>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        <!-- <div class="button-container">
+            <button class="carousel-button prev" onclick="moveSlide(-1)">❮</button>
+            <button class="carousel-button next" onclick="moveSlide(1)">❯</button>
+        </div> -->
+    </div>
+    <div class="carousel-dots">
+        {{ $posts := where .Site.RegularPages "Section" "post" }}
+        {{ range $index, $item := first 4 $posts }}
+        <span class="dot" data-slide="{{ add $index 1 }}"></span>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .carousel-container {
+        width: 120%;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        left: 50%;
+        transform: translateX(-50%);  
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        will-change: transform;
+    }
+
+    .carousel-item {
+        min-width: 100%;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .carousel-link {
+        display: block;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+    }
+
+    /* .carousel-item img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    } */
+    .carousel-image-container {
+        width: 100%;
+        height: 400px;
+        overflow: hidden; /* 隐藏图片放大后的溢出部分 */
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease; /* 平滑放大动画 */
+        display: block;
+    }
+
+    .carousel-image-container:hover img {
+        transform: scale(1.1); /* 鼠标悬浮时图片放大 */
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+        color: white;
+    }
+
+    .button-container {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 3;
+    }
+
+    .carousel-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background 0.3s;
+        z-index: 2;
+    }
+
+    .carousel-button:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .prev {
+        left: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    .carousel-dots {
+        position: absolute;
+        bottom: 1%;
+        right: 3%;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 30;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+        background-color: #969595;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .active-dot {
+        background-color: white; /* 活动点设为白色 */
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+</style>
+
+<script>
+    let slideIndex = 0;
+    const carousel = document.querySelector('.carousel');
+    const slides = document.querySelectorAll('.carousel-item');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = slides.length;
+
+    // Clone first and last slide for infinite effect
+    const firstClone = slides[0].cloneNode(true);
+    const lastClone = slides[slides.length - 1].cloneNode(true);
+    carousel.appendChild(firstClone);
+    carousel.insertBefore(lastClone, slides[0]);
+
+    // Adjust index for clones
+    slideIndex = 1;
+    carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+    // Function to move slides
+    function moveSlide(n) {
+        slideIndex += n;
+        carousel.style.transition = 'transform 0.5s ease';
+        carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+        // Reset position for infinite effect
+        carousel.addEventListener('transitionend', () => {
+            if (slideIndex === 0) {
+                carousel.style.transition = 'none';
+                slideIndex = totalSlides;
+                carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+            } else if (slideIndex === totalSlides + 1) {
+                carousel.style.transition = 'none';
+                slideIndex = 1;
+                carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+            }
+        });
+
+        resetSlideShow();
+        updateDots();
+    }
+
+    // Function to update dots
+    function updateDots() {
+        dots.forEach(dot => dot.classList.remove('active-dot'));
+        dots[(slideIndex - 1 + totalSlides) % totalSlides].classList.add('active-dot');
+    }
+
+    // Function to start the slideshow
+    function startSlideShow() {
+        slideInterval = setInterval(() => {
+            moveSlide(1);
+        }, 2000);
+    }
+
+    // Function to reset the slideshow interval
+    function resetSlideShow() {
+        clearInterval(slideInterval);
+        startSlideShow();
+    }
+
+    // Event listeners for dots
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            slideIndex = index + 1;
+            moveSlide(0);
+        });
+    });
+
+    // Initialize the slideshow
+    startSlideShow();
+
+</script>
