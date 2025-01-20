@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: 研究方向
 summary: My courses
 type: landing
 

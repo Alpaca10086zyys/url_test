@@ -1,5 +1,5 @@
 {{ $posts := where .Site.RegularPages "Section" "post" }}
-{{ $paginator := .Page.Paginate $posts 5 }}
+{{ $paginator := .Page.Paginate $posts 10 }}
 
 <div class="news-list">
     {{ range $paginator.Pages }}
@@ -40,35 +40,39 @@
     <nav class="pagination-container" aria-label="分页">
         <div class="pagination">
             <!-- 上一页按钮 - 始终显示 -->
-            <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ else }}javascript:void(0){{ end }}"
-                class="page-link{{ if not $paginator.HasPrev }} disabled{{ end }}" {{ if not $paginator.HasPrev
-                }}aria-disabled="true" {{ end }}>
-                上一页
-            </a>
+            <div>
+                <a href="{{ if $paginator.HasPrev }}{{ $paginator.Prev.URL }}{{ else }}javascript:void(0){{ end }}"
+                    class="page-link{{ if not $paginator.HasPrev }} disabled{{ end }}" {{ if not $paginator.HasPrev
+                    }}aria-disabled="true" {{ end }}>
+                    上一页
+                </a>
 
-            <!-- 页码按钮 -->
-            {{ range $paginator.Pagers }}
-            <a href="{{ .URL }}" class="page-link{{ if eq . $paginator }} active{{ end }}">
-                {{ .PageNumber }}
-            </a>
-            {{ end }}
+                <!-- 页码按钮 -->
+                {{ range $paginator.Pagers }}
+                <a href="{{ .URL }}" class="page-link{{ if eq . $paginator }} active{{ end }}">
+                    {{ .PageNumber }}
+                </a>
+                {{ end }}
 
-            <!-- 下一页按钮 - 始终显示 -->
-            <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ else }}javascript:void(0){{ end }}"
-                class="page-link{{ if not $paginator.HasNext }} disabled{{ end }}" {{ if not $paginator.HasNext
-                }}aria-disabled="true" {{ end }}>
-                下一页
-            </a>
+                <!-- 下一页按钮 - 始终显示 -->
+                <a href="{{ if $paginator.HasNext }}{{ $paginator.Next.URL }}{{ else }}javascript:void(0){{ end }}"
+                    class="page-link{{ if not $paginator.HasNext }} disabled{{ end }}" {{ if not $paginator.HasNext
+                    }}aria-disabled="true" {{ end }}>
+                    下一页
+                </a>
+            </div>
+            <!-- 页码跳转 -->
+            <div class="pagination-jump">
+                <span class="jump-text">跳转到：</span>
+                <input type="number" min="1" max="{{ $paginator.TotalPages }}" value="{{ $paginator.PageNumber }}"
+                    class="jump-input"
+                    onkeypress="if(event.keyCode === 13) { window.location.href = window.location.pathname.replace(/\/page\/\d+/, '') + (this.value > 1 ? '/page/' + this.value : ''); }">
+                <span class="total-pages">/ {{ $paginator.TotalPages }} 页</span>
+            </div>
+
         </div>
 
-        <!-- 页码跳转 -->
-        <div class="pagination-jump">
-            <span class="jump-text">跳转到：</span>
-            <input type="number" min="1" max="{{ $paginator.TotalPages }}" value="{{ $paginator.PageNumber }}"
-                class="jump-input"
-                onkeypress="if(event.keyCode === 13) { window.location.href = window.location.pathname.replace(/\/page\/\d+/, '') + (this.value > 1 ? '/page/' + this.value : ''); }">
-            <span class="total-pages">/ {{ $paginator.TotalPages }} 页</span>
-        </div>
+
     </nav>
     {{ end }}
 </div>
