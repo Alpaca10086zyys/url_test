@@ -1,0 +1,21 @@
+{
+    "papers": [
+        {
+            "authors": [
+                {
+                    "name": "张三",
+                    "link": "/authors/zhangsan"
+                },
+                {
+                    "name": "李四",
+                    "link": null
+                }
+            ],
+            "title": "示例论文标题",
+            "journal": "示例期刊",
+            "year": 2023,
+            "doi": "https://doi.org/xxx",
+            "pdf": "/papers/example.pdf"
+        }
+    ]
+}

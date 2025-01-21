@@ -1,0 +1,20 @@
+{
+    "books": [
+        {
+            "authors": [
+                {
+                    "name": "张三",
+                    "link": "/authors/zhangsan"
+                },
+                {
+                    "name": "李四",
+                    "link": null
+                }
+            ],
+            "title": "示例专著标题",
+            "publisher": "示例出版社",
+            "year": 2023,
+            "link": "/books/example.pdf"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+<section class="publication-section">
+    <h2 class="publications-title">专著</h2>
+    <div class="publication-list">
+        {{ $booksData := resources.Get "data/publication/books.json" }}
+        {{ $books := $booksData | transform.Unmarshal }}
+        {{ range $book := $books.books }}
+        <div class="publication-item">
+            <div class="publication-content">
+                <div class="publication-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                        <path
+                            d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                    </svg>
+                </div>
+                <p class="publication-text">
+                    {{ range $index, $author := $book.authors }}
+                    {{ if $author.link }}
+                    <a href="{{ $author.link }}" class="author-link">{{ $author.name }}</a>
+                    {{ else }}
+                    {{ $author.name }}
+                    {{ end }}
+                    {{if not (eq (add $index 1) (len $book.authors))}}, {{end}}
+                    {{ end }}
+                    , {{ $book.title }}, {{ $book.publisher }}, {{ $book.year }}
+                </p>
+                <div class="publication-links">
+                    {{ if $book.link }}<a href="{{ $book.link }}" class="link-btn book-btn">查看</a>{{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

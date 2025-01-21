@@ -29,41 +29,43 @@ sections:
         在学生培养方面，[孙宁](/team/teacher/sunning/)指导学生获得了第五届中国“互联网+”大学生创新创业大赛全国总决赛金奖、第十一届中国青少年科技创新奖、“挑战杯”全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖等重要奖项。基于此，[孙宁](/team/teacher/sunning/)教授荣获**国家教学成果二等奖、天津市教学成果特等奖/一等奖**等，并荣获宝钢优秀教师奖。
     design:
       columns: '1'
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
   - block: collection
     id: papers
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
+      title: 学术论著
       text: ""
+      # count: 2
       filters:
         folders:
-          - publication
+          - article
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: 组内新闻
       subtitle: ''
       text: ''
       page_type: post

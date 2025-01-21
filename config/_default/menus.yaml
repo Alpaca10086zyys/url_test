@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: 学术论著
-    url: /#papers
+    url: publication/
     weight: 11
   # - name: Talks
   #   url: /#talks

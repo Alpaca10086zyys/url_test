@@ -12,7 +12,7 @@ url: "/team/teacher/fangyongchun/"
     email="example@nankai.edu.cn"
     photo="/team/teacher/fangyongchun/photo.jpg"
     phone="123-4567-8900"
-    link="https://ai.nankai.edu.cn/info/1102/2797.htm"
+    link="https://ai.nankai.edu.cn/info/1033/2797.htm"
     office="南开大学津南校区综合实验楼B区XXX" >}}
 
 {{< professor-bio

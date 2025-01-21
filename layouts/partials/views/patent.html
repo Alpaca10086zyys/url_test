@@ -1,0 +1,117 @@
+{{ $item := .item }}
+{{ $index := .index | default 0 }}
+
+<div class="patent-container">
+    <table class="patent-table">
+        <!-- 表头 -->
+        {{ if eq $index 0 }}
+        <thead>
+            <tr>
+                <th>标题</th>
+                <th>申请号</th>
+                <th>发明人</th>
+                <th>申请日期</th>
+                <th>类型</th>
+                <th>状态</th>
+            </tr>
+        </thead>
+        {{ end }}
+
+        <!-- 表格内容 -->
+        <tbody>
+            <tr>
+                <td>
+                    <a href="{{ $item.RelPermalink }}" class="hover:underline text-blue-600 dark:text-blue-400">
+                        {{ $item.Title }}
+                    </a>
+                </td>
+                <td>{{ $item.Params.patent_number }}</td>
+                <td>{{ $item.Params.inventors }}</td>
+                <td>{{ $item.Date.Format "2006-01-02" }}</td>
+                <td>{{ $item.Params.patent_type }}</td>
+                <td>
+                    <span class="status-tag {{ $item.Params.status }}">
+                        {{ $item.Params.status }}
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* 表格容器 */
+    .patent-container {
+        @apply bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden;
+        border: 1px solid rgb(229 231 235);
+    }
+
+    /* 表格样式 */
+    .patent-table {
+        @apply w-full table-auto text-left;
+        border-collapse: collapse;
+    }
+
+    .patent-table th {
+        @apply px-6 py-3 text-sm font-semibold text-gray-700 dark:text-gray-200;
+        background-color: #f8fafc; /* 背景色 */
+        border-bottom: 2px solid rgb(229 231 235); /* 下边框 */
+    }
+
+    .patent-table td {
+        @apply px-6 py-4 text-sm text-gray-800 dark:text-gray-300;
+        border-bottom: 1px solid rgb(229 231 235); /* 行分隔线 */
+    }
+
+    /* 最后一行无底部边框 */
+    .patent-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* 每行的hover效果 */
+    .patent-table tr:hover {
+        @apply bg-gray-50 dark:bg-gray-800;
+    }
+
+    /* 列宽设置 */
+    .patent-table th:nth-child(1),
+    .patent-table td:nth-child(1) {
+        width: 30%;
+    }
+
+    .patent-table th:nth-child(2),
+    .patent-table td:nth-child(2) {
+        width: 20%;
+    }
+
+    .patent-table th:nth-child(3),
+    .patent-table td:nth-child(3) {
+        width: 20%;
+    }
+
+    .patent-table th:nth-child(4),
+    .patent-table td:nth-child(4),
+    .patent-table th:nth-child(5),
+    .patent-table td:nth-child(5),
+    .patent-table th:nth-child(6),
+    .patent-table td:nth-child(6) {
+        width: 10%;
+    }
+
+    /* 状态标签样式 */
+    .status-tag {
+        @apply px-3 py-1 rounded-full text-xs font-semibold inline-block;
+    }
+
+    .status-tag.受理 {
+        @apply bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200;
+    }
+
+    .status-tag.公开 {
+        @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+    }
+
+    .status-tag.授权 {
+        @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+    }
+</style>
