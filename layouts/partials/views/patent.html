@@ -1,117 +1,111 @@
 {{ $item := .item }}
 {{ $index := .index | default 0 }}
 
-<div class="patent-container">
-    <table class="patent-table">
-        <!-- 表头 -->
-        {{ if eq $index 0 }}
-        <thead>
-            <tr>
-                <th>标题</th>
-                <th>申请号</th>
-                <th>发明人</th>
-                <th>申请日期</th>
-                <th>类型</th>
-                <th>状态</th>
-            </tr>
-        </thead>
-        {{ end }}
+<!-- 只在第一个专利时显示表头 -->
+{{ if eq $index 0 }}
+<thead>
+    <tr>
+        <th class="patent-th">标题</th>
+        <th class="patent-th">申请号</th>
+        <th class="patent-th">发明人</th>
+        <th class="patent-th">申请日期</th>
+        <th class="patent-th">类型</th>
+        <th class="patent-th">状态</th>
+    </tr>
+</thead>
+{{ end }}
 
-        <!-- 表格内容 -->
-        <tbody>
-            <tr>
-                <td>
-                    <a href="{{ $item.RelPermalink }}" class="hover:underline text-blue-600 dark:text-blue-400">
-                        {{ $item.Title }}
-                    </a>
-                </td>
-                <td>{{ $item.Params.patent_number }}</td>
-                <td>{{ $item.Params.inventors }}</td>
-                <td>{{ $item.Date.Format "2006-01-02" }}</td>
-                <td>{{ $item.Params.patent_type }}</td>
-                <td>
-                    <span class="status-tag {{ $item.Params.status }}">
-                        {{ $item.Params.status }}
-                    </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<!-- 表格内容 -->
+<tr class="patent-tr">
+    <td class="patent-td">
+        <a href="{{ $item.RelPermalink }}" class="patent-link">
+            {{ $item.Title }}
+        </a>
+    </td>
+    <td class="patent-td">{{ $item.Params.patent_number }}</td>
+    <td class="patent-td">{{ $item.Params.inventors }}</td>
+    <td class="patent-td">{{ $item.Date.Format "2006-01-02" }}</td>
+    <td class="patent-td">{{ $item.Params.patent_type }}</td>
+    <td class="patent-td">
+        <span class="status-tag status-{{ $item.Params.status }}">
+            {{ $item.Params.status }}
+        </span>
+    </td>
+</tr>
 
 <style>
-    /* 表格容器 */
-    .patent-container {
-        @apply bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden;
-        border: 1px solid rgb(229 231 235);
+    thead {
+        background-color: #f8fafc;
     }
 
-    /* 表格样式 */
-    .patent-table {
-        @apply w-full table-auto text-left;
-        border-collapse: collapse;
+    .patent-th {
+        padding: 24px 32px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #374151;
+        white-space: nowrap;
     }
 
-    .patent-table th {
-        @apply px-6 py-3 text-sm font-semibold text-gray-700 dark:text-gray-200;
-        background-color: #f8fafc; /* 背景色 */
-        border-bottom: 2px solid rgb(229 231 235); /* 下边框 */
+    .patent-td {
+        padding: 24px 32px;
+        font-size: 14px;
+        color: #374151;
+        white-space: nowrap;
+        border-bottom: 1px solid #e5e7eb;
     }
 
-    .patent-table td {
-        @apply px-6 py-4 text-sm text-gray-800 dark:text-gray-300;
-        border-bottom: 1px solid rgb(229 231 235); /* 行分隔线 */
+    .patent-link {
+        color: #2563eb;
+        text-decoration: none;
     }
 
-    /* 最后一行无底部边框 */
-    .patent-table tr:last-child td {
-        border-bottom: none;
+    .patent-link:hover {
+        text-decoration: underline;
     }
 
-    /* 每行的hover效果 */
-    .patent-table tr:hover {
-        @apply bg-gray-50 dark:bg-gray-800;
+    .patent-tr:hover {
+        background-color: #f9fafb;
     }
 
     /* 列宽设置 */
-    .patent-table th:nth-child(1),
-    .patent-table td:nth-child(1) {
-        width: 30%;
-    }
-
-    .patent-table th:nth-child(2),
-    .patent-table td:nth-child(2) {
-        width: 20%;
-    }
-
-    .patent-table th:nth-child(3),
-    .patent-table td:nth-child(3) {
-        width: 20%;
-    }
-
-    .patent-table th:nth-child(4),
-    .patent-table td:nth-child(4),
-    .patent-table th:nth-child(5),
-    .patent-table td:nth-child(5),
-    .patent-table th:nth-child(6),
-    .patent-table td:nth-child(6) {
-        width: 10%;
-    }
+    .patent-th:nth-child(1),
+    .patent-td:nth-child(1) { width: 30%; }
+    
+    .patent-th:nth-child(2),
+    .patent-td:nth-child(2) { width: 20%; }
+    
+    .patent-th:nth-child(3),
+    .patent-td:nth-child(3) { width: 20%; }
+    
+    .patent-th:nth-child(4),
+    .patent-td:nth-child(4),
+    .patent-th:nth-child(5),
+    .patent-td:nth-child(5),
+    .patent-th:nth-child(6),
+    .patent-td:nth-child(6) { width: 10%; }
 
     /* 状态标签样式 */
     .status-tag {
-        @apply px-3 py-1 rounded-full text-xs font-semibold inline-block;
+        padding: 4px 12px;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 9999px;
+        display: inline-block;
     }
 
-    .status-tag.受理 {
-        @apply bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200;
+    .status-受理 {
+        background-color: #dbeafe;
+        color: #1e40af;
     }
 
-    .status-tag.公开 {
-        @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+    .status-公开 {
+        background-color: #fef3c7;
+        color: #92400e;
     }
 
-    .status-tag.授权 {
-        @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+    .status-授权 {
+        background-color: #dcfce7;
+        color: #166534;
     }
 </style>
