@@ -3,8 +3,8 @@ title: "方勇纯"
 position: "教授"
 contact: "email@example.com"
 description: "欠驱动机器人，智能控制方法及应用"
-photo: "/url_test/team/teacher/fangyongchun/photo.jpg"
-url: "/url_test/team/teacher/fangyongchun/"
+photo: "/team/teacher/fangyongchun/photo.jpg"
+url: "/team/teacher/fangyongchun/"
 ---
 
 {{< professor-header
