@@ -1,37 +1,45 @@
 {{ $item := .item }}
 {{ $index := .index | default 0 }}
 
-<!-- 只在第一个专利时显示表头 -->
-{{ if eq $index 0 }}
-<thead>
-    <tr>
-        <th class="patent-th">标题</th>
-        <th class="patent-th">申请号</th>
-        <th class="patent-th">发明人</th>
-        <th class="patent-th">申请日期</th>
-        <th class="patent-th">类型</th>
-        <th class="patent-th">状态</th>
-    </tr>
-</thead>
-{{ end }}
-
+<div class="patent-container">
+    <table class="patent-table">
+        {{ if eq $index 0 }}
+        <thead>
+            <tr>
+                <th class="patent-th">标题</th>
+                <th class="patent-th">申请号</th>
+                <th class="patent-th">发明人</th>
+                <th class="patent-th">申请日期</th>
+                <th class="patent-th">类型</th>
+                <th class="patent-th">状态</th>
+            </tr>
+        </thead>
+        {{ end }}
 <!-- 表格内容 -->
-<tr class="patent-tr">
-    <td class="patent-td">
-        <a href="{{ $item.RelPermalink }}" class="patent-link">
-            {{ $item.Title }}
-        </a>
-    </td>
-    <td class="patent-td">{{ $item.Params.patent_number }}</td>
-    <td class="patent-td">{{ $item.Params.inventors }}</td>
-    <td class="patent-td">{{ $item.Date.Format "2006-01-02" }}</td>
-    <td class="patent-td">{{ $item.Params.patent_type }}</td>
-    <td class="patent-td">
-        <span class="status-tag status-{{ $item.Params.status }}">
-            {{ $item.Params.status }}
-        </span>
-    </td>
-</tr>
+<tbody>
+    <tr class="patent-tr">
+        <td class="patent-td">
+            <a href="{{ $item.RelPermalink }}" class="patent-link">
+                {{ $item.Title }}
+            </a>
+        </td>
+        <td class="patent-td">{{ $item.Params.patent_number }}</td>
+        <td class="patent-td">{{ $item.Params.inventors }}</td>
+        <td class="patent-td">{{ $item.Date.Format "2006-01-02" }}</td>
+        <td class="patent-td">{{ $item.Params.patent_type }}</td>
+        <td class="patent-td">
+            <span class="status-tag status-{{ $item.Params.status }}">
+                {{ $item.Params.status }}
+            </span>
+        </td>
+    </tr>
+    </tbody>
+        
+    </table>
+</div>
+<!-- 只在第一个专利时显示表头 -->
+
+
 
 <style>
     thead {
@@ -70,20 +78,28 @@
 
     /* 列宽设置 */
     .patent-th:nth-child(1),
-    .patent-td:nth-child(1) { width: 30%; }
-    
+    .patent-td:nth-child(1) {
+        width: 30%;
+    }
+
     .patent-th:nth-child(2),
-    .patent-td:nth-child(2) { width: 20%; }
-    
+    .patent-td:nth-child(2) {
+        width: 20%;
+    }
+
     .patent-th:nth-child(3),
-    .patent-td:nth-child(3) { width: 20%; }
-    
+    .patent-td:nth-child(3) {
+        width: 20%;
+    }
+
     .patent-th:nth-child(4),
     .patent-td:nth-child(4),
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
-    .patent-td:nth-child(6) { width: 10%; }
+    .patent-td:nth-child(6) {
+        width: 10%;
+    }
 
     /* 状态标签样式 */
     .status-tag {
