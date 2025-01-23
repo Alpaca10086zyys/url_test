@@ -36,7 +36,7 @@ jobs:
 
       - name: Build with Hugo
         run: |
-          hugo --minify --baseURL "https://Alpaca10086zyys.github.io/url_test/"
+          hugo --minify --baseURL "https://alpaca10086zyys.github.io/url_test/"
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
