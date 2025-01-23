@@ -22,11 +22,7 @@ sections:
       title: '📚 欢迎来到南开大学欠驱动机器人实验室！'
       subtitle: ''
       text: |-
-        本实验室**非常注重理论研究与实际应用结合**，致力于**陆地/船用吊车、欠驱动机器人等机电系统**的自动控制研究，旨在提升它们的自动化、智能化、快速化、准确化程度，提高工作效率与安全性。本实验室研究团队入选了2017年度中国青少年科技创新奖励基金支持项目—大学生“小平科技创新团队”(全国仅50项)，实验室负责人[孙宁](/team/teacher/sunning/)教授入选国家**四青**人才。
-
-        本实验室搭建了32吨工业吊车一台，并搭建了**桥式吊车、船用吊车、塔式吊车、桅杆式吊车、TORA/RTAC、无人机吊运、欠驱动机器人、升降云梯等若干样机平台**，在此基础上，设计了一系列**轨迹规划、非线性控制**方法，取得了一些有特色的研究成果，[孙宁](/team/teacher/sunning/)获得了一些奖励，如**吴文俊人工智能优秀青年奖、中国自动化学会优秀博士学位论文奖、吴文俊人工智能自然科学一等奖、天津市自然科学一等奖、天津市专利奖-金奖、天津市专利奖-创业奖、天津市知识产权创新创业发明与设计大赛一等奖**等，并入选**2019中国智能制造十大科技进展**。
-
-        在学生培养方面，[孙宁](/team/teacher/sunning/)指导学生获得了第五届中国“互联网+”大学生创新创业大赛全国总决赛金奖、第十一届中国青少年科技创新奖、“挑战杯”全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖等重要奖项。基于此，[孙宁](/team/teacher/sunning/)教授荣获**国家教学成果二等奖、天津市教学成果特等奖/一等奖**等，并荣获宝钢优秀教师奖。
+        {{< welcome >}}
     design:
       columns: '1'
   # - block: collection
@@ -40,18 +36,18 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collection
-    id: papers
-    content:
-      title: 学术论著
-      text: ""
-      # count: 2
-      filters:
-        folders:
-          - article
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: 学术论著
+  #     text: ""
+  #     # count: 2
+  #     filters:
+  #       folders:
+  #         - papers
+  #       exclude_featured: false
+  #   design:
+  #     view: paper
   # - block: collection
   #   id: talks
   #   content:

@@ -10,7 +10,7 @@ url: "/url_test/team/teacher/fangyongchun/"
 {{< professor-header
     title="教授"
     email="example@nankai.edu.cn"
-    photo="/team/teacher/fangyongchun/photo.jpg"
+    photo="/url_test/team/teacher/fangyongchun/photo.jpg"
     phone="123-4567-8900"
     link="https://ai.nankai.edu.cn/info/1033/2797.htm"
     office="南开大学津南校区综合实验楼B区XXX" >}}
