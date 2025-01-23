@@ -15,26 +15,26 @@
             </tr>
         </thead>
         {{ end }}
-<!-- 表格内容 -->
-<tbody>
-    <tr class="patent-tr">
-        <td class="patent-td">
-            <a href="{{ $item.RelPermalink }}" class="patent-link">
-                {{ $item.Title }}
-            </a>
-        </td>
-        <td class="patent-td">{{ $item.Params.patent_number }}</td>
-        <td class="patent-td">{{ $item.Params.inventors }}</td>
-        <td class="patent-td">{{ $item.Date.Format "2006-01-02" }}</td>
-        <td class="patent-td">{{ $item.Params.patent_type }}</td>
-        <td class="patent-td">
-            <span class="status-tag status-{{ $item.Params.status }}">
-                {{ $item.Params.status }}
-            </span>
-        </td>
-    </tr>
-    </tbody>
-        
+        <!-- 表格内容 -->
+        <tbody>
+            <tr class="patent-tr">
+                <td class="patent-td" >
+                    <a href="{{ $item.RelPermalink }}" class="patent-link">
+                        {{ $item.Title }}
+                    </a>
+                </td>
+                <td class="patent-td">{{ $item.Params.patent_number }}</td>
+                <td class="patent-td">{{ $item.Params.inventors }}</td>
+                <td class="patent-td">{{ $item.Date.Format "2006-01-02" }}</td>
+                <td class="patent-td">{{ $item.Params.patent_type }}</td>
+                <td class="patent-td">
+                    <span class="status-tag status-{{ $item.Params.status }}">
+                        {{ $item.Params.status }}
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+
     </table>
 </div>
 <!-- 只在第一个专利时显示表头 -->
@@ -56,7 +56,7 @@
     }
 
     .patent-td {
-        padding: 24px 32px;
+        padding: 20px 32px;
         font-size: 14px;
         color: #374151;
         white-space: nowrap;
