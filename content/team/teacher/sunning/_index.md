@@ -1,10 +1,10 @@
 ---
 title: "孙宁"
 position: "教授"
-photo: "/url_test/team/teacher/sunning/photo.jpg"
+photo: "/team/teacher/sunning/photo.jpg"
 contact: "email@example.com"
 description: "欠驱动机器人，智能控制方法及应用"
-url: "/url_test/team/teacher/sunning/"
+url: "/team/teacher/sunning/"
 ---
 
 {{< professor-header

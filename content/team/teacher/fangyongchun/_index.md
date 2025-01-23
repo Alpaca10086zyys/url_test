@@ -3,14 +3,14 @@ title: "方勇纯"
 position: "教授"
 contact: "email@example.com"
 description: "欠驱动机器人，智能控制方法及应用"
-photo: "/url_test/team/teacher/fangyongchun/photo.jpg"
-url: "/url_test/team/teacher/fangyongchun/"
+photo: "/team/teacher/fangyongchun/photo.jpg"
+url: "/team/teacher/fangyongchun/"
 ---
 
 {{< professor-header
     title="教授"
     email="example@nankai.edu.cn"
-    photo="/url_test/team/teacher/fangyongchun/photo.jpg"
+    photo="/team/teacher/fangyongchun/photo.jpg"
     phone="123-4567-8900"
     link="https://ai.nankai.edu.cn/info/1033/2797.htm"
     office="南开大学津南校区综合实验楼B区XXX" >}}
