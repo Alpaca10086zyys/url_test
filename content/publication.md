@@ -16,14 +16,14 @@ sections:
   - block: collection
     id: papers
     content:
-      title: 学术论著
+      title: 论文发表
       text: ""
       filters:
         folders:
-          - article
+          - papers
         exclude_featured: false
     design:
-      view: citation
+      view: paper
   - block: collection
     id: books
     content:
