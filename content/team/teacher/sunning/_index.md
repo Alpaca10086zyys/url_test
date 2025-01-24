@@ -1,16 +1,16 @@
 ---
 title: "孙宁"
 position: "教授"
-photo: "/team/teacher/sunning/photo.jpg"
+photo: "/url_test/team/teacher/sunning/photo.jpg"
 contact: "email@example.com"
 description: "欠驱动机器人，智能控制方法及应用"
-url: "/team/teacher/sunning/"
+url: "/url_test/team/teacher/sunning/"
 ---
 
 {{< professor-header
     title="教授"
     email="example@nankai.edu.cn"
-    photo="/team/teacher/sunning/photo.jpg"
+    photo="/url_test/team/teacher/sunning/photo.jpg"
     phone="123-4567-8900"
     link="https://ai.nankai.edu.cn/info/1033/5214.htm">}}
 
