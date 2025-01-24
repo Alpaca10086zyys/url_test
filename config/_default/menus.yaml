@@ -7,21 +7,33 @@ main:
   - name: 主页
     url: /
     weight: 10
-  - name: 学术论著
-    url: publication/
+  # - name: 学术论著
+  #   url: publication/
+  #   weight: 11
+  - name: 学术成果    # 主菜单项
     weight: 11
-  # - name: Talks
-  #   url: /#talks
-  #   weight: 12
+    identifier: publications   # 添加标识符
+  - name: 论文发表    # 子菜单项
+    parent: publications
+    url: /publication/#papers
+    weight: 1
+  - name: 专著
+    parent: publications
+    url: /publication/#books
+    weight: 2
+  - name: 专利
+    parent: publications
+    url: /publication/#patents
+    weight: 3
   - name: 组内新闻
-    url: /post/
+    url: post/
     weight: 13
   # - name: Experience
   #   url: experience/
   #   weight: 20
-  # - name: Projects
-  #   url: projects/
-  #   weight: 30
+  - name: 科研项目
+    url: projects/
+    weight: 30
   - name: 研究方向
     url: research/
     weight: 40

@@ -17,7 +17,6 @@ sections:
     id: papers
     content:
       title: 论文发表
-      text: ""
       filters:
         folders:
           - papers
@@ -33,7 +32,7 @@ sections:
         folders:
           - book
     design:
-      view: citation
+      view: paper
   - block: collection
     id: patents
     content:

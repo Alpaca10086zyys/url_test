@@ -249,28 +249,6 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
   
   
   
@@ -301,69 +279,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
     
       
       
@@ -391,25 +306,11 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
   
   
   
@@ -471,6 +372,110 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
     
   
     
@@ -548,8 +553,6 @@
         
       
     
-  
-  
   
   
   
@@ -754,13 +757,64 @@
       
       
       
-      <li class="nav-item">
-        <a
-          class="nav-link "
+      <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link 
+                
+                
+                
+              
+                
+                
+                
+              
+                
+                
+                
+               inline-flex items-center">
+              学术成果
+              <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+        <ul
+          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
           
-          href="/url_test/publication/"
-        >学术论著</a
-        >
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/publication/#papers">
+              论文发表
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/publication/#books">
+              专著
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/publication/#patents">
+              专利
+            </a>
+          </li>
+          
+        </ul>
       </li>
       
       
@@ -774,6 +828,20 @@
           
           href="/url_test/post/"
         >组内新闻</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/url_test/projects/"
+        >科研项目</a
         >
       </li>
       
@@ -867,13 +935,14 @@
     </div>
     <div class="page-body  my-10">
       
-<div class="container mx-auto px-4 py-8">
-    <table class="patent-table">
-        
-        
+<div class="container mx-auto px-4 py-8" style="height: 30vh; overflow-y: auto;">
+    
+    
+    
 
 
 <div class="patent-container">
+    <div class="table-wrapper">
     <table class="patent-table">
         
         <thead>
@@ -890,7 +959,7 @@
         
         <tbody>
             <tr class="patent-tr">
-                <td class="patent-td" >
+                <td class="patent-td">
                     <a href="/url_test/patent/preprint/" class="patent-link">
                         一种新型专利装置
                     </a>
@@ -909,35 +978,48 @@
 
     </table>
 </div>
+</div>
 
 
 
 
 <style>
+    .patent-container{
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .patent-table {
+        width: 100%;  
+        border-collapse: collapse;  
+    }
+
     thead {
         background-color: #f8fafc;
     }
 
     .patent-th {
-        padding: 24px 20px;
+        padding: 18px 12px;
         text-align: left;
         font-size: 14px;
         font-weight: 600;
         color: #374151;
-        white-space: nowrap;
+         
         text-align: left;
         vertical-align: top;
+         
     }
 
     .patent-td {
-        padding: 20px 20px;
+        padding: 16px 12px;
         font-size: 14px;
         color: #374151;
         font-family: 'Cabin', sans-serif;
-        white-space: nowrap;
+         
         border-bottom: 1px solid #e5e7eb;
         vertical-align: top;
         text-align: left;
+         
     }
 
     .patent-link {
@@ -966,16 +1048,22 @@
 
     .patent-th:nth-child(3),
     .patent-td:nth-child(3) {
-        width: 20%;
+        width: 15%;
+         
     }
 
     .patent-th:nth-child(4),
-    .patent-td:nth-child(4),
+    .patent-td:nth-child(4){
+        width: 15%;
+         
+    }
+
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
     .patent-td:nth-child(6) {
         width: 10%;
+         
     }
 
      
@@ -985,6 +1073,7 @@
         font-weight: 600;
         border-radius: 9999px;
         display: inline-block;
+        white-space: nowrap;
     }
 
     .status-受理 {
@@ -1001,18 +1090,20 @@
         background-color: #dcfce7;
         color: #166534;
     }
+
 </style>
-        
-        
+    
+    
 
 
 <div class="patent-container">
+    <div class="table-wrapper">
     <table class="patent-table">
         
         
         <tbody>
             <tr class="patent-tr">
-                <td class="patent-td" >
+                <td class="patent-td">
                     <a href="/url_test/patent/patent-3/" class="patent-link">
                         智能家居控制系统及其实现方法
                     </a>
@@ -1031,35 +1122,48 @@
 
     </table>
 </div>
+</div>
 
 
 
 
 <style>
+    .patent-container{
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .patent-table {
+        width: 100%;  
+        border-collapse: collapse;  
+    }
+
     thead {
         background-color: #f8fafc;
     }
 
     .patent-th {
-        padding: 24px 20px;
+        padding: 18px 12px;
         text-align: left;
         font-size: 14px;
         font-weight: 600;
         color: #374151;
-        white-space: nowrap;
+         
         text-align: left;
         vertical-align: top;
+         
     }
 
     .patent-td {
-        padding: 20px 20px;
+        padding: 16px 12px;
         font-size: 14px;
         color: #374151;
         font-family: 'Cabin', sans-serif;
-        white-space: nowrap;
+         
         border-bottom: 1px solid #e5e7eb;
         vertical-align: top;
         text-align: left;
+         
     }
 
     .patent-link {
@@ -1088,16 +1192,22 @@
 
     .patent-th:nth-child(3),
     .patent-td:nth-child(3) {
-        width: 20%;
+        width: 15%;
+         
     }
 
     .patent-th:nth-child(4),
-    .patent-td:nth-child(4),
+    .patent-td:nth-child(4){
+        width: 15%;
+         
+    }
+
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
     .patent-td:nth-child(6) {
         width: 10%;
+         
     }
 
      
@@ -1107,6 +1217,7 @@
         font-weight: 600;
         border-radius: 9999px;
         display: inline-block;
+        white-space: nowrap;
     }
 
     .status-受理 {
@@ -1123,18 +1234,20 @@
         background-color: #dcfce7;
         color: #166534;
     }
+
 </style>
-        
-        
+    
+    
 
 
 <div class="patent-container">
+    <div class="table-wrapper">
     <table class="patent-table">
         
         
         <tbody>
             <tr class="patent-tr">
-                <td class="patent-td" >
+                <td class="patent-td">
                     <a href="/url_test/patent/patent-4/" class="patent-link">
                         一种高效太阳能电池及其制备方法
                     </a>
@@ -1153,35 +1266,48 @@
 
     </table>
 </div>
+</div>
 
 
 
 
 <style>
+    .patent-container{
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .patent-table {
+        width: 100%;  
+        border-collapse: collapse;  
+    }
+
     thead {
         background-color: #f8fafc;
     }
 
     .patent-th {
-        padding: 24px 20px;
+        padding: 18px 12px;
         text-align: left;
         font-size: 14px;
         font-weight: 600;
         color: #374151;
-        white-space: nowrap;
+         
         text-align: left;
         vertical-align: top;
+         
     }
 
     .patent-td {
-        padding: 20px 20px;
+        padding: 16px 12px;
         font-size: 14px;
         color: #374151;
         font-family: 'Cabin', sans-serif;
-        white-space: nowrap;
+         
         border-bottom: 1px solid #e5e7eb;
         vertical-align: top;
         text-align: left;
+         
     }
 
     .patent-link {
@@ -1210,16 +1336,22 @@
 
     .patent-th:nth-child(3),
     .patent-td:nth-child(3) {
-        width: 20%;
+        width: 15%;
+         
     }
 
     .patent-th:nth-child(4),
-    .patent-td:nth-child(4),
+    .patent-td:nth-child(4){
+        width: 15%;
+         
+    }
+
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
     .patent-td:nth-child(6) {
         width: 10%;
+         
     }
 
      
@@ -1229,6 +1361,7 @@
         font-weight: 600;
         border-radius: 9999px;
         display: inline-block;
+        white-space: nowrap;
     }
 
     .status-受理 {
@@ -1245,18 +1378,20 @@
         background-color: #dcfce7;
         color: #166534;
     }
+
 </style>
-        
-        
+    
+    
 
 
 <div class="patent-container">
+    <div class="table-wrapper">
     <table class="patent-table">
         
         
         <tbody>
             <tr class="patent-tr">
-                <td class="patent-td" >
+                <td class="patent-td">
                     <a href="/url_test/patent/patent-2/" class="patent-link">
                         新型环保材料制备装置
                     </a>
@@ -1275,35 +1410,48 @@
 
     </table>
 </div>
+</div>
 
 
 
 
 <style>
+    .patent-container{
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .patent-table {
+        width: 100%;  
+        border-collapse: collapse;  
+    }
+
     thead {
         background-color: #f8fafc;
     }
 
     .patent-th {
-        padding: 24px 20px;
+        padding: 18px 12px;
         text-align: left;
         font-size: 14px;
         font-weight: 600;
         color: #374151;
-        white-space: nowrap;
+         
         text-align: left;
         vertical-align: top;
+         
     }
 
     .patent-td {
-        padding: 20px 20px;
+        padding: 16px 12px;
         font-size: 14px;
         color: #374151;
         font-family: 'Cabin', sans-serif;
-        white-space: nowrap;
+         
         border-bottom: 1px solid #e5e7eb;
         vertical-align: top;
         text-align: left;
+         
     }
 
     .patent-link {
@@ -1332,16 +1480,22 @@
 
     .patent-th:nth-child(3),
     .patent-td:nth-child(3) {
-        width: 20%;
+        width: 15%;
+         
     }
 
     .patent-th:nth-child(4),
-    .patent-td:nth-child(4),
+    .patent-td:nth-child(4){
+        width: 15%;
+         
+    }
+
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
     .patent-td:nth-child(6) {
         width: 10%;
+         
     }
 
      
@@ -1351,6 +1505,7 @@
         font-weight: 600;
         border-radius: 9999px;
         display: inline-block;
+        white-space: nowrap;
     }
 
     .status-受理 {
@@ -1367,24 +1522,26 @@
         background-color: #dcfce7;
         color: #166534;
     }
+
 </style>
-        
-        
+    
+    
 
 
 <div class="patent-container">
+    <div class="table-wrapper">
     <table class="patent-table">
         
         
         <tbody>
             <tr class="patent-tr">
-                <td class="patent-td" >
+                <td class="patent-td">
                     <a href="/url_test/patent/patent-1/" class="patent-link">
                         一种基于深度学习的图像识别方法
                     </a>
                 </td>
                 <td class="patent-td">CN202310001234.X</td>
-                <td class="patent-td">张三, 李四, 王五</td>
+                <td class="patent-td">张三, 李四, 王五,张三, 李四, 王五</td>
                 <td class="patent-td">2023-06-15</td>
                 <td class="patent-td">发明专利</td>
                 <td class="patent-td">
@@ -1397,35 +1554,48 @@
 
     </table>
 </div>
+</div>
 
 
 
 
 <style>
+    .patent-container{
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .patent-table {
+        width: 100%;  
+        border-collapse: collapse;  
+    }
+
     thead {
         background-color: #f8fafc;
     }
 
     .patent-th {
-        padding: 24px 20px;
+        padding: 18px 12px;
         text-align: left;
         font-size: 14px;
         font-weight: 600;
         color: #374151;
-        white-space: nowrap;
+         
         text-align: left;
         vertical-align: top;
+         
     }
 
     .patent-td {
-        padding: 20px 20px;
+        padding: 16px 12px;
         font-size: 14px;
         color: #374151;
         font-family: 'Cabin', sans-serif;
-        white-space: nowrap;
+         
         border-bottom: 1px solid #e5e7eb;
         vertical-align: top;
         text-align: left;
+         
     }
 
     .patent-link {
@@ -1454,16 +1624,22 @@
 
     .patent-th:nth-child(3),
     .patent-td:nth-child(3) {
-        width: 20%;
+        width: 15%;
+         
     }
 
     .patent-th:nth-child(4),
-    .patent-td:nth-child(4),
+    .patent-td:nth-child(4){
+        width: 15%;
+         
+    }
+
     .patent-th:nth-child(5),
     .patent-td:nth-child(5),
     .patent-th:nth-child(6),
     .patent-td:nth-child(6) {
         width: 10%;
+         
     }
 
      
@@ -1473,6 +1649,7 @@
         font-weight: 600;
         border-radius: 9999px;
         display: inline-block;
+        white-space: nowrap;
     }
 
     .status-受理 {
@@ -1489,9 +1666,10 @@
         background-color: #dcfce7;
         color: #166534;
     }
+
 </style>
-        
-    </table>
+    
+    
 </div>
 
     </div>

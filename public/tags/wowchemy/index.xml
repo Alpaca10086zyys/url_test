@@ -14,6 +14,14 @@
     
     <item>
       <title>Pandas</title>
+      <link>http://localhost:1313/url_test/project/pandas-copy/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/project/pandas-copy/</guid>
+      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pandas</title>
       <link>http://localhost:1313/url_test/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/project/pandas/</guid>

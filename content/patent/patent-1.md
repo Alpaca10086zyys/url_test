@@ -2,7 +2,7 @@
 title: "一种基于深度学习的图像识别方法"
 date: "2023-06-15"
 patent_number: "CN202310001234.X"
-inventors: "张三, 李四, 王五"
+inventors: "张三, 李四, 王五,张三, 李四, 王五"
 patent_type: "发明专利"
 status: "授权"
 ---
