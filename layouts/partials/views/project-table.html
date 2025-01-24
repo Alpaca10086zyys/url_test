@@ -1,0 +1,124 @@
+{{ $item := .item }}
+{{ $index := .index | default 0 }}
+
+<div class="project-table-container">
+    <div class="table-wrapper">
+        <table class="project-table-table">
+            {{ if eq $index 0 }}
+            <thead>
+                <tr>
+                    <th class="project-table-th">项目号</th>
+                    <th class="project-table-th">课题</th>
+                    <th class="project-table-th">项目类别</th>
+                    <th class="project-table-th">日期</th>
+                    <th class="project-table-th">经费</th>
+                    <th class="project-table-th">负责人</th>
+                </tr>
+            </thead>
+            {{ end }}
+            <!-- 表格内容 -->
+            <tbody>
+                <tr class="project-table-tr">
+                    <td class="project-table-td">{{ $item.Params.project_number }}</td>
+                    <td class="project-table-td" style="color: #2563eb;">
+                        {{ $item.Title }}
+                    </td>
+                    
+                    <td class="project-table-td">{{ $item.Params.project_type }}</td>
+                    <td class="project-table-td">{{ $item.Params.period }}</td>
+                    <td class="project-table-td">{{ $item.Params.budget }}</td>
+                    <td class="project-table-td">{{ $item.Params.person }}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+
+<style>
+    .project-table-container {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .project-table-table {
+        width: 100%;
+        /* 表格占据父容器的全部宽度 */
+        border-collapse: collapse;
+        /* 去除表格间隙 */
+        table-layout: fixed;
+    }
+
+    thead {
+        background-color: #f8fafc;
+    }
+
+    .project-table-th {
+        padding: 18px 12px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #374151;
+        /* white-space: nowrap; */
+        text-align: left;
+        vertical-align: top;
+        /* word-wrap: break-word;
+        word-break: break-word; */
+    }
+
+    .project-table-td {
+        padding: 16px 12px;
+        font-size: 14px;
+        color: #374151;
+        font-family: 'Cabin', sans-serif;
+        /* white-space: nowrap; */
+        border-bottom: 1px solid #e5e7eb;
+        vertical-align: top;
+        text-align: left;
+        /* word-wrap: break-word;
+    word-break: break-word; */
+    }
+
+    .project-table-link {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .project-table-link:hover {
+        text-decoration: underline;
+    }
+
+    .project-table-tr:hover {
+        background-color: #f9fafb;
+    }
+
+    /* 列宽设置 */
+    .project-table-th:nth-child(1),
+    .project-table-td:nth-child(1) {
+        width: 15%;
+    }
+
+    .project-table-th:nth-child(2),
+    .project-table-td:nth-child(2) {
+        width: 25%;
+    }
+
+    .project-table-th:nth-child(3),
+    .project-table-td:nth-child(3) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(4),
+    .project-table-td:nth-child(4) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(5),
+    .project-table-td:nth-child(5),
+    .project-table-th:nth-child(6),
+    .project-table-td:nth-child(6) {
+        width: 10%;
+    }
+</style>

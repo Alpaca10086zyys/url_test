@@ -313,12 +313,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
     
       
       
@@ -557,6 +551,10 @@
         
       
     
+  
+  
+  
+  
   
   
   
@@ -1090,143 +1088,368 @@
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
 
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    Selected Projects
+    科研项目
   </div>
 
-  <p>I enjoy making things. Here are a selection of projects that I have worked on over the years.</p>
+  
 </div>
 
 
 <div class="flex flex-col items-center px-6">
 
   
-  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
-
-
-  
-    
-
-
-
-
-  
-  
-
-
-
-
-
-<a href="/url_test/projects" target="_blank" rel="noopener" class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Pandas</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 26, 2023</p>
-    </div>
-  </div>
-</a>
+  <div>
 
   
     
 
 
+<div class="project-table-container">
+    <div class="table-wrapper">
+        <table class="project-table-table">
+            
+            <thead>
+                <tr>
+                    <th class="project-table-th">项目号</th>
+                    <th class="project-table-th">课题</th>
+                    <th class="project-table-th">项目类别</th>
+                    <th class="project-table-th">日期</th>
+                    <th class="project-table-th">经费</th>
+                    <th class="project-table-th">负责人</th>
+                </tr>
+            </thead>
+            
+            
+            <tbody>
+                <tr class="project-table-tr">
+                    <td class="project-table-td">789012</td>
+                    <td class="project-table-td" style="color: #2563eb;">
+                        智能机器人
+                    </td>
+                    
+                    <td class="project-table-td">国家重点研发计划重点专项课题</td>
+                    <td class="project-table-td">2019.06-2022.05</td>
+                    <td class="project-table-td">201万</td>
+                    <td class="project-table-td">孙宁</td>
+                </tr>
+            </tbody>
 
-
-  
-  
-
-
-
-
-
-<a href="https://github.com/pandas-dev/pandas" target="_blank" rel="noopener" class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-        
-        
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/url_test/project/pandas/featured_hu9393480806236242150.webp" height="655" width="655" alt="Pandas">
-      
+        </table>
     </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Pandas</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 26, 2023</p>
-    </div>
-  </div>
-</a>
+</div>
 
+
+
+<style>
+    .project-table-container {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .project-table-table {
+        width: 100%;
+         
+        border-collapse: collapse;
+         
+        table-layout: fixed;
+    }
+
+    thead {
+        background-color: #f8fafc;
+    }
+
+    .project-table-th {
+        padding: 18px 12px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #374151;
+         
+        text-align: left;
+        vertical-align: top;
+         
+    }
+
+    .project-table-td {
+        padding: 16px 12px;
+        font-size: 14px;
+        color: #374151;
+        font-family: 'Cabin', sans-serif;
+         
+        border-bottom: 1px solid #e5e7eb;
+        vertical-align: top;
+        text-align: left;
+         
+    }
+
+    .project-table-link {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .project-table-link:hover {
+        text-decoration: underline;
+    }
+
+    .project-table-tr:hover {
+        background-color: #f9fafb;
+    }
+
+     
+    .project-table-th:nth-child(1),
+    .project-table-td:nth-child(1) {
+        width: 15%;
+    }
+
+    .project-table-th:nth-child(2),
+    .project-table-td:nth-child(2) {
+        width: 25%;
+    }
+
+    .project-table-th:nth-child(3),
+    .project-table-td:nth-child(3) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(4),
+    .project-table-td:nth-child(4) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(5),
+    .project-table-td:nth-child(5),
+    .project-table-th:nth-child(6),
+    .project-table-td:nth-child(6) {
+        width: 10%;
+    }
+</style>
   
     
 
 
+<div class="project-table-container">
+    <div class="table-wrapper">
+        <table class="project-table-table">
+            
+            
+            <tbody>
+                <tr class="project-table-tr">
+                    <td class="project-table-td">123456</td>
+                    <td class="project-table-td" style="color: #2563eb;">
+                        某个课题
+                    </td>
+                    
+                    <td class="project-table-td">国家自然科学基金联合基金-重点项目</td>
+                    <td class="project-table-td">2023.11-2026.10</td>
+                    <td class="project-table-td">270万</td>
+                    <td class="project-table-td">孙宁</td>
+                </tr>
+            </tbody>
 
-
-  
-  
-
-
-
-
-
-<a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener" class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-        
-        
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/url_test/project/pytorch/featured_hu4468772248177525727.webp" height="655" width="655" alt="PyTorch">
-      
+        </table>
     </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">PyTorch</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 26, 2023</p>
-    </div>
-  </div>
-</a>
+</div>
 
+
+
+<style>
+    .project-table-container {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .project-table-table {
+        width: 100%;
+         
+        border-collapse: collapse;
+         
+        table-layout: fixed;
+    }
+
+    thead {
+        background-color: #f8fafc;
+    }
+
+    .project-table-th {
+        padding: 18px 12px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #374151;
+         
+        text-align: left;
+        vertical-align: top;
+         
+    }
+
+    .project-table-td {
+        padding: 16px 12px;
+        font-size: 14px;
+        color: #374151;
+        font-family: 'Cabin', sans-serif;
+         
+        border-bottom: 1px solid #e5e7eb;
+        vertical-align: top;
+        text-align: left;
+         
+    }
+
+    .project-table-link {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .project-table-link:hover {
+        text-decoration: underline;
+    }
+
+    .project-table-tr:hover {
+        background-color: #f9fafb;
+    }
+
+     
+    .project-table-th:nth-child(1),
+    .project-table-td:nth-child(1) {
+        width: 15%;
+    }
+
+    .project-table-th:nth-child(2),
+    .project-table-td:nth-child(2) {
+        width: 25%;
+    }
+
+    .project-table-th:nth-child(3),
+    .project-table-td:nth-child(3) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(4),
+    .project-table-td:nth-child(4) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(5),
+    .project-table-td:nth-child(5),
+    .project-table-th:nth-child(6),
+    .project-table-td:nth-child(6) {
+        width: 10%;
+    }
+</style>
   
     
 
 
+<div class="project-table-container">
+    <div class="table-wrapper">
+        <table class="project-table-table">
+            
+            
+            <tbody>
+                <tr class="project-table-tr">
+                    <td class="project-table-td">123456</td>
+                    <td class="project-table-td" style="color: #2563eb;">
+                        某课题
+                    </td>
+                    
+                    <td class="project-table-td">国家重点研发计划重点专项课题</td>
+                    <td class="project-table-td">2021.01-2024.12</td>
+                    <td class="project-table-td">259万</td>
+                    <td class="project-table-td">孙宁</td>
+                </tr>
+            </tbody>
 
-
-  
-  
-
-
-
-
-
-<a href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener" class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-        
-        
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/url_test/project/scikit/featured_hu12713017883134782206.webp" height="655" width="655" alt="scikit-learn">
-      
+        </table>
     </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">scikit-learn</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 26, 2023</p>
-    </div>
-  </div>
-</a>
+</div>
 
+
+
+<style>
+    .project-table-container {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .project-table-table {
+        width: 100%;
+         
+        border-collapse: collapse;
+         
+        table-layout: fixed;
+    }
+
+    thead {
+        background-color: #f8fafc;
+    }
+
+    .project-table-th {
+        padding: 18px 12px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #374151;
+         
+        text-align: left;
+        vertical-align: top;
+         
+    }
+
+    .project-table-td {
+        padding: 16px 12px;
+        font-size: 14px;
+        color: #374151;
+        font-family: 'Cabin', sans-serif;
+         
+        border-bottom: 1px solid #e5e7eb;
+        vertical-align: top;
+        text-align: left;
+         
+    }
+
+    .project-table-link {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .project-table-link:hover {
+        text-decoration: underline;
+    }
+
+    .project-table-tr:hover {
+        background-color: #f9fafb;
+    }
+
+     
+    .project-table-th:nth-child(1),
+    .project-table-td:nth-child(1) {
+        width: 15%;
+    }
+
+    .project-table-th:nth-child(2),
+    .project-table-td:nth-child(2) {
+        width: 25%;
+    }
+
+    .project-table-th:nth-child(3),
+    .project-table-td:nth-child(3) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(4),
+    .project-table-td:nth-child(4) {
+        width: 20%;
+    }
+
+    .project-table-th:nth-child(5),
+    .project-table-td:nth-child(5),
+    .project-table-th:nth-child(6),
+    .project-table-td:nth-child(6) {
+        width: 10%;
+    }
+</style>
   
 
   </div>
-
 
 </div>
 
