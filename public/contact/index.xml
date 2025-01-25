@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts | 欠驱动机器人实验室</title>
+    <link>http://localhost:1313/url_test/contact/</link>
+      <atom:link href="http://localhost:1313/url_test/contact/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contacts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
+      <title>Contacts</title>
+      <link>http://localhost:1313/url_test/contact/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/contact/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/contact/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
