@@ -1,9 +1,4 @@
-<div class="carousel-container">
-    <h4 style="position: relative; display: inline-block; margin-top: 0;">
-        <span style="position: relative; z-index: 1;">最近新闻</span>
-        <span style="position: absolute; top: 0; left: 0; right: -10%; border-top: 2px solid #060606; z-index: 0;"></span>
-    </h4>
-      
+<div class="carousel-container">   
     <div class="carousel">
         {{ $posts := where .Site.RegularPages "Section" "post" }}
         {{ range $index, $item := first 4 (sort $posts "Date" "desc") }}
@@ -53,6 +48,7 @@
         flex-shrink: 0;
         position: relative;
         overflow: hidden;
+        margin-top: 5%;
     }
 
     .carousel-link {
@@ -130,7 +126,7 @@
 
     .carousel-dots {
         position: absolute;
-        bottom: 5%;
+        bottom: 8%;
         right: 3%;
         text-align: center;
         padding: 10px 0;
