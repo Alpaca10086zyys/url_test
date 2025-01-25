@@ -12,19 +12,23 @@ sections:
   - block: markdown
     content:
       text: |-
-        {{< news-carousel >}}
+        <div style="width: 94vw; margin: 0 auto; position: relative; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; gap: 20px;margin-bottom: 30px;">
+              {{< news-carousel >}}
+              {{< welcome >}}
+          </div>
+        </div>
     design:
       columns: '1'
       spacing: 
         padding: [0, 0, 0, 0]
-  - block: markdown
-    content:
-      title: '📚 欢迎来到南开大学欠驱动机器人实验室！'
-      subtitle: ''
-      text: |-
-        {{< welcome >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: '📚 欢迎来到南开大学欠驱动机器人实验室！'
+  #     subtitle: ''
+  #     text: |-
+  #       {{< welcome >}}
+  #   design:
+  #     columns: '2'
   # - block: collection
   #   id: papers
   #   content:

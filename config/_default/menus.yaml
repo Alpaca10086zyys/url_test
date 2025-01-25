@@ -40,3 +40,6 @@ main:
   - name: 团队成员
     url: team/
     weight: 50
+  - name: 联系我们
+    url: contact/
+    weight: 60

@@ -1,5 +1,5 @@
 {{ $posts := where .Site.RegularPages "Section" "post" }}
-{{ $paginator := .Page.Paginate $posts 10 }}
+{{ $paginator := .Page.Paginate $posts 2 }}
 
 <div class="news-list">
     {{ range $paginator.Pages }}

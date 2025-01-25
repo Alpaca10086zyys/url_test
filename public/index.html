@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 24, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: January 25, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/url_test/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=url_test/livereload" data-no-instant defer></script>
@@ -460,6 +460,11 @@
     
       
       
+    
+  
+    
+      
+      
         
         
           
@@ -881,6 +886,20 @@
       
       
       
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/url_test/contact/"
+        >联系我们</a
+        >
+      </li>
+      
+      
+      
     </ul>
 
     <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
@@ -1048,426 +1067,312 @@
   </div>
 
   
-  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><div class="carousel-container">
-    <h3 style="margin-top: 0px;">最近新闻</h3>
-    <div class="carousel">
-        
-        
-        <div class="carousel-item">
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><div style="width: 94vw; margin: 0 auto; position: relative; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; gap: 20px;margin-bottom: 30px;">
+      <div class="carousel-container">
+          <h4 style="position: relative; display: inline-block; margin-top: 0;">
+              <span style="position: relative; z-index: 1;">最近新闻</span>
+              <span style="position: absolute; top: 0; left: 0; right: -10%; border-top: 2px solid #060606; z-index: 0;"></span>
+          </h4>
             
-            <a href="/url_test/post/test/" class="carousel-link">
-                <div class="carousel-image-container">
-                    <img src="/url_test/post/test/featured.jpg" alt="🌟 测试">
-                </div>
-                <div class="carousel-caption">
-                    
-                    <p>2025-01-18 | Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
-                </div>
-            </a>
-        </div>
-        
-        <div class="carousel-item">
-            
-            <a href="/url_test/post/get-started/" class="carousel-link">
-                <div class="carousel-image-container">
-                    <img src="/url_test/post/get-started/featured.jpg" alt="🎉 Easily create your own simple yet highly customizable blog">
-                </div>
-                <div class="carousel-caption">
-                    
-                    <p>2023-10-27 | Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
-                </div>
-            </a>
-        </div>
-        
-        <div class="carousel-item">
-            
-            <a href="/url_test/post/second-brain/" class="carousel-link">
-                <div class="carousel-image-container">
-                    <img src="/url_test/post/second-brain/featured.jpg" alt="🧠 Sharpen your thinking with a second brain">
-                </div>
-                <div class="carousel-caption">
-                    
-                    <p>2023-10-26 | Create a personal knowledge base and share your knowledge with your peers.</p>
-                </div>
-            </a>
-        </div>
-        
-        <div class="carousel-item">
-            
-            <a href="/url_test/post/data-visualization/" class="carousel-link">
-                <div class="carousel-image-container">
-                    <img src="/url_test/post/data-visualization/featured.jpg" alt="📈 Communicate your results effectively with the best data visualizations">
-                </div>
-                <div class="carousel-caption">
-                    
-                    <p>2023-10-25 | Use popular tools such as Plotly, Mermaid, and data frames.</p>
-                </div>
-            </a>
-        </div>
-        
-        
-    </div>
-    <div class="carousel-dots">
-        
-        
-        <span class="dot" data-slide="1"></span>
-        
-        <span class="dot" data-slide="2"></span>
-        
-        <span class="dot" data-slide="3"></span>
-        
-        <span class="dot" data-slide="4"></span>
-        
-    </div>
-</div>
-
-<style>
-    .carousel-container {
-        width: 120%;
-        position: relative;
-        margin: 0 auto;
-        overflow: hidden;
-        left: 50%;
-        transform: translateX(-50%);  
-    }
-
-    .carousel {
-        display: flex;
-        transition: transform 0.5s ease;
-        will-change: transform;
-    }
-
-    .carousel-item {
-        min-width: 100%;
-        flex-shrink: 0;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .carousel-link {
-        display: block;
-        position: relative;
-        text-decoration: none;
-        color: white;
-        width: 100%;
-    }
-
-     
-    .carousel-image-container {
-        width: 100%;
-        height: 400px;
-        overflow: hidden;  
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .carousel-image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;  
-        display: block;
-    }
-
-    .carousel-image-container:hover img {
-        transform: scale(1.1);  
-    }
-
-    .carousel-caption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-        color: white;
-    }
-
-    .button-container {
-        position: absolute;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        z-index: 3;
-    }
-
-    .carousel-button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 16px;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        transition: background 0.3s;
-        z-index: 2;
-    }
-
-    .carousel-button:hover {
-        background: rgba(0, 0, 0, 0.8);
-    }
-
-    .prev {
-        left: 0;
-        border-radius: 0 3px 3px 0;
-    }
-
-    .next {
-        right: 0;
-    }
-
-    .carousel-dots {
-        position: absolute;
-        bottom: 1%;
-        right: 3%;
-        text-align: center;
-        padding: 10px 0;
-        z-index: 30;
-    }
-
-    .dot {
-        height: 8px;
-        width: 8px;
-        margin: 0 4px;
-        background-color: #969595;
-        border-radius: 50%;
-        display: inline-block;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-        .active-dot {
-        background-color: white;  
-    }
-
-    .fade {
-        animation-name: fade;
-        animation-duration: 1s;
-    }
-
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-</style>
-
-<script>
-    let slideIndex = 0;
-    const carousel = document.querySelector('.carousel');
-    const slides = document.querySelectorAll('.carousel-item');
-    const dots = document.querySelectorAll('.dot');
-    const totalSlides = slides.length;
-
-    
-    const firstClone = slides[0].cloneNode(true);
-    const lastClone = slides[slides.length - 1].cloneNode(true);
-    carousel.appendChild(firstClone);
-    carousel.insertBefore(lastClone, slides[0]);
-
-    
-    slideIndex = 1;
-    carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-
-    
-    function moveSlide(n) {
-        slideIndex += n;
-        carousel.style.transition = 'transform 0.5s ease';
-        carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-
-        
-        carousel.addEventListener('transitionend', () => {
-            if (slideIndex === 0) {
-                carousel.style.transition = 'none';
-                slideIndex = totalSlides;
-                carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-            } else if (slideIndex === totalSlides + 1) {
-                carousel.style.transition = 'none';
-                slideIndex = 1;
-                carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-            }
-        });
-
-        resetSlideShow();
-        updateDots();
-    }
-
-    
-    function updateDots() {
-        dots.forEach(dot => dot.classList.remove('active-dot'));
-        dots[(slideIndex - 1 + totalSlides) % totalSlides].classList.add('active-dot');
-    }
-
-    
-    function startSlideShow() {
-        slideInterval = setInterval(() => {
-            moveSlide(1);
-        }, 2000);
-    }
-
-    
-    function resetSlideShow() {
-        clearInterval(slideInterval);
-        startSlideShow();
-    }
-
-    
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            slideIndex = index + 1;
-            moveSlide(0);
-        });
-    });
-
-    
-    startSlideShow();
-
-</script>
-</div>
-</div>
-
-
-  
-
-  
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
- <div class="home-section-bg " >
-   
- </div>
-  
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
-
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    📚 欢迎来到南开大学欠驱动机器人实验室！
+          <div class="carousel">
+              
+              
+              <div class="carousel-item">
+                  
+                  <a href="/url_test/post/test/" class="carousel-link">
+                      <div class="carousel-image-container">
+                          <img src="/url_test/post/test/featured.jpg" alt="🌟 测试">
+                      </div>
+                      <div class="carousel-caption">
+                          
+                          <p>2025-01-18 | Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
+                      </div>
+                  </a>
+              </div>
+              
+              <div class="carousel-item">
+                  
+                  <a href="/url_test/post/get-started/" class="carousel-link">
+                      <div class="carousel-image-container">
+                          <img src="/url_test/post/get-started/featured.jpg" alt="🎉 Easily create your own simple yet highly customizable blog">
+                      </div>
+                      <div class="carousel-caption">
+                          
+                          <p>2023-10-27 | Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
+                      </div>
+                  </a>
+              </div>
+              
+              <div class="carousel-item">
+                  
+                  <a href="/url_test/post/second-brain/" class="carousel-link">
+                      <div class="carousel-image-container">
+                          <img src="/url_test/post/second-brain/featured.jpg" alt="🧠 Sharpen your thinking with a second brain">
+                      </div>
+                      <div class="carousel-caption">
+                          
+                          <p>2023-10-26 | Create a personal knowledge base and share your knowledge with your peers.</p>
+                      </div>
+                  </a>
+              </div>
+              
+              <div class="carousel-item">
+                  
+                  <a href="/url_test/post/data-visualization/" class="carousel-link">
+                      <div class="carousel-image-container">
+                          <img src="/url_test/post/data-visualization/featured.jpg" alt="📈 Communicate your results effectively with the best data visualizations">
+                      </div>
+                      <div class="carousel-caption">
+                          
+                          <p>2023-10-25 | Use popular tools such as Plotly, Mermaid, and data frames.</p>
+                      </div>
+                  </a>
+              </div>
+              
+              
+          </div>
+          <button class="carousel-button prev" onclick="moveSlide(-1)">❮</button>
+          <button class="carousel-button next" onclick="moveSlide(1)">❯</button>
+          <div class="carousel-dots">
+              
+              
+              <span class="dot" data-slide="1"></span>
+              
+              <span class="dot" data-slide="2"></span>
+              
+              <span class="dot" data-slide="3"></span>
+              
+              <span class="dot" data-slide="4"></span>
+              
+          </div>
+      </div>
+      
+      <style>
+          .carousel-container {
+              width: 45%;
+              position: relative;
+              margin: 0 auto;
+              overflow: hidden;
+               
+          }
+      
+          .carousel {
+              display: flex;
+              transition: transform 0.5s ease;
+               
+          }
+      
+          .carousel-item {
+              width: 100%;
+              flex-shrink: 0;
+              position: relative;
+              overflow: hidden;
+          }
+      
+          .carousel-link {
+              display: block;
+              position: relative;
+              text-decoration: none;
+              color: white;
+              width: 100%;
+          }
+      
+           
+          .carousel-image-container {
+              width: 100%;
+              height: 400px;
+              overflow: hidden;  
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+      
+          .carousel-image-container img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              transition: transform 0.3s ease;  
+              display: block;
+          }
+      
+          .carousel-image-container:hover img {
+              transform: scale(1.1);  
+          }
+      
+          .carousel-caption {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              padding: 20px;
+              background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+              color: white;
+          }
+      
+          .carousel-button {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              background: rgba(0, 0, 0, 0.5);
+              color: white;
+              padding: 12px;
+              border: none;
+              border-radius: 5%;
+              cursor: pointer;
+              font-size: 16px;
+              transition: background 0.3s;
+              z-index: 2;
+          }
+      
+          .carousel-button:hover {
+              background: rgba(0, 0, 0, 0.8);
+          }
+      
+          .prev {
+              left: 0;
+              border-radius: 0 3px 3px 0;
+          }
+      
+          .next {
+              right: 0;
+          }
+      
+          .carousel-dots {
+              position: absolute;
+              bottom: 5%;
+              right: 3%;
+              text-align: center;
+              padding: 10px 0;
+              z-index: 30;
+          }
+      
+          .dot {
+              height: 8px;
+              width: 8px;
+              margin: 0 4px;
+              background-color: #969595;
+              border-radius: 50%;
+              display: inline-block;
+              cursor: pointer;
+              transition: background-color 0.3s;
+          }
+      
+              .active-dot {
+              background-color: white;  
+          }
+      
+          .fade {
+              animation-name: fade;
+              animation-duration: 1s;
+          }
+      
+          @keyframes fade {
+              from {
+                  opacity: .4
+              }
+      
+              to {
+                  opacity: 1
+              }
+          }
+      </style>
+      
+      <script>
+          let slideIndex = 0;
+          const carousel = document.querySelector('.carousel');
+          const slides = document.querySelectorAll('.carousel-item');
+          const dots = document.querySelectorAll('.dot');
+          const totalSlides = slides.length;
+      
+          
+          const firstClone = slides[0].cloneNode(true);
+          const lastClone = slides[slides.length - 1].cloneNode(true);
+          carousel.appendChild(firstClone);
+          carousel.insertBefore(lastClone, slides[0]);
+      
+          
+          slideIndex = 1;
+          carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+      
+          
+          function moveSlide(n) {
+              slideIndex += n;
+              carousel.style.transition = 'transform 0.5s ease';
+              carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+      
+              
+              carousel.addEventListener('transitionend', () => {
+                  if (slideIndex === 0) {
+                      carousel.style.transition = 'none';
+                      slideIndex = totalSlides;
+                      carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+                  } else if (slideIndex === totalSlides + 1) {
+                      carousel.style.transition = 'none';
+                      slideIndex = 1;
+                      carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+                  }
+              });
+      
+              resetSlideShow();
+              updateDots();
+          }
+      
+          
+          function updateDots() {
+              dots.forEach(dot => dot.classList.remove('active-dot'));
+              dots[(slideIndex - 1 + totalSlides) % totalSlides].classList.add('active-dot');
+          }
+      
+          
+          function startSlideShow() {
+              slideInterval = setInterval(() => {
+                  moveSlide(1);
+              }, 2000);
+          }
+      
+          
+          function resetSlideShow() {
+              clearInterval(slideInterval);
+              startSlideShow();
+          }
+      
+          
+          dots.forEach((dot, index) => {
+              dot.addEventListener('click', () => {
+                  slideIndex = index + 1;
+                  moveSlide(0);
+              });
+          });
+      
+          
+          startSlideShow();
+      
+      </script>
+      <div style="width: 55%;">
+          <h4 style="position: relative; display: inline-block; margin-top: 0;">
+              <span style="position: relative; z-index: 1;">欠驱动机器人实验室（URL）</span>
+              <span style="position: absolute; top: 0; left: 0; right: -1%; border-top: 2px solid #060606; z-index: 0;"></span>
+          </h4>
+          <p style="font-size: 1rem;">
+          本实验室<b>非常注重理论研究与实际应用结合</b>，致力于<b>陆地/船用吊车、欠驱动机器人等机电系统</b>的自动控制研究，
+          旨在提升它们的自动化、智能化、快速化、准确化程度，提高工作效率与安全性。本实验室研究团队入选了2017年度中国青少年
+          科技创新奖励基金支持项目—大学生“小平科技创新团队”(全国仅50项)，实验室负责人<a href="/team/teacher/sunning/">孙宁</a>教授入选国家<b>四青</b>人才。
+      
+          本实验室搭建了32吨工业吊车一台，并搭建了<b>桥式吊车、船用吊车、塔式吊车、桅杆式吊车、TORA/RTAC、无人机吊运、欠驱
+          动机器人、升降云梯等若干样机平台</b>，在此基础上，设计了一系列<b>轨迹规划、非线性控制</b>方法，取得了一些有特
+          色的研究成果，<a href="/team/teacher/sunning/">孙宁</a>获得了一些奖励，如<b>吴文俊人工智能优秀青年奖、中国自动化学会优秀博
+          士学位论文奖、吴文俊人工智能自然科学一等奖、天津市自然科学一等奖、天津市专利奖-金奖、天津市专利奖-创业奖、天津
+          市知识产权创新创业发明与设计大赛一等奖</b>等，并入选<b>2019中国智能制造十大科技进展</b>。
+      
+          在学生培养方面，<a href="/team/teacher/sunning/">孙宁</a>指导学生获得了第五届中国“互联网+”大学生创新创业大赛全国总决赛金奖、
+          第十一届中国青少年科技创新奖、“挑战杯”全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖
+          等重要奖项。基于此，<a href="/team/teacher/sunning/">孙宁</a>教授荣获<b>国家教学成果二等奖、天津市教学成果特等奖/
+          一等奖</b>等，并荣获宝钢优秀教师奖。
+      </p>
+      </div>
   </div>
-
-  
-  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><div style="width: 120%; margin-left: -10%;">
-    本实验室<b>非常注重理论研究与实际应用结合</b>，致力于<b>陆地/船用吊车、欠驱动机器人等机电系统</b>的自动控制研究，
-    旨在提升它们的自动化、智能化、快速化、准确化程度，提高工作效率与安全性。本实验室研究团队入选了2017年度中国青少年
-    科技创新奖励基金支持项目—大学生“小平科技创新团队”(全国仅50项)，实验室负责人<a href="/team/teacher/sunning/">孙宁</a>教授入选国家<b>四青</b>人才。
-
-    本实验室搭建了32吨工业吊车一台，并搭建了<b>桥式吊车、船用吊车、塔式吊车、桅杆式吊车、TORA/RTAC、无人机吊运、欠驱
-    动机器人、升降云梯等若干样机平台</b>，在此基础上，设计了一系列<b>轨迹规划、非线性控制</b>方法，取得了一些有特
-    色的研究成果，<a href="/team/teacher/sunning/">孙宁</a>获得了一些奖励，如<b>吴文俊人工智能优秀青年奖、中国自动化学会优秀博
-    士学位论文奖、吴文俊人工智能自然科学一等奖、天津市自然科学一等奖、天津市专利奖-金奖、天津市专利奖-创业奖、天津
-    市知识产权创新创业发明与设计大赛一等奖</b>等，并入选<b>2019中国智能制造十大科技进展</b>。
-
-    在学生培养方面，<a href="/team/teacher/sunning/">孙宁</a>指导学生获得了第五届中国“互联网+”大学生创新创业大赛全国总决赛金奖、
-    第十一届中国青少年科技创新奖、“挑战杯”全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖
-    等重要奖项。基于此，<a href="/team/teacher/sunning/">孙宁</a>教授荣获<b>国家教学成果二等奖、天津市教学成果特等奖/
-    一等奖</b>等，并荣获宝钢优秀教师奖。
-</div>
-</div>
+</div></div>
 </div>
 
 
