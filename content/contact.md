@@ -30,8 +30,9 @@ sections:
         <br/>
         广东省深圳市盐田区管下路16号，<span>邮编：518081</span>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.25947112263!2d117.34493507464612!3d38.98657414143946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35ede591a28a0f5d%3A0x7aebc78ddf431546!2z5Y2X5byA5aSn5a2m5rSl5Y2X5paw5qCh5Yy6!5e0!3m2!1szh-CN!2sus!4v1737809916309!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+        <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=117.32445716857912%2C38.9791948016909%2C117.35363960266115%2C38.99687407827485&amp;layer=mapnik&amp;marker=38.98803499193336%2C117.33904838562012" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=38.98803&amp;mlon=117.33905#map=15/38.98803/117.33905&amp;layers=N">查看更大的地图</a></small>
+        
+        <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=114.23951983451843%2C22.56187624360368%2C114.24681544303895%2C22.56712723113294&amp;layer=mapnik&amp;marker=22.564501762364575%2C114.24316763877869" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=22.564502&amp;mlon=114.243168#map=17/22.564502/114.243168&amp;layers=N">查看更大的地图</a></small>
         
         <div style="width: 70vw; margin: 0 auto; position: relative; left: 50%; transform: translateX(-50%);display: flex; justify-content: center; gap: 20px;margin-bottom: 30px; ">
               
