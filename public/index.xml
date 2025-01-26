@@ -35,14 +35,6 @@
     
     <item>
       <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
-      <link>http://localhost:1313/url_test/book/book1/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/book/book1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
       <link>http://localhost:1313/url_test/papers/paper1/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/papers/paper1/</guid>
@@ -607,6 +599,14 @@
     </item>
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>一种高效太阳能电池及其制备方法</title>
       <link>http://localhost:1313/url_test/patent/patent-4/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
@@ -828,7 +828,7 @@
 
 
 
-&lt;div id=&#34;chart-647258193&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-265478193&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -846,7 +846,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-647258193&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-265478193&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1729,6 +1729,14 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel1/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/url_test/contact/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/contact/</guid>
@@ -1740,6 +1748,22 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/url_test/publication/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel3/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel2/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel2/</guid>
       <description></description>
     </item>
     

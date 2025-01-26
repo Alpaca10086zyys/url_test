@@ -23,14 +23,12 @@ sections:
         exclude_featured: false
     design:
       view: paper
-  - block: collection
+  - block: markdown
     id: books
     content:
       title: 专著
-      text: ""
-      filters:
-        folders:
-          - book
+      text: |-
+        {{< book-section >}}
     design:
       view: paper
   - block: collection

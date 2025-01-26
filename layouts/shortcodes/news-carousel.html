@@ -1,16 +1,16 @@
 <div class="carousel-container">   
     <div class="carousel">
-        {{ $posts := where .Site.RegularPages "Section" "post" }}
+        {{ $posts := where .Site.RegularPages "Section" "carousel" }}
         {{ range $index, $item := first 4 (sort $posts "Date" "desc") }}
         <div class="carousel-item">
             {{ $image := printf "%sfeatured.jpg" $item.RelPermalink | default "/images/default-news.jpg" }}
-            <a href="{{ .RelPermalink }}" class="carousel-link">
+            <a href="" class="carousel-link">
                 <div class="carousel-image-container">
                     <img src="{{ $image }}" alt="{{ .Title }}">
                 </div>
                 <div class="carousel-caption">
                     <!-- <h3>{{ .Title }}</h3> -->
-                    <p>{{ .Date.Format "2006-01-02" }} | {{ .Params.summary | default (.Summary | truncate 120) }}</p>
+                    <p>{{ .Params.caption | default (.Summary | truncate 120) }}</p>
                 </div>
             </a>
         </div>
@@ -20,7 +20,7 @@
     <button class="carousel-button prev" onclick="moveSlide(-1)">❮</button>
     <button class="carousel-button next" onclick="moveSlide(1)">❯</button>
     <div class="carousel-dots">
-        {{ $posts := where .Site.RegularPages "Section" "post" }}
+        {{ $posts := where .Site.RegularPages "Section" "carousel" }}
         {{ range $index, $item := first 4 $posts }}
         <span class="dot" data-slide="{{ add $index 1 }}"></span>
         {{ end }}

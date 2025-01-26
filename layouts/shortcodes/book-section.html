@@ -1,0 +1,80 @@
+<div class="book-section">
+    {{ range (where .Site.Pages "Type" "book") }}
+    {{ if eq .Params.type "book" }}
+    <div class="book-card">
+        {{ with .Params.cover }}
+        <div class="book-cover">
+            <img src="{{ . }}" alt="书籍封面">
+        </div>
+        {{ end }}
+        <div class="book-info">
+            <h3>{{ .Title }}</h3>
+            <p class="book-authors">{{ .Params.authors }} 著</p>
+            <p class="book-description">{{ .Params.other_information }}</p>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll('.book-cover img');
+        if (images.length > 0) {
+            const firstImageHeight = images[0].clientHeight;
+            images.forEach((img, index) => {
+                if (index !== 0) {
+                    img.style.height = firstImageHeight + 'px';
+                    img.style.objectFit = 'cover'; // 确保图片按比例缩放
+                }
+            });
+        }
+    });
+</script>
+
+<style>
+    .book-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 75vw;
+        position: relative;
+        /* 使 left 生效 */
+        left: 50%;
+        transform: translateX(-50%);
+        /* background-color: #f0f0f0; */
+        /* padding: 2rem; */
+    }
+
+
+    .book-card {
+        width: 32%;
+        background: white;
+        /* border-radius: 8px; */
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-cover img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: block;
+    }
+
+    .book-info {
+        padding: 1rem;
+    }
+
+    .book-info h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+    }
+
+    .book-info p {
+        margin: 0.3rem 0;
+        font-size: 0.9rem;
+        color: #666;
+    }
+</style>
