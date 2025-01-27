@@ -38,8 +38,16 @@ main:
     url: research/
     weight: 40
   - name: 团队成员
-    url: team/
+    identifier: team
     weight: 50
+  - name: 师资力量
+    parent: team
+    url: teacher/
+    weight: 51
+  - name: 学生团队
+    parent: team
+    url: team/student/
+    weight: 52
   - name: 联系我们
     url: contact/
     weight: 60

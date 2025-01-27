@@ -1,0 +1,82 @@
+<div class="team-teacher-list">
+    <h3 style="margin-top: -10px;">教师团队</h3>
+    <div style="display: flex; width: 100%; flex-wrap: wrap; gap:0 1rem;">
+        {{ range (sort (where .Site.Pages "Type" "teacher") "Params.place" "asc") }}
+        <div class="teacher-card">
+            {{ with .Params.photo }}
+            <div class="teacher-photo">
+                <img src="{{ . }}" alt="">
+            </div>
+            {{ end }}
+            <div class="teacher-info">
+                <p style="font-size: larger; cursor: pointer; padding-bottom: 0.8rem;"><a href="{{ .Params.link }}" style="cursor: pointer;">{{ .Title }}</a></p>
+                <p style="color: rgb(25, 73, 163);">{{ .Params.position }}</p>
+                <p>电子邮箱： {{.Params.contact}}</p>
+                <p>研究方向： {{ .Params.description}}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+</div>
+
+<style>
+    .team-teacher-list {
+        width: 94vw;
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 10px;
+        /* background-color: #f0f0f0; */
+    }
+
+    .teacher-card {
+        width: 48.5%;
+        height: 250px;
+        /* background-color: #9b9a9a; */
+        /* border-bottom: #cfcdcd 1px solid; */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+        gap: 1.5rem;
+        display: flex;
+    }
+
+    .teacher-photo {
+        height: 100%;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        /* 垂直居中 */
+        text-align: center;
+        width: 170px;
+    }
+
+    .teacher-photo img {
+        /* width: 150px; */
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        display: block;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .teacher-info {
+        font-family: "Noto Sans CJK", "Microsoft YaHei", "Arial", sans-serif;
+        padding-top: 5%;
+        margin-right: 10px;
+        width:  calc(100% - 150px);
+    }
+
+    .teacher-info p {
+        margin: 0.4rem;
+        font-size: 1rem;
+    }
+
+    @media(max-width:900px){
+        .teacher-card{
+            width:100%;
+        }
+    }
+</style>
