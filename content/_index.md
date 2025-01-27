@@ -12,11 +12,10 @@ sections:
   - block: markdown
     content:
       text: |-
-        <div style="width: 94vw; margin: 0 auto; position: relative; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; gap: 20px;margin-bottom: 30px;">
-              {{< news-carousel >}}
-              {{< welcome >}}
-          </div>
-        </div>
+        {{< home-page >}}
+            {{< news-carousel >}}
+            {{< welcome >}}
+        {{< /home-page >}}
     design:
       columns: '1'
       spacing: 
