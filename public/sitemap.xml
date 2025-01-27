@@ -241,10 +241,10 @@
     <loc>http://localhost:1313/url_test/book/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/team/teacher/wuqingxiang/</loc>
+    <loc>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/team/teacher/sunning/</loc>
+    <loc>http://localhost:1313/url_test/url_test/teacher/sunning/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/url_test/team/teacher/fangyongchun/</loc>
@@ -256,7 +256,7 @@
     <loc>http://localhost:1313/url_test/book/book2/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/team/teacher/yangtong/</loc>
+    <loc>http://localhost:1313/url_test/url_test/teacher/yangtong/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/book/book3/</loc>
