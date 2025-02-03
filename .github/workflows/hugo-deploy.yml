@@ -35,7 +35,14 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo --minify --baseURL "https://alpaca10086zyys.github.io/url_test/"
-
+      
+      - name: Check build directory
+        run: |
+          if [ ! -d "./public" ] || [ -z "$(ls -A ./public)" ]; then
+            echo "Build directory is empty or does not exist"
+            exit 1
+          fi
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
