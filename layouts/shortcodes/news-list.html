@@ -1,5 +1,5 @@
 {{ $posts := where .Site.RegularPages "Section" "post" }}
-{{ $paginator := .Page.Paginate $posts 2 }}
+{{ $paginator := .Page.Paginate $posts 10 }}
 
 <div class="news-list">
     {{ range $paginator.Pages }}
@@ -254,8 +254,10 @@
         flex-direction: column;
         gap: 1.5rem;
         margin: 2rem 0;
-        width: 120%;
-        margin-left: -10%;
+        width: 70vw;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
         margin-top: -10px;
     }
 

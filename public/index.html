@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 27, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 3, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/url_test/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=url_test/livereload" data-no-instant defer></script>
@@ -245,46 +245,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
     
       
       
@@ -312,47 +272,6 @@
   
   
   
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
     
       
       
@@ -418,6 +337,69 @@
         
         
       
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
     
       
       
@@ -559,6 +541,54 @@
         
       
     
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -854,13 +884,49 @@
       
       
       
-      <li class="nav-item">
-        <a
-          class="nav-link "
+      <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link 
+                
+                
+                
+              
+                
+                
+                
+               inline-flex items-center">
+              科研项目
+              <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+        <ul
+          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
           
-          href="/url_test/projects/"
-        >科研项目</a
-        >
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/projects/#research_project">
+              科研项目
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/projects/#research_award">
+              科研奖励
+            </a>
+          </li>
+          
+        </ul>
       </li>
       
       
@@ -885,6 +951,10 @@
       <li class="nav-item nav-dropdown group relative">
             <span
               class="nav-link 
+                
+                
+                
+              
                 
                 
                 
@@ -919,8 +989,19 @@
             <a
               class="nav-dropdown-link "
               
-              href="/url_test/team/student/">
+              href="/url_test/student/">
               学生团队
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/url_test/alumnus/">
+              毕业校友
             </a>
           </li>
           
@@ -1113,7 +1194,7 @@
   <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">
 <style>
     .responsive-container {
-        width: 94vw;
+        width: 80vw;
         margin: 0 auto;
         position: relative;
         left: 50%;
@@ -1121,7 +1202,108 @@
         display: flex;
         justify-content: center;
         gap: 20px;
-        margin-bottom: 30px;
+    }
+
+    .research-list {
+        width: 62%;
+         
+    }
+
+    .research-card {
+        width: 100%;
+        height: 180px;
+        display: flex;
+         
+         
+         
+    }
+
+    .research-text {
+        width: 60%;
+        padding: 0 10px;
+    }
+
+    .research-text a {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+    }
+
+    .research-text a:hover {
+        color: rgb(131, 131, 131);
+    }
+
+    .research-image {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .research-image img {
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    .award-news {
+        width: 38%;
+         
+    }
+
+    .award-item {
+        border-bottom: 1px solid rgb(185, 185, 185);
+        height: 120px;
+    }
+
+    .award-item p {
+        margin: 0 auto;
+        font-weight: bold;
+         
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .pagination span {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333;
+        display: flex;
+        align-items: center;
+    }
+
+    .pagination .page-button {
+        padding: 5px 10px;   
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #333;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    .pagination .page-button:hover {
+        color: #4CAF50;   
+        transform: scale(1.1);
+    }
+
+    .pagination .page-button.active {
+        color: #4CAF50;   
+    }
+
+    .pagination .ellipsis {
+        font-weight: bold;
+        color: #333;
+    }
+
+    #pageButtons {
+        display: flex;
+         
     }
 
     @media (max-width: 800px) {
@@ -1130,12 +1312,13 @@
             flex-direction: column;
             align-items: center;
         }
-        
+
     }
 </style>
 
-<div class="responsive-container">
-    
+<div>
+    <div class="responsive-container">
+        
     <div class="carousel-container">   
         <div class="carousel">
             
@@ -1144,11 +1327,11 @@
                 
                 <a href="" class="carousel-link">
                     <div class="carousel-image-container">
-                        <img src="/url_test/carousel/carousel4/featured.jpg" alt="">
+                        <img src="/url_test/carousel/carousel3/featured.jpg" alt="">
                     </div>
                     <div class="carousel-caption">
                         
-                        <p>2024年，第一届全国建筑机器人技能大赛一等奖</p>
+                        <p>2022年，国家级教学成果二等奖</p>
                     </div>
                 </a>
             </div>
@@ -1170,11 +1353,11 @@
                 
                 <a href="" class="carousel-link">
                     <div class="carousel-image-container">
-                        <img src="/url_test/carousel/carousel3/featured.jpg" alt="">
+                        <img src="/url_test/carousel/carousel2/featured.jpg" alt="">
                     </div>
                     <div class="carousel-caption">
                         
-                        <p>2022年，国家级教学成果二等奖</p>
+                        <p>2021年，IEEE Transactions on Industrial Electronics杰出论文奖</p>
                     </div>
                 </a>
             </div>
@@ -1183,11 +1366,11 @@
                 
                 <a href="" class="carousel-link">
                     <div class="carousel-image-container">
-                        <img src="/url_test/carousel/carousel2/featured.jpg" alt="">
+                        <img src="/url_test/carousel/carousel4/featured.jpg" alt="">
                     </div>
                     <div class="carousel-caption">
                         
-                        <p>2021年，IEEE Transactions on Industrial Electronics杰出论文奖</p>
+                        <p>2024年，第一届全国建筑机器人技能大赛一等奖</p>
                     </div>
                 </a>
             </div>
@@ -1212,7 +1395,7 @@
     
     <style>
         .carousel-container {
-            width: 45%;
+            width: 51%;
             position: relative;
             margin: 0 auto;
             overflow: hidden;
@@ -1230,7 +1413,7 @@
             flex-shrink: 0;
             position: relative;
             overflow: hidden;
-            margin-top: 5%;
+             
         }
     
         .carousel-link {
@@ -1254,7 +1437,8 @@
     
         .carousel-image-container img {
             width: 100%;
-            height: 100%;
+            height: 400px;
+            margin: 0;
             object-fit: cover;
             transition: transform 0.3s ease;  
             display: block;
@@ -1424,28 +1608,24 @@
     
     </script>
     <div class="welcome-container">
-        <h4 style="margin-top: -10px;">欠驱动机器人实验室（URL）</h4>
-        <p style="font-size: 1rem; text-indent: 2em; text-align: justify;">
+        <h4 style="margin-top: -10px;font-size: 1.6rem;">欠驱动机器人实验室（URL）</h4>
+        <p style="font-size: 1.1rem; text-indent: 2em; text-align: justify;margin-bottom: 0;">
             本实验室<b>非常注重理论研究与实际应用结合</b>，致力于<b>陆地/船用吊车、欠驱动机器人等机电系统</b>的自动控制研究，
             旨在提升它们的自动化、智能化、快速化、准确化程度，提高工作效率与安全性。本实验室研究团队入选了2017年度中国青少年
             科技创新奖励基金支持项目—大学生"小平科技创新团队"(全国仅50项)，实验室负责人<a href="/team/teacher/sunning/">孙宁</a>教授入选国家<b>四青</b>人才。
     
             本实验室搭建了32吨工业吊车一台，并搭建了<b>桥式吊车、船用吊车、塔式吊车、桅杆式吊车、TORA/RTAC、无人机吊运、欠驱
                 动机器人、升降云梯等若干样机平台</b>，在此基础上，设计了一系列<b>轨迹规划、非线性控制</b>方法，取得了一些有特
-            色的研究成果，<a href="/team/teacher/sunning/">孙宁</a>获得了一些奖励，如<b>吴文俊人工智能优秀青年奖、中国自动化学会优秀博
-                士学位论文奖、吴文俊人工智能自然科学一等奖、天津市自然科学一等奖、天津市专利奖-金奖、天津市专利奖-创业奖、天津
-                市知识产权创新创业发明与设计大赛一等奖</b>等，并入选<b>2019中国智能制造十大科技进展</b>。
+            色的研究成果。
     
-            在学生培养方面，<a href="/team/teacher/sunning/">孙宁</a>指导学生获得了第五届中国"互联网+"大学生创新创业大赛全国总决赛金奖、
-            第十一届中国青少年科技创新奖、"挑战杯"全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖
-            等重要奖项。基于此，<a href="/team/teacher/sunning/">孙宁</a>教授荣获<b>国家教学成果二等奖、天津市教学成果特等奖/
-                一等奖</b>等，并荣获宝钢优秀教师奖。
+    
         </p>
     </div>
     
     <style>
         .welcome-container{
-            width: 55%;
+            width: 49%;
+             
         }
     
         @media (max-width: 800px){
@@ -1456,373 +1636,388 @@
         }
     </style>
 
-</div>
-</div>
-</div>
-
-
-  
-
-  
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="news" class="relative hbb-section blox-collection  " style="padding: 0 0 0 0;" >
- <div class="home-section-bg " >
-   
- </div>
-  
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
-
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    组内新闻
-  </div>
-
-  
-</div>
-
-
-<div class="flex flex-col items-center px-6">
-
-  
-  <div class="mt-16 sm:mt-20 w-fit">
-  <div class="flex max-w-3xl flex-col space-y-16">
-
-
-  
-    
-
-
-
-<article class="md:grid md:grid-cols-4 md:items-baseline">
-  <div class="md:col-span-3 group relative flex flex-col items-start">
-    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      <div
-        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-      <a href="/url_test/post/test/"><span
-        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">🌟 测试</span></a>
-    </h2>
-    <time
-      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
-      datetime="2025-01-18">
-      Jan 18, 2025
-    </time>
-    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
-    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
-    Read more
-      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
-        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-      </svg>
     </div>
-  </div>
-  <time
-    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="2025-01-18">Jan 18, 2025
-  </time>
-</article>
+    <div style="width: 80vw; margin: 0;position: relative;
+        left: 50%;transform: translateX(-50%);font-size: 1.1rem; 
+        text-indent: 2em;margin-top: 1rem;margin-bottom: 3rem;">
+        <a href="/team/teacher/sunning/">孙宁</a>获得了一些奖励，如<b>吴文俊人工智能优秀青年奖、中国自动化学会优秀博
+            士学位论文奖、吴文俊人工智能自然科学一等奖、天津市自然科学一等奖、天津市专利奖-金奖、天津市专利奖-创业奖、天津
+            市知识产权创新创业发明与设计大赛一等奖</b>等，并入选<b>2019中国智能制造十大科技进展</b>。
 
-  
-    
-
-
-
-<article class="md:grid md:grid-cols-4 md:items-baseline">
-  <div class="md:col-span-3 group relative flex flex-col items-start">
-    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      <div
-        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-      <a href="/url_test/post/get-started/"><span
-        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">🎉 Easily create your own simple yet highly customizable blog</span></a>
-    </h2>
-    <time
-      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
-      datetime="2023-10-27">
-      Oct 27, 2023
-    </time>
-    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Take full control of your personal brand and privacy by migrating away from the big tech platforms!</p>
-    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
-    Read more
-      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
-        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-      </svg>
+        在学生培养方面，<a href="/team/teacher/sunning/">孙宁</a>指导学生获得了第五届中国"互联网+"大学生创新创业大赛全国总决赛金奖、
+        第十一届中国青少年科技创新奖、"挑战杯"全国大学生课外学术科技作品竞赛一等奖、中国自动化学会（CAA）优秀硕士论文学位奖
+        等重要奖项。基于此，<a href="/team/teacher/sunning/">孙宁</a>教授荣获<b>国家教学成果二等奖、天津市教学成果特等奖/
+            一等奖</b>等，并荣获宝钢优秀教师奖。
     </div>
-  </div>
-  <time
-    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="2023-10-27">Oct 27, 2023
-  </time>
-</article>
+    <div class="responsive-container">
+        <div class="research-list">
+            <div style="display: flex; justify-content: space-between;">
+                <h3 style="margin-top: 0px;">研究方向</h3>
+                <a href="/url_test/research" style="margin: 5px 20px;">more</a>
+            </div>
+            
+            
+            
+            <div class="research-card">
+                <div class="research-text">
+                    <a href="/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/">
+                        <h4 style="font-size: 1.4rem; margin-top: 10px;">欠驱动系统</h4>
+                        <p
+                            style="font-size: 1.1rem; text-indent: 2em; text-align: justify; text-overflow: ellipsis; overflow: hidden;">
+                            欠驱动系统是指系统的独立控制变量个数小于系统自由度个数的一类非线性系统.
+                        </p>
+                    </a>
+                </div>
+                <div class="research-image">
+                    
+                    <img src="/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/featured.jpg" alt="欠驱动系统">
+                </div>
+            </div>
+            
+            
+            
+            <div class="research-card">
+                <div class="research-text">
+                    <a href="/url_test/research/js/">
+                        <h4 style="font-size: 1.4rem; margin-top: 10px;">Learn JavaScript</h4>
+                        <p
+                            style="font-size: 1.1rem; text-indent: 2em; text-align: justify; text-overflow: ellipsis; overflow: hidden;">
+                            Easily learn JavaScript in 10 minutes!
+                        </p>
+                    </a>
+                </div>
+                <div class="research-image">
+                    
+                    <img src="/url_test/research/js/featured.jpg" alt="Learn JavaScript">
+                </div>
+            </div>
+            
+            
+            
+            <div class="research-card">
+                <div class="research-text">
+                    <a href="/url_test/research/python/">
+                        <h4 style="font-size: 1.4rem; margin-top: 10px;">Learn Python</h4>
+                        <p
+                            style="font-size: 1.1rem; text-indent: 2em; text-align: justify; text-overflow: ellipsis; overflow: hidden;">
+                            Easily learn Python in 10 minutes!
+                        </p>
+                    </a>
+                </div>
+                <div class="research-image">
+                    
+                    <img src="/url_test/research/python/featured.jpg" alt="Learn Python">
+                </div>
+            </div>
+            
+            
+        </div>
+        
 
-  
-    
+        
+        <div class="award-news">
+            <h3 style="margin-top: 0px;">科研动态</h3>
 
+            
+            <div class="award-items">
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">孙宁教授成为IEEE/ASME Transactions on Mechatronics的Technical Editor (TE)（聘期：2025.1.1~2027.12.31） | 2024-12-04</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刁淑贞同学（导师：孙宁）入选中国科协青年人才托举工程博士生专项计划 | 2025-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺翟猛同学（导师：孙宁）荣获2024年度国家自然科学基金青年学生基础研究项目（博士研究生） | 2024-12</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Circuits and Systems I: Regular Papers录用 | 2024-12-17</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Medical Robotics and Bionics录用 | 2024-12-05</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用 | 2024-11-10</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺孙宁教授荣获IEEE Transactions on Systems, Man, and Cybernetics: Systems优秀编委奖 | 2024-10-08</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Cybernetics录用 | 2024-10-23</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">恭喜杨桐老师获批广东省自然科学基金面上项目 | 2024-10</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺徐悦轩同学（导师：孙宁）、王海同学（导师：孙宁）荣获第2届中国自动化学会博士学术交流会最佳海报奖 | 2024-09-26</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刁淑贞同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2024-08-05</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺王海同学获得2024 the 17th International Conference on Intelligent Robotics and Applications (ICIRA 2024) Best Paper Final Award | 2024-08-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺唐浩棋同学（导师：孙宁）的论文被IEEE Transactions on Industrial Electronics录用 | 2024-07-06</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺孙昊晟同学（通讯作者：孙宁）的论文被IEEE Robotics and Automation Letters录用 | 2024-07-02</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘卓清同学（通讯作者：孙宁）的论文被IEEE Transactions on Artificial Intelligence录用 | 2024-06-23</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Systems, Man, and Cybernetics: Systems录用 | 2024-05-18</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刁淑贞同学（导师：孙宁）荣获首批国家自然科学基金青年学生基础研究项目（博士研究生） | 2024-04</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺孙宁教授连续2年入选爱思唯尔“中国高被引学者” | 2024</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺邱泽昊同学（导师：孙宁）的论文被IEEE Transactions on Industrial Electronics录用 | 2024-03-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用 | 2024-02-11</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2024-01-24</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Cybernetics录用 | 2024-01-19</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Artificial Intelligence录用 | 2024-01-03</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刁淑贞同学（通讯作者：孙宁）的论文被IEEE Transactions on Fuzzy Systems录用 | 2023-12-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">实验室孙宁教授荣获SCI期刊International Journal of Control, Automation, and Systems (IJCAS) Best Associate Editor Award | 2023-11</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">实验室孙宁教授主持获批国家重点研发计划课题1项 | 2023-10</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Fuzzy Systems录用 | 2023-09-18</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">实验室孙宁老师、杨桐老师分别主持获批国家自然科学基金面上项目、青年项目 | 2023-09</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Neural Networks and Learning Systems录用 | 2023-08-24</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被Control Engineering Practice录用 | 2023-06-19</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘卓清同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用 | 2023-05-23</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺方勇纯教授、孙宁教授荣获2022年高等教育（本科）国家级教学成果奖二等奖 | 2023-05</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺汪启航同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Industrial Informatics录用 | 2023-05-07</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺唐浩棋同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2023-04-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺吴庆祥老师（通讯作者：孙宁）的论文被IEEE Transactions on Industrial Electronics录用 | 2023-03-14</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用 | 2023-03-06</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘卓清同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Intelligent Transportation Systems录用 | 2023-02-20</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺硕士毕业生陈轶珩、符裕的硕士论文荣获2022年中国自动化学会（CAA）优秀硕士学位论文奖 | 2023-01</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺孙宁教授荣获宝钢优秀教师奖 | 2022-12</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺王岳同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Industrial Informatics录用 | 2022-12-04</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2022-11-28</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">实验室吴庆祥老师主持获批国家自然科学基金青年项目 | 2023-10</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Systems, Man, and Cybernetics: Systems录用 | 2022-09-04</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2022-06-18</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺翟猛同学（导师/通讯作者：孙宁）的论文被Mechanism and Machine Theory录用 | 2022-04-23</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">祝贺杨桐同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用 | 2022-04-23</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">恭喜孙宁教授荣获 ICCAR 2022 Young Scientist Award | 2022-04</p>
+                </div>
+                
+                <div class="award-item">
+                    <p style="font-size: 1.1rem; margin-top: 0px;">恭喜孙宁教授荣获 Machines 2021年度 Best Paper Award | 2022-02-22</p>
+                </div>
+                
+            </div>
 
-
-<article class="md:grid md:grid-cols-4 md:items-baseline">
-  <div class="md:col-span-3 group relative flex flex-col items-start">
-    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      <div
-        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-      <a href="/url_test/post/second-brain/"><span
-        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">🧠 Sharpen your thinking with a second brain</span></a>
-    </h2>
-    <time
-      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
-      datetime="2023-10-26">
-      Oct 26, 2023
-    </time>
-    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Create a personal knowledge base and share your knowledge with your peers.</p>
-    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
-    Read more
-      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
-        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-      </svg>
+            
+            <div class="pagination">
+                <button id="prevBtn" onclick="changePage(-1)">上一页</button>
+                <div id="pageButtons"></div>
+                <button id="nextBtn" onclick="changePage(1)">下一页</button>
+                <span id="pageNumber">第 1 页</span>
+            </div>
+        </div>
     </div>
-  </div>
-  <time
-    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="2023-10-26">Oct 26, 2023
-  </time>
-</article>
-
-  
-    
-
-
-
-<article class="md:grid md:grid-cols-4 md:items-baseline">
-  <div class="md:col-span-3 group relative flex flex-col items-start">
-    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      <div
-        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-      <a href="/url_test/post/data-visualization/"><span
-        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">📈 Communicate your results effectively with the best data visualizations</span></a>
-    </h2>
-    <time
-      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
-      datetime="2023-10-25">
-      Oct 25, 2023
-    </time>
-    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Use popular tools such as Plotly, Mermaid, and data frames.</p>
-    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
-    Read more
-      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
-        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-      </svg>
-    </div>
-  </div>
-  <time
-    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="2023-10-25">Oct 25, 2023
-  </time>
-</article>
-
-  
-    
-
-
-
-<article class="md:grid md:grid-cols-4 md:items-baseline">
-  <div class="md:col-span-3 group relative flex flex-col items-start">
-    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-      <div
-        class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
-      <a href="/url_test/post/teach-courses/"><span
-        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">👩🏼‍🏫 Teach academic courses</span></a>
-    </h2>
-    <time
-      class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
-      datetime="2023-10-24">
-      Oct 24, 2023
-    </time>
-    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">Embed videos, podcasts, code, LaTeX math, and even test students!</p>
-    <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
-    Read more
-      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
-        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-      </svg>
-    </div>
-  </div>
-  <time
-    class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="2023-10-24">Oct 24, 2023
-  </time>
-</article>
-
-  
-
-  </div>
 </div>
 
 
+<script>
+    const itemsPerPage = 4;  
+    let currentPage = 1;
+    const items = document.querySelectorAll('.award-item');
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    const maxPageButtons = 5;  
+
+    
+    function showPage(page) {
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+
+        
+        items.forEach(item => item.style.display = 'none');
+
+        
+        for (let i = start; i < end && i < items.length; i++) {
+            items[i].style.display = 'block';
+        }
+
+        
+        document.getElementById('prevBtn').disabled = page > 1 ? false : true;
+        document.getElementById('nextBtn').disabled = page < totalPages ? false : true;
+
+        
+        document.getElementById('pageNumber').textContent = `第 ${page} 页`;
+
+        
+        updatePageButtons();
+    };
+
+    
+    function updatePageButtons() {
+        const pageButtonsContainer = document.getElementById('pageButtons');
+        pageButtonsContainer.innerHTML = '';  
+
+        let startPage, endPage;
+
+        
+        if (totalPages <= maxPageButtons) {
+            startPage = 1;
+            endPage = totalPages;
+        } else {
+            
+            if (currentPage <= 3) {
+                startPage = 1;
+                endPage = maxPageButtons;
+            } else if (currentPage >= totalPages - 2) {
+                startPage = totalPages - maxPageButtons + 1;
+                endPage = totalPages;
+            } else {
+                startPage = currentPage - 2;
+                endPage = currentPage + 2;
+            }
+        }
+
+        
+        for (let i = startPage; i <= endPage; i++) {
+            const button = document.createElement('button');
+            button.textContent = i;
+            button.classList.add('page-button');
+            button.onclick = () => showPage(i);
+            if (i === currentPage) {
+                button.classList.add('active');  
+            }
+            pageButtonsContainer.appendChild(button);
+        }
+
+        
+        if (endPage < totalPages) {
+            const ellipsis = document.createElement('span');
+            ellipsis.textContent = '...';
+            ellipsis.classList.add('ellipsis');
+            pageButtonsContainer.appendChild(ellipsis);
+        }
+    }
+
+
+    
+    function changePage(direction) {
+        currentPage += direction;
+        if (currentPage < 1) currentPage = 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        showPage(currentPage);
+    }
+
+    
+    showPage(currentPage);
+</script>
 </div>
-
-
-
-
-
-  
-  
-    
-  
-
-  
-  
-  
-  
-    
-  
-
-  
-
-  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
-    <div class="mt-10 flex justify-center">
-      <a
-        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
-        href="/url_test/post/">
-          <span>See all</span>
-        </a>
-      </div>
-  </div>
-
-
+</div>
 
 
   

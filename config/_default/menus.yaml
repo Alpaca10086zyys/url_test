@@ -34,6 +34,15 @@ main:
   - name: 科研项目
     url: projects/
     weight: 30
+    identifier: projects
+  - name: 科研项目
+    parent: projects
+    url: projects/#research_project
+    weight: 31
+  - name: 科研奖励
+    url: projects/#research_award
+    parent: projects
+    weight: 32
   - name: 研究方向
     url: research/
     weight: 40
@@ -46,8 +55,12 @@ main:
     weight: 51
   - name: 学生团队
     parent: team
-    url: team/student/
+    url: student/
     weight: 52
+  - name: 毕业校友
+    parent: team
+    url: alumnus/
+    weight: 63
   - name: 联系我们
     url: contact/
     weight: 60

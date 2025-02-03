@@ -9,16 +9,17 @@ design:
 
 # Page sections
 sections:
-  - block: collection
+  - block: markdown
+    id: research_project
     content:
       title: 科研项目
-      # text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-      filters:
-        folders:
-          - project
-    design:
-      # view: article-grid
-      view: project-table
-      # fill_image: false
-      # columns: 3
+      text: |-
+        {{< project-list >}}
+  - block: markdown
+    id: research_award
+    content:
+      title: 科研奖励
+      text: |-
+        {{< project-award >}}
+
 ---

@@ -1,0 +1,35 @@
+# data/paper.yaml
+- title: "Energy coupling output feedback control of 4-DOF underactuated cranes with saturated inputs"
+  authors: 
+    - Ning Sun
+    - Yongchun Fang
+    - Xuebo Zhang
+  journal: Automatica
+  volume: 49
+  number: 5
+  pages: 1318-1325
+  year: 2013
+  time: May 2013
+- title: "New energy analytical results for the regulation of underactuated overhead cranes: An end-effector motion-based approach"
+  authors: 
+    - Ning Sun
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 59
+  number: 12
+  pages: 4723-4734
+  year: 2012
+  time: Dec. 2012.
+- title: "Amplitude-saturated nonlinear output feedback antiswing control for underactuated cranes with double-pendulum cargo dynamics"
+  authors: 
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Biao Lu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 64
+  number: 3
+  pages: 2135-2146
+  year: 2017
+  time: Mar. 2017
+  doi: 10.1109/TIE.2016.2623258

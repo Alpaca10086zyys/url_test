@@ -13,16 +13,22 @@ type: landing
 #   image: ''
 
 sections:
-  - block: collection
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: 论文发表
+  #     filters:
+  #       folders:
+  #         - papers
+  #       exclude_featured: false
+  #   design:
+  #     view: paper
+  - block: markdown
     id: papers
     content:
       title: 论文发表
-      filters:
-        folders:
-          - papers
-        exclude_featured: false
-    design:
-      view: paper
+      text: |-
+        {{< paper-list >}}
   - block: markdown
     id: books
     content:
@@ -31,14 +37,20 @@ sections:
         {{< book-section >}}
     design:
       view: paper
-  - block: collection
+  # - block: collection
+  #   id: patents
+  #   content:
+  #     title: 专利
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - patent
+  #   design:
+  #     view: patent
+  - block: markdown
     id: patents
-    content:
+    content: 
       title: 专利
-      text: ""
-      filters:
-        folders:
-          - patent
-    design:
-      view: patent
+      text: |-
+        {{< patent-list >}}
 ---

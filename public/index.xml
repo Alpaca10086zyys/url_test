@@ -13,59 +13,6 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>http://localhost:1313/url_test/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/event/example/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/reference/content-types/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
-      <link>http://localhost:1313/url_test/papers/paper1/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/papers/paper1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
-      <link>http://localhost:1313/url_test/papers/paper2/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/papers/paper2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
-      <link>http://localhost:1313/url_test/papers/paper3/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/papers/paper3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Distributed Swarm Trajectory Optimization for Formation Flight in Dense Environments</title>
-      <link>http://localhost:1313/url_test/papers/paper4/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/papers/paper4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>欠驱动系统</title>
       <link>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
@@ -582,37 +529,11 @@
     </item>
     
     <item>
-      <title>一种新型专利装置</title>
-      <link>http://localhost:1313/url_test/patent/preprint/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/patent/preprint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>智能家居控制系统及其实现方法</title>
-      <link>http://localhost:1313/url_test/patent/patent-3/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/patent/patent-3/</guid>
-      <description>&lt;p&gt;本发明公开了一种智能家居控制系统及其实现方法，通过物联网技术实现家居设备的智能控制&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>http://localhost:1313/url_test/carousel/carousel4/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/carousel/carousel4/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>一种高效太阳能电池及其制备方法</title>
-      <link>http://localhost:1313/url_test/patent/patent-4/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/patent/patent-4/</guid>
-      <description>&lt;p&gt;本发明提供了一种新型高效太阳能电池及其制备方法，显著提高了光电转换效率&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -828,7 +749,7 @@
 
 
 
-&lt;div id=&#34;chart-579421863&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-849165732&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -846,7 +767,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-579421863&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-849165732&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1464,24 +1385,6 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
-      <title>新型环保材料制备装置</title>
-      <link>http://localhost:1313/url_test/patent/patent-2/</link>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/patent/patent-2/</guid>
-      <description>&lt;p&gt;本实用新型涉及一种新型环保材料制备装置，具有能耗低、效率高的特点&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>一种基于深度学习的图像识别方法</title>
-      <link>http://localhost:1313/url_test/patent/patent-1/</link>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/patent/patent-1/</guid>
-      <description>&lt;p&gt;本发明提供了一种基于深度学习的图像识别方法，该方法通过改进的卷积神经网络结构提高了识别准确率&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>http://localhost:1313/url_test/carousel/carousel1/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -1506,10 +1409,26 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
+      <title>学生团队</title>
+      <link>http://localhost:1313/url_test/student/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>师资力量</title>
       <link>http://localhost:1313/url_test/teacher/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/teacher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>校友</title>
+      <link>http://localhost:1313/url_test/alumnus/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/alumnus/</guid>
       <description></description>
     </item>
     

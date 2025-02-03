@@ -1,7 +1,7 @@
 <div class="carousel-container">   
     <div class="carousel">
         {{ $posts := where .Site.RegularPages "Section" "carousel" }}
-        {{ range $index, $item := first 4 (sort $posts "Date" "desc") }}
+        {{ range $index, $item := (sort $posts "Params.place" "asc") }}
         <div class="carousel-item">
             {{ $image := printf "%sfeatured.jpg" $item.RelPermalink | default "/images/default-news.jpg" }}
             <a href="" class="carousel-link">
@@ -29,7 +29,7 @@
 
 <style>
     .carousel-container {
-        width: 45%;
+        width: 51%;
         position: relative;
         margin: 0 auto;
         overflow: hidden;
@@ -48,7 +48,7 @@
         flex-shrink: 0;
         position: relative;
         overflow: hidden;
-        margin-top: 5%;
+        /* margin-top: 5%; */
     }
 
     .carousel-link {
@@ -76,7 +76,8 @@
 
     .carousel-image-container img {
         width: 100%;
-        height: 100%;
+        height: 400px;
+        margin: 0;
         object-fit: cover;
         transition: transform 0.3s ease; /* 平滑放大动画 */
         display: block;

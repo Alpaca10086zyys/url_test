@@ -61,28 +61,28 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1
-  - block: collection
-    id: news
-    content:
-      title: 组内新闻
-      subtitle: ''
-      text: ''
-      page_type: post
-      count: 5
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      offset: 0
-      order: desc
-    design:
-      view: date-title-summary
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: 组内新闻
+  #     subtitle: ''
+  #     text: ''
+  #     page_type: post
+  #     count: 5
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     offset: 0
+  #     order: desc
+  #   design:
+  #     view: date-title-summary
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

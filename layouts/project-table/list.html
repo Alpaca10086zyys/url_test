@@ -1,9 +1,0 @@
-{{ define "main" }}
-<div class="container mx-auto px-4 py-8">
-    <!-- <table class="patent-table"> -->
-    {{ range $index, $item := .Pages }}
-    {{ partial "views/project-table" (dict "item" $item "index" $index) }}
-    {{ end }}
-    <!-- </table> -->
-</div>
-{{ end }}

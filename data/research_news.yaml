@@ -1,0 +1,97 @@
+# data/research_news.yaml
+- title: "孙宁教授成为IEEE/ASME Transactions on Mechatronics的Technical Editor (TE)（聘期：2025.1.1~2027.12.31）"
+  date: 2024-12-04
+- title: "祝贺刁淑贞同学（导师：孙宁）入选中国科协青年人才托举工程博士生专项计划"
+  date: 2025-01
+- title: "祝贺翟猛同学（导师：孙宁）荣获2024年度国家自然科学基金青年学生基础研究项目（博士研究生）"
+  date: 2024-12
+- title: "祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Circuits and Systems I: Regular Papers录用"
+  date: 2024-12-17
+- title: "祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Medical Robotics and Bionics录用"
+  date: 2024-12-05
+- title: "祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用"
+  date: 2024-11-10
+- title: "祝贺孙宁教授荣获IEEE Transactions on Systems, Man, and Cybernetics: Systems优秀编委奖"
+  date: 2024-10-08
+- title: "祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Cybernetics录用"
+  date: 2024-10-23
+- title: "恭喜杨桐老师获批广东省自然科学基金面上项目"
+  date: 2024-10
+- title: "祝贺徐悦轩同学（导师：孙宁）、王海同学（导师：孙宁）荣获第2届中国自动化学会博士学术交流会最佳海报奖"
+  date: 2024-09-26
+- title: "祝贺刁淑贞同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2024-08-05
+- title: "祝贺王海同学获得2024 the 17th International Conference on Intelligent Robotics and Applications (ICIRA 2024) Best Paper Final Award"
+  date: 2024-08-01
+- title: "祝贺唐浩棋同学（导师：孙宁）的论文被IEEE Transactions on Industrial Electronics录用"
+  date: 2024-07-06
+- title: "祝贺孙昊晟同学（通讯作者：孙宁）的论文被IEEE Robotics and Automation Letters录用"
+  date: 2024-07-02
+- title: "祝贺刘卓清同学（通讯作者：孙宁）的论文被IEEE Transactions on Artificial Intelligence录用"
+  date: 2024-06-23
+- title: "祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Systems, Man, and Cybernetics: Systems录用"
+  date: 2024-05-18
+- title: "祝贺刁淑贞同学（导师：孙宁）荣获首批国家自然科学基金青年学生基础研究项目（博士研究生）"
+  date: 2024-04
+- title: "祝贺孙宁教授连续2年入选爱思唯尔“中国高被引学者”"
+  date: 2024
+- title: "祝贺邱泽昊同学（导师：孙宁）的论文被IEEE Transactions on Industrial Electronics录用"
+  date: 2024-03-01
+- title: "祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用"
+  date: 2024-02-11
+- title: "祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2024-01-24
+- title: "祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Cybernetics录用"
+  date: 2024-01-19
+- title: "祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Artificial Intelligence录用"
+  date: 2024-01-03
+- title: "祝贺刁淑贞同学（通讯作者：孙宁）的论文被IEEE Transactions on Fuzzy Systems录用"
+  date: 2023-12-01
+- title: "实验室孙宁教授荣获SCI期刊International Journal of Control, Automation, and Systems (IJCAS) Best Associate Editor Award"
+  date: 2023-11
+- title: "实验室孙宁教授主持获批国家重点研发计划课题1项"
+  date: 2023-10
+- title: "祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Fuzzy Systems录用"
+  date: 2023-09-18
+- title: "实验室孙宁老师、杨桐老师分别主持获批国家自然科学基金面上项目、青年项目"
+  date: 2023-09
+- title: "祝贺杨桐（通讯作者：孙宁）的论文被IEEE Transactions on Neural Networks and Learning Systems录用"
+  date: 2023-08-24
+- title: "祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被Control Engineering Practice录用"
+  date: 2023-06-19
+- title: "祝贺刘卓清同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用"
+  date: 2023-05-23
+- title: "祝贺方勇纯教授、孙宁教授荣获2022年高等教育（本科）国家级教学成果奖二等奖"
+  date: 2023-05
+- title: "祝贺汪启航同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Industrial Informatics录用"
+  date: 2023-05-07
+- title: "祝贺唐浩棋同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2023-04-01
+- title: "祝贺吴庆祥老师（通讯作者：孙宁）的论文被IEEE Transactions on Industrial Electronics录用"
+  date: 2023-03-14
+- title: "祝贺张欣霖同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Automation Science and Engineering录用"
+  date: 2023-03-06
+- title: "祝贺刘卓清同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Intelligent Transportation Systems录用"
+  date: 2023-02-20
+- title: "祝贺硕士毕业生陈轶珩、符裕的硕士论文荣获2022年中国自动化学会（CAA）优秀硕士学位论文奖"
+  date: 2023-01
+- title: "祝贺孙宁教授荣获宝钢优秀教师奖"
+  date: 2022-12
+- title: "祝贺王岳同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Industrial Informatics录用"
+  date: 2022-12-04
+- title: "祝贺翟猛同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2022-11-28
+- title: "实验室吴庆祥老师主持获批国家自然科学基金青年项目"
+  date: 2023-10
+- title: "祝贺刘根娣同学（导师/通讯作者：孙宁）的论文被IEEE Transactions on Systems, Man, and Cybernetics: Systems录用"
+  date: 2022-09-04
+- title: "祝贺杨桐同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2022-06-18
+- title: "祝贺翟猛同学（导师/通讯作者：孙宁）的论文被Mechanism and Machine Theory录用"
+  date: 2022-04-23
+- title: "祝贺杨桐同学（导师/通讯作者：孙宁）的论文被IEEE/ASME Transactions on Mechatronics录用"
+  date: 2022-04-23
+- title: "恭喜孙宁教授荣获 ICCAR 2022 Young Scientist Award"
+  date: 2022-04
+- title: "恭喜孙宁教授荣获 Machines 2021年度 Best Paper Award"
+  date: 2022-02-22
