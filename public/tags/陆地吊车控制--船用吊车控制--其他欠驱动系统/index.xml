@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陆地吊车控制 | 船用吊车控制 | 其他欠驱动系统 | 欠驱动机器人实验室</title>
+    <link>https://alpaca10086zyys.github.io/url_test/tags/%E9%99%86%E5%9C%B0%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E8%88%B9%E7%94%A8%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E5%85%B6%E4%BB%96%E6%AC%A0%E9%A9%B1%E5%8A%A8%E7%B3%BB%E7%BB%9F/</link>
+      <atom:link href="https://alpaca10086zyys.github.io/url_test/tags/%E9%99%86%E5%9C%B0%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E8%88%B9%E7%94%A8%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E5%85%B6%E4%BB%96%E6%AC%A0%E9%A9%B1%E5%8A%A8%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <description>陆地吊车控制 | 船用吊车控制 | 其他欠驱动系统</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alpaca10086zyys.github.io/url_test/media/icon_hu7672366286948310955.png</url>
+      <title>陆地吊车控制 | 船用吊车控制 | 其他欠驱动系统</title>
+      <link>https://alpaca10086zyys.github.io/url_test/tags/%E9%99%86%E5%9C%B0%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E8%88%B9%E7%94%A8%E5%90%8A%E8%BD%A6%E6%8E%A7%E5%88%B6--%E5%85%B6%E4%BB%96%E6%AC%A0%E9%A9%B1%E5%8A%A8%E7%B3%BB%E7%BB%9F/</link>
+    </image>
+    
+    <item>
+      <title>欠驱动系统</title>
+      <link>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
+      <description>&lt;h2 id=&#34;1-陆地吊车&#34;&gt;1 陆地吊车&lt;/h2&gt;
+&lt;p&gt;陆地吊车，又称陆地起重机，是一种大型的工程搬运设备，被广泛地应用于冶金、物流、建筑、电力、造纸等诸多领域，完成货物/材料运送与集成加工等任务，在国民经济建设中占据着举足轻重的地位。&lt;/p&gt;
+&lt;p&gt;迄今为止，吊车的使用已有数千年的历史。据考古记载，最早的吊车诞生于公元前6世纪晚期，由希腊人所发明并用于建造希腊神庙。随着科技的高速发展，吊车正在向着&lt;strong&gt;大型化、智能化、快速化、准确化&lt;/strong&gt;等方向发展，其工作性能与可靠性也在日益提升。&lt;/p&gt;
+&lt;p&gt;陆地吊车主要包括&lt;strong&gt;桥式吊车、塔式吊车、桅杆式吊车&lt;/strong&gt;，其控制问题研究具有理论与实际的双重重要意义。&lt;/p&gt;
+&lt;h3 id=&#34;11-桥式吊车&#34;&gt;1.1 桥式吊车&lt;/h3&gt;
+&lt;p&gt;在各类吊车中，桥式吊车最具代表性，应用也最为广泛。对于吊车系统而言，其所面临的最大问题在于台车运动及外界干扰(如风力等)引发的负载摆动，这不仅会降低整体的效率，影响负载在落吊过程中的精确放置操作，还可能引发碰撞而造成安全事故。在一些特殊的场合，如钢水包搬运，甚至期望能实现“无摆”运送，以防止高温钢水溢溅。&lt;/p&gt;
+&lt;h4 id=&#34;111-研究挑战&#34;&gt;1.1.1 研究挑战&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;欠驱动特性&lt;/strong&gt;，即控制输入个数少于系统自由度个数。仅能操纵台车的水平运动和负载的升/落吊运动，而无法直接对负载的空间摆动施加控制。如何实现&lt;strong&gt;以“少”控“多”&lt;/strong&gt;，是控制方法设计的最根本的需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非线性、强耦合&lt;/strong&gt;。吊车系统的各状态之间相互耦合，台车的水平运动及吊绳的伸缩会不可避免地引发负载的空间摆动。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;状态与控制约束&lt;/strong&gt;。受制于物理约束，台车运行速度/加速度、摆角幅值、控制输入等必须保持在特定范围内。如何在状态与控制受限的情况下实现高性能控制，极具挑战。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;112-研究成果&#34;&gt;1.1.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;提出了多种轨迹规划算法及非线性控制方法，大幅提高了桥式吊车系统的控制性能与工作效率&lt;/li&gt;
+&lt;li&gt;搭建了&lt;strong&gt;3代实验样机平台&lt;/strong&gt;，联合天津起重设备有限公司搭建了一台32吨级自动工业吊车&lt;/li&gt;
+&lt;li&gt;在&lt;strong&gt;Automatica、IEEE Transactions上发表高水平学术论文10余篇。获2016年中国自动化学会优秀博士论文奖、2017年吴文俊人工智能自然科学一等奖、2017年天津市专利奖-金奖、2018年中国高校科技成果交易会“优秀项目展示奖”、2013年关肇直奖提名奖等奖励&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;受理中国发明专利6件&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注重理论与实践相结合&lt;/strong&gt;，在吊车控制应用方面，相比当前主流的闭环反馈控制方法，提出的基于相平面几何分析的轨迹规划控制技术(经国家起重运输机械质量监督检验中心检测)可使运送效率提高77%以上，在行程6米时，最大&lt;strong&gt;定位误差不超过5毫米，摆角不超过1度&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;桥式吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu6389571132373991065.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu11361487228664833843.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;strong&gt;插入视频的方法一（youtube）：&lt;/strong&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;插入视频的方法二（bilibili）：&lt;/strong&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1oW411A7Az&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;插入视频的方法三（本地视频）：&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;12-塔式吊车&#34;&gt;1.2 塔式吊车&lt;/h3&gt;
+&lt;p&gt;相比于桥式吊车，塔式吊车包含旋臂的旋转运动，且其工作环境更为恶劣(高空、强干扰等)。旋转运动更容易激发负载在空间内的摆动，因此塔吊具有&lt;strong&gt;更加复杂的欠驱动特性、更强的非线性，且系统状态之间具有更强的耦合性&lt;/strong&gt;。在这种情况下，非常难以实现负载的快速精准定位与消摆。然而，塔身高、回转半径大等特点，又使得塔式吊车的工作空间广、垂直作业效率高，更加适用于高层建筑的建设与修缮，这使其成为建筑业不可或缺的关键设备之一。因此，如何实现塔式吊车的高性能制动控制，具有非常重要的实际应用价值与意义。&lt;/p&gt;
+&lt;h4 id=&#34;121-研究挑战&#34;&gt;1.2.1 研究挑战&lt;/h4&gt;
+&lt;p&gt;相比于桥式吊车，塔式吊车包含旋臂的&lt;strong&gt;旋转运动&lt;/strong&gt;，且其工作环境&lt;strong&gt;更为恶劣&lt;/strong&gt;(高空、强干扰等)。旋转运动更容易激发负载在空间内的摆动，因此塔吊具有更加&lt;mark style=&#34;background-color: #ace5fa;&#34;&gt;&lt;strong&gt;复杂的欠驱动特性、更强的非线性，且系统状态之间具有更强的耦合性&lt;/strong&gt;&lt;/mark&gt;。在这种情况下，非常难以实现负载的快速精准定位与消摆。&lt;/p&gt;
+&lt;h4 id=&#34;122-研究成果&#34;&gt;1.2.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;从工程角度出发，通过问题提炼，建立了塔式吊车系统的非线性完整动力学模型，并搭建了&lt;strong&gt;实验样机平台&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;考虑多种实际因素，在运动规划、非线性控制方面提出了若干种方法，可以同时实现快速定位与消摆等控制目标，提升了系统的控制性能。在&lt;strong&gt;IEEE Transactions、MSSP等期刊上发表高水平学术论文6篇(其中一区4篇，二区2篇)&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;塔式吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu15926909159404130907.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu11082310521362311699.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1dW411A7YW&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-桅杆式吊车&#34;&gt;1.3 桅杆式吊车&lt;/h3&gt;
+&lt;p&gt;相比桥式吊车，桅杆式吊车体积相对较小，既可以加载于车辆上，又可以固定于地面，具有较强的灵活性和更少的能耗，应用场景更加广泛。吊杆可以完成俯仰及旋转两个方向上的转动，在保证有限占地面积的同时极大地扩展了作业空间，提高了工作效率。&lt;/p&gt;
+&lt;p&gt;然而，桅杆式吊车状态量之间存在着非常强的耦合特性，同时涉及俯仰和旋转运动，会产生复杂的离心力，导致其动力学方程十分复杂，呈现出高度的非线性和耦合性，进一步增加了控制的难度。&lt;/p&gt;
+&lt;h4 id=&#34;131-研究挑战&#34;&gt;1.3.1 研究挑战&lt;/h4&gt;
+&lt;p&gt;相比桥式吊车，桅杆式吊车状态量之间存在着更强的耦合特性，同时涉及俯仰和旋转运动，会产生复杂的离心力，导致其动力学方程十分复杂，呈现出高度的非线性和耦合性，进一步增加了控制的难度。&lt;/p&gt;
+&lt;h4 id=&#34;132-研究成果&#34;&gt;1.3.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;从工程角度出发，通过问题提炼，建立了桅杆式吊车系统的非线性完整动力学模型，并搭建了实验样机平台&lt;/li&gt;
+&lt;li&gt;在运动规划、非线性控制方面提出了若干种方法，大幅提高了系统的工作效率，在此基础上，在IEEE Transactions等期刊上发表高水平学术论文4篇，其中1篇入选ESI热点+高被引论文&lt;/li&gt;
+&lt;li&gt;受理中国发明专利1件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;桅杆式吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu16155149687806646325.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu7454782417838519754.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;14-两级摆吊车&#34;&gt;1.4 两级摆吊车&lt;/h3&gt;
+&lt;p&gt;就目前而言，几乎所有研究人员在分析桥式吊车系统时，都忽略吊钩的质量，或把吊钩与负载视为同一质点，即将系统的动力学简化为单级摆动吊车。而事实上，在很多情况下，当台车运行时，吊钩会绕台车产生第一级摆动，货物则将相对于吊钩产生第二级摆动，即整个吊车系统会呈现出显著的两级摆动。&lt;/p&gt;
+&lt;p&gt;两级摆动特性的出现导致整个系统的自由度个数增加，在控制量维数不变的情况下，增加了吊车系统的欠驱动程度，增强了系统状态之间的耦合度，因而进一步加剧了非线性特性。如果不能充分考虑两级摆动特性的影响，在系统呈现出两级摆动时将无法取得良好的控制效果，严重时甚至导致闭环系统不稳定。&lt;/p&gt;
+&lt;p&gt;因此，深入探讨两级摆动的动态特性对吊车系统的影响，并以此为基础，开发高性能运动规划及消摆定位控制方法以提高系统的工作效率与安全性能，具有非常重要的研究价值。&lt;/p&gt;
+&lt;h4 id=&#34;141-研究挑战&#34;&gt;1.4.1 研究挑战&lt;/h4&gt;
+&lt;p&gt;两级摆动特性的出现导致整个系统的自由度个数增加，在控制量维数不变的情况下，增加了吊车系统的欠驱动程度，增强了系统状态之间的耦合度，因而进一步加剧了非线性特性。如果不能充分考虑两级摆动特性的影响，在系统呈现出两级摆动时将无法取得良好的控制效果，严重时甚至导致闭环系统不稳定。因此，深入探讨两级摆动的动态特性对吊车系统的影响，并以此为基础，开发高性能运动规划及消摆定位控制方法以提高系统的工作效率与安全性能，具有非常重要的研究价值。&lt;/p&gt;
+&lt;h4 id=&#34;142-研究成果&#34;&gt;1.4.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;从工程角度出发，通过问题提炼，建立了双摆桥式吊车系统的非线性完整动力学模型，并搭建了实验样机平台&lt;/li&gt;
+&lt;li&gt;针对双摆效应，提出了若干种方法，大幅提高了系统的工作效率，在此基础上，在IEEE Transactions等期刊上发表高水平学术论文5篇，其中1篇入选爱思唯尔献礼南开大学百年校庆推出的《南开大学优秀论文合辑》(全球被引次数前1%的高被引论文)，本领域唯一一篇；也同时入选对“卓越工程”有突出贡献的科学论文，2篇同时入选ESI热点+高被引论文，1篇入选ESI高被引论文&lt;/li&gt;
+&lt;li&gt;相关成果获2016年第31届中国自动化学会青年学术年会最佳论文(应用)奖&lt;/li&gt;
+&lt;li&gt;受理中国发明专利2件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;两级摆吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu297689018255593343.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu11210211954761090787.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;143-实验视频&#34;&gt;1.4.3 实验视频&lt;/h4&gt;
+&lt;p&gt;&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1uo4y117gt&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV125411u7eb&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV125411u7eb&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-船用吊车&#34;&gt;2 船用吊车&lt;/h2&gt;
+&lt;p&gt;海上吊车一般指负载吊运过程位于海面之上，主要用于舰船间货物的运输转移等。与陆地吊车等类似，海上吊车在运输过程中，需要解决由于意外碰撞等引起的负载摆动的抑制问题。此外，由于吊车安装于船体之上，而船体本身受到海浪、海流的影响会产生多个自由度的平动与转动，进而严重影响负载的运输与定位，因此，在控制过程中必须对船身的运动进行有效补偿。船体运动导致的负载扰动通常远大于意外碰撞的影响，且导致整个系统工作在非惯性系，给控制方法设计及分析带来了巨大挑战。&lt;/p&gt;
+&lt;h3 id=&#34;21-海上吊车&#34;&gt;2.1 海上吊车&lt;/h3&gt;
+&lt;h4 id=&#34;211-研究挑战&#34;&gt;2.1.1 研究挑战&lt;/h4&gt;
+&lt;p&gt;欠驱动、非线性、耦合性：类似陆上各种欠驱动吊车设备，需要控制负载运输过程中产生的摆动，保证其定位精度与运输效率。&lt;/p&gt;
+&lt;p&gt;强干扰、不确定性：由于吊车固定于船舶等运动平台上，平台本身的运动会对负载运动产生强烈的影响，且很多情况下，负载起吊与降落点处的运动情况与吊车本身的运动不一致。具体而言，在工作过程中，吊车船与接收船会随海浪纵摇、横摇与升沉，这些运动将导致负载发生摆动；特别是在升降过程中，船舶的此类运动易导致已吊起的负载再次与甲板相撞，或使已放下但尚未脱离吊钩的负载再次悬空，这些都会威胁作业的安全。尤其在进行舰船间弹药补给时，这种耦合运动可能造成非常严重的后果。&lt;/p&gt;
+&lt;h4 id=&#34;212-研究成果&#34;&gt;2.1.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;建立了船用起重机系统的非线性完整动力学模型，并搭建了2套实验样机平台&lt;/li&gt;
+&lt;li&gt;提出了若干种行之有效的控制策略，可有效抑制船体运动干扰，且在参数不确定等情况下，能实现负载的精准、快速定位。在IEEE Transactions、Automatic等期刊上发表高水平学术论文7篇(其中一区6篇，Q1区1篇，1篇同时入选ESI热点+高被引论文，1篇入选ESI高被引论文&lt;/li&gt;
+&lt;li&gt;受理中国发明专利4件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;船用吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu7555376595680633603.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu14219892496162160839.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;213-实验视频&#34;&gt;2.1.3 实验视频&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1vN411Z74x&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;22-深海吊车&#34;&gt;2.2 深海吊车&lt;/h3&gt;
+&lt;p&gt;近年来，在我国“海洋强国”战略、“陆海统筹”规划等指引下，深海资源的开采与利用备受瞩目，而深海吊车是作业过程中不可或缺的吊运设备。与海上吊车类似，深海吊车也安装于受海浪、洋流等影响的船体上，但其吊运负载一般位于海面以下、具体深度不等。这样一来，负载振动不仅受船体运动的影响，还因处于水中而使振动幅度被放大、更为敏感，同时也增加了负载的柔性特性。因此，深海吊车的动力学模型更为复杂，负载的振动也更加难以抑制。&lt;/p&gt;
+&lt;h4 id=&#34;221-研究挑战&#34;&gt;2.2.1 研究挑战&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;欠驱动、非线性、耦合性&lt;/strong&gt;：系统不仅处于非惯性系，台车的大范围空间运动、水作用力影响等都会使动力学更复杂，状态量间耦合性更强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;分布质量系统&lt;/strong&gt;：特殊的吊运环境（水中）赋予了负载或缆索一定的柔性特性，从而引入偏微分项，增大分析难度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;强干扰、不确定性&lt;/strong&gt;：吊车本体的干扰运动、海面对船体的扰动、海面以下对负载的扰动等导致系统存在未建模动态以及各种不确定干扰，进一步增加了控制难度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;222-研究成果&#34;&gt;2.2.2 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;分析深海吊车复杂的动力学模型，搭建了&lt;strong&gt;实验样机平台&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;在轨迹规划、智能控制等方面提出了若干种方法，有效抑制了负载振动。相关成果发表于&lt;strong&gt;SCI、自动化学报等期刊上&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;深海吊车&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu17873043303904373502.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu1581972184780425467.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;625&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;3-其他欠驱动&#34;&gt;3 其他欠驱动&lt;/h2&gt;
+&lt;h3 id=&#34;31-欠驱动rtactora系统&#34;&gt;3.1 欠驱动RTAC/TORA系统&lt;/h3&gt;
+&lt;p&gt;欠驱动RTAC/TORA系统是一种典型的欠驱动系统，由可驱动的旋转转子与不可驱动的、做平移运动的定位平台组成，可用于研究振动筛等大型机械设备的工作原理，同时也可用于分析振动系统自同步现象。该系统的各状态相互耦合，表现出很强的非线性特性，给其控制方法设计与稳定性分析带来了很大的挑战。&lt;/p&gt;
+&lt;h4 id=&#34;311-研究成果&#34;&gt;3.1.1 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;搭建了&lt;strong&gt;2套实验样机平台&lt;/strong&gt;，提出了多种行之有效的非线性控制方法&lt;/li&gt;
+&lt;li&gt;在&lt;strong&gt;IEEE Transactions&lt;/strong&gt;上发表高水平学术论文&lt;strong&gt;3篇(均为一区，中科院top)&lt;/strong&gt;，&lt;strong&gt;其中2篇入选ESI高被引论文&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;获第十五届“挑战杯”全国大学生课外学术科技作品竞赛一等奖&lt;/li&gt;
+&lt;li&gt;部分实验结果见下面视频
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;欠驱动RTAC/TORA系统&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu12813041057913748856.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu9060465356610075564.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;312-实验视频&#34;&gt;3.1.2 实验视频&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1dW411A7SA&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;32-平衡机器人系统&#34;&gt;3.2 平衡机器人系统&lt;/h3&gt;
+&lt;p&gt;由于具有灵活度高、结构简单、体积小等优点，平衡机器人在很多领域发挥着重要作用，如货物搬运、家庭服务等，同时它也被应用于教育、科研等领域，其控制研究已成为当前机器人领域的重要方向之一。&lt;/p&gt;
+&lt;p&gt;平衡机器人是一种典型的欠驱动、强非线性、本征不稳定系统，其自动控制算法的设计与分析具有诸多挑战。尤其是当它们在很多情况下运行在非平坦的路面上，导致系统的动力学特性更加复杂。因此，针对平衡机器人的自动控制研究，具有理论与实际的双重意义。&lt;/p&gt;
+&lt;h4 id=&#34;321-研究成果&#34;&gt;3.2.1 研究成果&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;建立了自平衡机器人系统的在斜面、起伏路面上的非线性动力学模型。实验室拥有 Googol Gbot2001平衡机器人一台&lt;/li&gt;
+&lt;li&gt;提出了多种轨迹规划、非线性控制方法，可实现平衡机器人的快速定位、跟踪及平衡控制。在IEEE Transactions等期刊上发表高水平学术论文2篇(其中一区，中科院top，人工智能领域的顶级学术期刊1篇)&lt;/li&gt;
+&lt;li&gt;部分实验结果见下面视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;平衡机器人系统&#34; srcset=&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu6896281967773388173.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu16936952021342091799.webp 1200w&#34;
+               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;322-实验视频&#34;&gt;3.2.2 实验视频&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1dW411A7dR&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

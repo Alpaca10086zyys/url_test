@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | 欠驱动机器人实验室</title>
+    <link>https://alpaca10086zyys.github.io/url_test/project/</link>
+      <atom:link href="https://alpaca10086zyys.github.io/url_test/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alpaca10086zyys.github.io/url_test/media/icon_hu7672366286948310955.png</url>
+      <title>Projects</title>
+      <link>https://alpaca10086zyys.github.io/url_test/project/</link>
+    </image>
+    
+    <item>
+      <title>智能机器人</title>
+      <link>https://alpaca10086zyys.github.io/url_test/project/project3/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://alpaca10086zyys.github.io/url_test/project/project3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>某个课题</title>
+      <link>https://alpaca10086zyys.github.io/url_test/project/project2/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://alpaca10086zyys.github.io/url_test/project/project2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>某课题</title>
+      <link>https://alpaca10086zyys.github.io/url_test/project/project1/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://alpaca10086zyys.github.io/url_test/project/project1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
