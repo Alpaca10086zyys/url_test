@@ -35,7 +35,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo --minify --baseURL "https://alpaca10086zyys.github.io/url_test/"
-      
+
       - name: Check build directory
         run: |
           if [ ! -d "./public" ] || [ -z "$(ls -A ./public)" ]; then
@@ -47,7 +47,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: ./public
