@@ -1,4 +1,12 @@
 # data/paper.yaml
+- title: "Integral barrier function-based adaptive output feedback robust force control for pneumatic compliant end-effectors with complex hysteresis"
+  authors: 
+    - Haoqi Tang*, Qingxiang Wu*
+    - Zhuoqing Liu
+    - Yongchun Fang
+    - Ning Sun#
+  journal: IEEE Transactions on Industrial Electronics
+  doi: 10.1109/TIE.2024.3433608
 - title: "Energy coupling output feedback control of 4-DOF underactuated cranes with saturated inputs"
   authors: 
     - Ning Sun

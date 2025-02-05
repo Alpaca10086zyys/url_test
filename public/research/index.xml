@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>研究方向 | 欠驱动机器人实验室</title>
-    <link>https://alpaca10086zyys.github.io/url_test/research/</link>
-      <atom:link href="https://alpaca10086zyys.github.io/url_test/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/url_test/research/</link>
+      <atom:link href="http://localhost:1313/url_test/research/index.xml" rel="self" type="application/rss+xml" />
     <description>研究方向</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alpaca10086zyys.github.io/url_test/media/icon_hu7672366286948310955.png</url>
+      <url>http://localhost:1313/url_test/media/icon_hu_ccf6d0be068b1819.png</url>
       <title>研究方向</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/</link>
+      <link>http://localhost:1313/url_test/research/</link>
     </image>
     
     <item>
       <title>欠驱动系统</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
+      <link>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
+      <guid>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
       <description>&lt;h2 id=&#34;1-陆地吊车&#34;&gt;1 陆地吊车&lt;/h2&gt;
 &lt;p&gt;陆地吊车，又称陆地起重机，是一种大型的工程搬运设备，被广泛地应用于冶金、物流、建筑、电力、造纸等诸多领域，完成货物/材料运送与集成加工等任务，在国民经济建设中占据着举足轻重的地位。&lt;/p&gt;
 &lt;p&gt;迄今为止，吊车的使用已有数千年的历史。据考古记载，最早的吊车诞生于公元前6世纪晚期，由希腊人所发明并用于建造希腊神庙。随着科技的高速发展，吊车正在向着&lt;strong&gt;大型化、智能化、快速化、准确化&lt;/strong&gt;等方向发展，其工作性能与可靠性也在日益提升。&lt;/p&gt;
@@ -55,18 +55,17 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;桥式吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu6389571132373991065.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu11361487228664833843.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu_400d4d4a90ff068c.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu_a702e8c888fdabf5.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu_37728dab9f745b09.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu_400d4d4a90ff068c.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;strong&gt;插入视频的方法一（youtube）：&lt;/strong&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 &lt;/li&gt;
@@ -97,7 +96,7 @@
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;12-塔式吊车&#34;&gt;1.2 塔式吊车&lt;/h3&gt;
@@ -130,10 +129,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;塔式吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu15926909159404130907.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu11082310521362311699.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu_2e488dd9003d65a3.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu_100f1d6fc30205b4.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu_d094c389c0fc29a1.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu_2e488dd9003d65a3.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -177,10 +176,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;桅杆式吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu16155149687806646325.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu7454782417838519754.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu_334cc914ffbe72b6.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu_1443dabd766d9142.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu_17779f7c1dce0600.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu_334cc914ffbe72b6.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -218,10 +217,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;两级摆吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu297689018255593343.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu11210211954761090787.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu_377bc22073b6dc0d.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu_4e9133a211f1dc60.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu_ccc7c6b51e5f989e.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu_377bc22073b6dc0d.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -279,10 +278,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;船用吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu7555376595680633603.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu14219892496162160839.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu_9b540abcd1e57aa6.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu_93c488f6eca7ed39.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu_bdea01b904f45d9d.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu_9b540abcd1e57aa6.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -333,10 +332,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;深海吊车&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu17873043303904373502.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu1581972184780425467.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu_e9d1c11b6dd884f2.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu_ac029fbda3b190d6.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu_9af6caa8a6bfecdd.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu_e9d1c11b6dd884f2.webp&#34;
                width=&#34;760&#34;
                height=&#34;625&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -370,10 +369,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;欠驱动RTAC/TORA系统&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu12813041057913748856.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu9060465356610075564.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu_5dfdeb701e84bf42.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu_931c8b4d3b719a41.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu_32410e70aff806b0.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu_5dfdeb701e84bf42.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -415,10 +414,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;平衡机器人系统&#34; srcset=&#34;
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp 400w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu6896281967773388173.webp 760w,
-               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu16936952021342091799.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp&#34;
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu_fee836e9d2997559.webp 400w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu_d884e4f33e9be90a.webp 760w,
+               /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu_8b34bfcadd938e68.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu_fee836e9d2997559.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -436,16 +435,15 @@
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/js/</link>
+      <link>http://localhost:1313/url_test/research/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/js/</guid>
+      <guid>http://localhost:1313/url_test/research/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -482,7 +480,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -559,16 +557,15 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/python/</link>
+      <link>http://localhost:1313/url_test/research/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/python/</guid>
+      <guid>http://localhost:1313/url_test/research/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -605,7 +602,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
