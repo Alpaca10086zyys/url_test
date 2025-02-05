@@ -6,7 +6,7 @@ type: docs
 math: false
 tags:
   - JavaScript
-place: 1
+place: 2
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

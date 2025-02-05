@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carousels | 欠驱动机器人实验室</title>
-    <link>https://alpaca10086zyys.github.io/url_test/carousel/</link>
-      <atom:link href="https://alpaca10086zyys.github.io/url_test/carousel/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/url_test/carousel/</link>
+      <atom:link href="http://localhost:1313/url_test/carousel/index.xml" rel="self" type="application/rss+xml" />
     <description>Carousels</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alpaca10086zyys.github.io/url_test/media/icon_hu7672366286948310955.png</url>
+      <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
       <title>Carousels</title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/</link>
+      <link>http://localhost:1313/url_test/carousel/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel4/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel4/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel4/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel4/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel1/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel1/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel1/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel1/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel3/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel2/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel2/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel2/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel3/</guid>
       <description></description>
     </item>
     

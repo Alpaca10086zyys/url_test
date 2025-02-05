@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>欠驱动机器人实验室</title>
-    <link>https://alpaca10086zyys.github.io/url_test/</link>
-      <atom:link href="https://alpaca10086zyys.github.io/url_test/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/url_test/</link>
+      <atom:link href="http://localhost:1313/url_test/index.xml" rel="self" type="application/rss+xml" />
     <description>欠驱动机器人实验室</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alpaca10086zyys.github.io/url_test/media/icon_hu7672366286948310955.png</url>
+      <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
       <title>欠驱动机器人实验室</title>
-      <link>https://alpaca10086zyys.github.io/url_test/</link>
+      <link>http://localhost:1313/url_test/</link>
     </image>
     
     <item>
       <title>欠驱动系统</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
+      <link>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
+      <guid>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
       <description>&lt;h2 id=&#34;1-陆地吊车&#34;&gt;1 陆地吊车&lt;/h2&gt;
 &lt;p&gt;陆地吊车，又称陆地起重机，是一种大型的工程搬运设备，被广泛地应用于冶金、物流、建筑、电力、造纸等诸多领域，完成货物/材料运送与集成加工等任务，在国民经济建设中占据着举足轻重的地位。&lt;/p&gt;
 &lt;p&gt;迄今为止，吊车的使用已有数千年的历史。据考古记载，最早的吊车诞生于公元前6世纪晚期，由希腊人所发明并用于建造希腊神庙。随着科技的高速发展，吊车正在向着&lt;strong&gt;大型化、智能化、快速化、准确化&lt;/strong&gt;等方向发展，其工作性能与可靠性也在日益提升。&lt;/p&gt;
@@ -58,7 +58,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu6389571132373991065.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu11361487228664833843.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE_hu13907842044378874570.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -97,7 +97,7 @@
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;12-塔式吊车&#34;&gt;1.2 塔式吊车&lt;/h3&gt;
@@ -133,7 +133,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu15926909159404130907.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu11082310521362311699.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE2_hu6553739718560271299.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -180,7 +180,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu16155149687806646325.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu7454782417838519754.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE3_hu15356581859398019509.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -221,7 +221,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu297689018255593343.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu11210211954761090787.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE4_hu12867757093423497360.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -282,7 +282,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu7555376595680633603.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu14219892496162160839.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE5_hu15954965663170123237.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -336,7 +336,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu17873043303904373502.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu1581972184780425467.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE6_hu13357001327963107974.webp&#34;
                width=&#34;760&#34;
                height=&#34;625&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -373,7 +373,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu12813041057913748856.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu9060465356610075564.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE7_hu16570335197365063385.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -418,7 +418,7 @@
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp 400w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu6896281967773388173.webp 760w,
                /url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu16936952021342091799.webp 1200w&#34;
-               src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E4%BE%8B%E5%9B%BE8_hu17654305327275404056.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -436,9 +436,9 @@
     
     <item>
       <title>🌟 测试</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/test/</link>
+      <link>http://localhost:1313/url_test/post/test/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/test/</guid>
+      <guid>http://localhost:1313/url_test/post/test/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -522,25 +522,25 @@
     
     <item>
       <title>Projects</title>
-      <link>https://alpaca10086zyys.github.io/url_test/projects/</link>
+      <link>http://localhost:1313/url_test/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/projects/</guid>
+      <guid>http://localhost:1313/url_test/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel4/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel4/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel4/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/get-started/</link>
+      <link>http://localhost:1313/url_test/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/get-started/</guid>
+      <guid>http://localhost:1313/url_test/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -624,9 +624,9 @@
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/second-brain/</link>
+      <link>http://localhost:1313/url_test/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/second-brain/</guid>
+      <guid>http://localhost:1313/url_test/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -736,9 +736,9 @@
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/data-visualization/</link>
+      <link>http://localhost:1313/url_test/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/data-visualization/</guid>
+      <guid>http://localhost:1313/url_test/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -749,7 +749,7 @@
 
 
 
-&lt;div id=&#34;chart-136572498&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-736589421&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -767,7 +767,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-136572498&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-736589421&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -946,9 +946,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/teach-courses/</link>
+      <link>http://localhost:1313/url_test/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/teach-courses/</guid>
+      <guid>http://localhost:1313/url_test/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -998,7 +998,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1057,17 +1057,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>https://alpaca10086zyys.github.io/url_test/experience/</link>
+      <link>http://localhost:1313/url_test/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/experience/</guid>
+      <guid>http://localhost:1313/url_test/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/js/</link>
+      <link>http://localhost:1313/url_test/research/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/js/</guid>
+      <guid>http://localhost:1313/url_test/research/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1111,7 +1111,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1188,9 +1188,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://alpaca10086zyys.github.io/url_test/research/python/</link>
+      <link>http://localhost:1313/url_test/research/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/research/python/</guid>
+      <guid>http://localhost:1313/url_test/research/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1234,7 +1234,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://alpaca10086zyys.github.io/url_test/url_test/research/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1311,9 +1311,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>https://alpaca10086zyys.github.io/url_test/post/project-management/</link>
+      <link>http://localhost:1313/url_test/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/post/project-management/</guid>
+      <guid>http://localhost:1313/url_test/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -1386,98 +1386,90 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel1/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel1/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel1/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel1/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/contact/</link>
+      <link>http://localhost:1313/url_test/contact/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/contact/</guid>
+      <guid>http://localhost:1313/url_test/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://alpaca10086zyys.github.io/url_test/publication/</link>
+      <link>http://localhost:1313/url_test/publication/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/publication/</guid>
+      <guid>http://localhost:1313/url_test/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>学生团队</title>
-      <link>https://alpaca10086zyys.github.io/url_test/student/</link>
+      <link>http://localhost:1313/url_test/student/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/student/</guid>
+      <guid>http://localhost:1313/url_test/student/</guid>
       <description></description>
     </item>
     
     <item>
       <title>师资力量</title>
-      <link>https://alpaca10086zyys.github.io/url_test/teacher/</link>
+      <link>http://localhost:1313/url_test/teacher/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/teacher/</guid>
+      <guid>http://localhost:1313/url_test/teacher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>校友</title>
-      <link>https://alpaca10086zyys.github.io/url_test/alumnus/</link>
+      <link>http://localhost:1313/url_test/alumnus/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/alumnus/</guid>
+      <guid>http://localhost:1313/url_test/alumnus/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel3/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alpaca10086zyys.github.io/url_test/carousel/carousel2/</link>
+      <link>http://localhost:1313/url_test/carousel/carousel2/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/carousel/carousel2/</guid>
+      <guid>http://localhost:1313/url_test/carousel/carousel2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>智能机器人</title>
-      <link>https://alpaca10086zyys.github.io/url_test/project/project3/</link>
+      <link>http://localhost:1313/url_test/project/project3/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/project/project3/</guid>
+      <guid>http://localhost:1313/url_test/project/project3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>某个课题</title>
-      <link>https://alpaca10086zyys.github.io/url_test/project/project2/</link>
+      <link>http://localhost:1313/url_test/project/project2/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/project/project2/</guid>
+      <guid>http://localhost:1313/url_test/project/project2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>某课题</title>
-      <link>https://alpaca10086zyys.github.io/url_test/project/project1/</link>
+      <link>http://localhost:1313/url_test/project/project1/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/project/project1/</guid>
+      <guid>http://localhost:1313/url_test/project/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://alpaca10086zyys.github.io/url_test/publications/preprint/</link>
+      <link>http://localhost:1313/url_test/publications/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/publications/preprint/</guid>
-      <description>&lt;p&gt;This work is driven by the results in my &lt;a href=&#34;https://alpaca10086zyys.github.io/url_test/publication/conference-paper/&#34;&gt;previous paper&lt;/a&gt; on LLMs.&lt;/p&gt;
+      <guid>http://localhost:1313/url_test/publications/preprint/</guid>
+      <description>&lt;p&gt;This work is driven by the results in my &lt;a href=&#34;http://localhost:1313/url_test/publication/conference-paper/&#34;&gt;previous paper&lt;/a&gt; on LLMs.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -1490,9 +1482,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>An example journal article</title>
-      <link>https://alpaca10086zyys.github.io/url_test/publications/journal-article/</link>
+      <link>http://localhost:1313/url_test/publications/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/publications/journal-article/</guid>
+      <guid>http://localhost:1313/url_test/publications/journal-article/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -1511,9 +1503,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>An example conference paper</title>
-      <link>https://alpaca10086zyys.github.io/url_test/publications/conference-paper/</link>
+      <link>http://localhost:1313/url_test/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://alpaca10086zyys.github.io/url_test/publications/conference-paper/</guid>
+      <guid>http://localhost:1313/url_test/publications/conference-paper/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -1528,6 +1520,14 @@ Parallel 4   :         des6, after des4, 1d
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/url_test/carousel/carousel3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/carousel/carousel3/</guid>
+      <description></description>
     </item>
     
   </channel>
