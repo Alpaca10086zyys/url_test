@@ -1,4 +1,5 @@
 <div class="team-alumnus-list">
+    <h2 style="margin-top: 0;">毕业校友</h2>
     <h3 style="margin-top: -10px;">博士后</h3>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}

@@ -1,7 +1,8 @@
 <div class="team-teacher-list">
-    <h3 style="margin-top: -10px;">教师团队</h3>
+    <h2 style="margin-top: -10px;">教师团队</h2>
     <div style="display: flex; width: 100%; flex-wrap: wrap; gap:0 1rem;">
         {{ range (sort (where .Site.Pages "Type" "teacher") "Params.place" "asc") }}
+        {{ if .Params.title }}
         <div class="teacher-card">
             {{ with .Params.photo }}
             <div class="teacher-photo">
@@ -15,6 +16,7 @@
                 <p>研究方向： {{ .Params.description}}</p>
             </div>
         </div>
+        {{ end }}
         {{ end }}
     </div>
 

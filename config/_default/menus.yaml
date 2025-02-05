@@ -13,7 +13,7 @@ main:
   - name: 学术成果    # 主菜单项
     weight: 11
     identifier: publications   # 添加标识符
-  - name: 论文发表    # 子菜单项
+  - name: 论文    # 子菜单项
     parent: publications
     url: /publication/#papers
     weight: 1
@@ -25,24 +25,23 @@ main:
     parent: publications
     url: /publication/#patents
     weight: 3
-  - name: 组内新闻
-    url: post/
-    weight: 13
-  # - name: Experience
-  #   url: experience/
-  #   weight: 20
+  # - name: 组内新闻
+  #   url: post/
+  #   weight: 13
+  - name: 科研奖励
+    url: research_award/
+    weight: 20
   - name: 科研项目
     url: projects/
     weight: 30
-    identifier: projects
-  - name: 科研项目
-    parent: projects
-    url: projects/#research_project
-    weight: 31
-  - name: 科研奖励
-    url: projects/#research_award
-    parent: projects
-    weight: 32
+  # - name: 科研项目
+  #   parent: projects
+  #   url: projects/#research_project
+  #   weight: 31
+  # - name: 科研奖励
+  #   url: projects/#research_award
+  #   parent: projects
+  #   weight: 32
   - name: 研究方向
     url: research/
     weight: 40
@@ -51,15 +50,15 @@ main:
     weight: 50
   - name: 师资力量
     parent: team
-    url: teacher/
+    url: /team/#teacher
     weight: 51
   - name: 学生团队
     parent: team
-    url: student/
+    url: /team/#student
     weight: 52
   - name: 毕业校友
     parent: team
-    url: alumnus/
+    url: /team/#alumnus
     weight: 63
   - name: 联系我们
     url: contact/

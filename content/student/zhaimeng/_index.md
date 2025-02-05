@@ -1,16 +1,14 @@
 ---
 title: "翟猛"
 position: "博士"
-contact: "fangyc@nankai.edu.cn"
-description: "机器人视觉控制、无人机、欠驱动吊车系统、微纳米操作"
+contact: "zhaim@mail.nankai.edu.cn"
+description: "欠驱动机器人规划与非线性/智能控制、悬吊微低重力模拟系统"
 photo: "/url_test/student/zhaimeng/photo.jpg"
-url: "/url_test/student/zhaimeng/"
-link: "https://ai.nankai.edu.cn/info/1033/2797.htm"
-place: 2
+place: 1
 item:
-  - 天津大学学士
-  - xxx奖项
-  - xxx奖项
-  - xxx奖项
-  - xxx奖项
+  - 吉林大学学士
+  - 2023年全国集群智能与协同控制大会最佳张贴论文奖
+  - 2022年，华北五省大学生机器人大赛决赛一等奖
+  - 2021年，吉林大学优秀毕业论文
+  - 2019年，全国大学生物理学术竞赛二等奖
 ---

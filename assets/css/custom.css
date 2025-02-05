@@ -1,3 +1,11 @@
+.container {
+    max-width: 90%;
+}
+
+section#research_award div.flex {
+    max-width: 90vw!important ;
+}
+
 .professor-profile {
     border-top: 6px double #28a745;
     max-width: 1200px;

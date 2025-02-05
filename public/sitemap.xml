@@ -114,15 +114,11 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/student/</loc>
+    <loc>http://localhost:1313/url_test/research_award/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/teacher/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/url_test/alumnus/</loc>
+    <loc>http://localhost:1313/url_test/team/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -137,13 +133,28 @@
     <loc>http://localhost:1313/url_test/carousel/carousel3/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/url_test/alumnus/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/url_test/book/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/louhuanhuan/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/student/liuzhuoqing/</loc>
+    <loc>http://localhost:1313/url_test/student/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/teacher/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/fuyu/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/diaoshuzhen/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/url_test/student/liuzhuoqing/</loc>
@@ -152,7 +163,7 @@
     <loc>http://localhost:1313/url_test/student/liugendi/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</loc>
+    <loc>http://localhost:1313/url_test/teacher/wuqingxiang/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/alumnus/wuyiming/</loc>
@@ -167,7 +178,7 @@
     <loc>http://localhost:1313/url_test/alumnus/zhangjianyi/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/team/teacher/fangyongchun/</loc>
+    <loc>http://localhost:1313/url_test/teacher/fangyongchun/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/book/book1/</loc>
@@ -179,7 +190,13 @@
     <loc>http://localhost:1313/url_test/url_test/teacher/yangtong/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/student/zhaimeng/</loc>
+    <loc>http://localhost:1313/url_test/student/fanchangda/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/wanghai/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/zhaimeng/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/book/book3/</loc>
