@@ -1,10 +1,80 @@
-- title: 具有双摆效应的欠驱动起重机建模与防摆控制研究
-  project_type: 天津市应用基础与前沿技术研究计划(青年项目)
-  period: 2015.4.1~2018.3.31
-  budget: 6万元
-  person: 孙宁
 - title: 泛在信息环境下集群化起重机智能感知、协同优化及控制方法研究
   project_type: 国家自然科学基金区域创新发展联合基金(河北)重点支持项目
   period: 2021.1.1~2024.12.31
   budget: 259万元
+  person: 孙宁
+- title: 面向动态生产过程的机器人建模与精准控制
+  project_type: “十三五”国家重点研发计划(National Key R&D Program of China)“智能机器人”重点专项课题
+  period: 2019.06.01~2022.05.31
+  budget: 201万元
+  person: 孙宁（课题负责人）
+- title: 室内灭火、救援机器人群组作业智能协同系统关键技术研究
+  project_type: “十四五”国家重点研发计划(National Key R&D Program of China)“重大自然灾害防控与公共安全”重点专项项目课题
+  period: 2023.11.01~2026.10.31
+  budget: 270万元
+  person: 孙宁（课题负责人）
+- title: 欠驱动塔式起重机系统关键控制技术研究
+  project_type: 国家自然科学基金面上项目
+  period: 2019.1.1~2022.12.31
+  budget: 67万元
+  person: 孙宁
+- title: 受两级摆动影响的吊车系统控制方法研究
+  project_type: 国家自然科学基金青年科学基金项目
+  period: 2016.1.1~2018.12.31
+  budget: 22万元
+  person: 孙宁
+- title: 松、紧协调工况下的仿生气动人工肌肉机器人规划与智能控制
+  project_type: 国家自然科学基金面上项目
+  period: 2024.1.1~2027.12.31
+  budget: 50万元
+  person: 孙宁
+- title: 分布式质量负载起重机精确补偿与防摆控制研究
+  project_type: 国家自然科学基金青年项目
+  period: 2023.1.1~2025.12.31
+  budget: 30万元
+  person: 吴庆祥
+- title: 面向起吊-沉放-水下装配的海洋浮动起重系统消摆与位姿同步控制
+  project_type: 国家自然科学基金青年项目
+  period: 2024.1.1~2026.12.31
+  budget: 30万元
+  person: 杨桐
+- title: “吊运类”机器人智能控制与应用
+  project_type: 天津市杰出青年科学基金
+  period: 2022.10.1~2026.09.30
+  budget: 100万元
+  person: 孙宁
+- title: 欠驱动非线性桅杆式吊车消摆搬运控制研究
+  project_type: 天津市自然科学基金面上项目
+  period: 2020.4.1~2023.3.31
+  budget: 20万元
+  person: 孙宁
+- title: 面向工业柔性配件装配的机械臂末端灵巧操作及柔顺控制关键技术研究
+  project_type: 天津市自然科学基金项目(京津冀基础研究合作专项)
+  period: 2024.10~2027.09
+  budget: 20万元
+  person: 孙宁
+- title: 
+  project_type: 天津市青年人才托举工程 (Young Elite Scientists Sponsorship Program by Tianjin)
+  period: 2018.3~2021.3
+  budget: 45万元
+  person: 孙宁
+- title: 面向深海作业的自动起重装备基础理论与关键技术
+  project_type: 国家自然科学基金委员会-山东省人民政府联合基金重点项目(简称NSFC-山东联合基金重点项目)
+  period: 2018.1.1~2021.12.31
+  budget: 120万元
+  person: 孙宁(子课题负责人)
+- title: 运输水下负载的海洋船用吊车系统动力学建模与控制
+  project_type: 广东省基础与应用基础研究基金自然科学基金(面上项目)
+  period: 2023.01.01~2025.12.31
+  budget: 10万元
+  person: 孙宁
+- title: Autonomous Operation and Intelligent Collaboration for Firefighting Robots：Control Technologies and Applications (消防机器人自主作业与智能协同控制)
+  project_type: State Key Laboratory of Internet of Things for Smart City (University of Macau) (SKL-IoTSC (UM)) Open Research Project (ORP)
+  period: 2025.01.01~2026.12.31
+  budget: 澳门元(MOP)5万元
+  person: 孙宁
+- title: 具有双摆效应的欠驱动起重机建模与防摆控制研究
+  project_type: 天津市应用基础与前沿技术研究计划(青年项目)
+  period: 2015.4.1~2018.3.31
+  budget: 6万元
   person: 孙宁

@@ -1,12 +1,102 @@
 - title: 基于扩展卡尔曼滤波的吊车系统模型预测控制方法及系统
   patent_number: ZL202410176342.2
   inventors: 孙宁，翟猛，国树东，毕新泗，陈晓伟，武毅男，杨桐，吴庆祥
-  date: 2024-05-07
+  date: 2024.05.07
   patent_type: "中国发明专利"
   status: "授权"
 - title: 基于平坦输出的吊车系统非线性控制方法及系统
   patent_number: ZL202410070854.0
   inventors: 孙宁，刘卓清，庞瑞平，马溢坚，周子骏，吴冠军，程亚龙，武毅男，杨桐，吴庆祥
-  date: 2024-06-14
+  date: 2024.06.14
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 一种起重机控制方法、系统、介质、设备及产品
+  patent_number: ZL202410674477.1
+  inventors: 孙宁，翟猛，金世贵，武毅男，庞瑞平，吴庆祥，姜竹语，张超，杨桐，孙开余
+  date: 2024.08.16
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 一种基于人机共融的塔式起重机自动控制方法及系统
+  patent_number: ZL202311785153.7
+  inventors: 吴庆祥，孙宁，国树东，陈晓伟，武毅男，杨桐，毕新泗
+  date: 2024.4.26
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 一种基于操作意图识别的起重机控制方法与系统
+  patent_number: ZL202410051135.4
+  inventors: 吴庆祥，邬雅轩，庞瑞平，伍蒋军，周子骏，张涛，程亚龙，武毅男，孙宁，杨桐
+  date: 2024.8.30
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 一种塔式起重机运动规划方法、系统、介质、设备及产品
+  patent_number: ZL202410668547.2
+  inventors: 吴庆祥，刘卓清，国树东，卢正杰，苏光军，毕新泗，陈晓伟，武毅男，孙宁，杨桐
+  date: 2024.9.6
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 欠驱动吊车自适应消摆定位控制方法
+  patent_number: ZL201410649866.5
+  inventors: 孙宁，方勇纯，陈鹤
+  date: 2016.8.24
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 双摆吊车能耗最优轨迹规划方法
+  patent_number: ZL201710259680.2
+  inventors: 孙宁，吴易鸣，方勇纯，陈鹤
+  date: 2018.7.17
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 考虑持续干扰与参数不确定性的船用吊车控制方法
+  patent_number: ZL201710259672.8
+  inventors: 孙宁，陈鹤，方勇纯，吴易鸣
+  date: 2018.7.20
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 欠驱动船用吊车有限时间内定位控制方法、装置及系统
+  patent_number: ZL201810400807.2
+  inventors: 孙宁，杨桐，陈鹤，方勇纯
+  date: 2019.5.17
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 多旋转激励平移振荡器系统非线性耦合自适应控制方法
+  patent_number: ZL201710273827.3
+  inventors: 孙宁，吴易鸣，方勇纯，陈鹤
+  date: 2019.12.3
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 欠驱动桅杆式起重机定位消摆非线性控制方法
+  patent_number: ZL201710300394.6
+  inventors: 孙宁，杨桐，陈鹤，钱彧哲，方勇纯
+  date: 2019.12.3
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 基于状态观测的船用吊车消摆定位控制方法和系统
+  patent_number: ZL201810399899.7
+  inventors: 孙宁，杨桐，陈鹤，方勇纯
+  date: 2020.6.30
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 柔性吊车下摆角测量、自动控制以及评价系统与方法
+  patent_number: ZL201811361433.4
+  inventors: 孙宁，张晓阳，马进，杨若出，苗俞城，姜璨，张建一，方勇纯
+  date: 2020.11.6
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 变绳长起重机系统时间最优轨迹规划方法、装置及系统
+  patent_number: ZL201810146833.7
+  inventors: 孙宁，吴易鸣，陈鹤，张建一，方勇纯
+  date: 2021.9.10
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 考虑误差约束的打磨机器人力 / 位混合控制方法及系统
+  patent_number: ZL202110401790.4
+  inventors: 孙宁，张程琳，邱泽昊，桑文闯，方勇纯
+  date: 2022.3.4
+  patent_type: "中国发明专利"
+  status: "授权"
+- title: 一种面向修锭过程的机器人轨迹规划方法及系统
+  patent_number: ZL202110355446.6
+  inventors: 孙宁，桑文闯，邱泽昊，张程琳，方勇纯
+  date: 2022.5.3
   patent_type: "中国发明专利"
   status: "授权"
