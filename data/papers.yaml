@@ -1,12 +1,775 @@
 # data/paper.yaml
 - title: "Integral barrier function-based adaptive output feedback robust force control for pneumatic compliant end-effectors with complex hysteresis"
   authors: 
-    - Haoqi Tang*, Qingxiang Wu*
+    - Haoqi Tang#, Qingxiang Wu#
     - Zhuoqing Liu
     - Yongchun Fang
-    - Ning Sun#
+    - Ning Sun*
   journal: IEEE Transactions on Industrial Electronics
   doi: 10.1109/TIE.2024.3433608
+- title: "Finite-time synchronous motion control for pneumatic muscle-actuated parallel robots in Cartesian space"
+  authors:
+    - Shuzhen Diao
+    - Gendi Liu
+    - Tong Yang
+    - Menghua Zhang
+    - Yanding Qin
+    - Wei Sun
+    - Ning Sun*
+  journal: IEEE/ASME Transactions on Mechatronics
+  doi: 10.1109/TMECH.2024.3454172
+- title: "Extended Kalman filtering - based nonlinear model predictive control for underactuated systems with multiple constraints and obstacle avoidance"
+  authors:
+    - Meng Zhai
+    - Tong Yang
+    - Qingxiang Wu
+    - Shudong Guo
+    - Ruiping Pang
+    - Ning Sun*
+  journal: IEEE Transactions on Cybernetics
+  volume: 55
+  number: 1
+  pages: 369-382
+  time: Jan 2025
+- title: "Practical finite - time compliant control for horizontal pneumatic artificial muscle systems under force - sensorless reflecting"
+  authors:
+    - Gendi Liu
+    - Shuzhen Diao
+    - Zhuoqing Liu
+    - Xinlin Zhang
+    - Xue Xiao
+    - Song Men
+    - Ning Sun*
+  journal: IEEE Transactions on Automation Science and Engineering
+  doi: 10.1109/TASE.2024.3507281
+- title: "LSTM - NN - enhanced tracking control for PAM - driven parallel robot systems with guaranteed performance（录用）"
+  authors:
+    - Xinlin Zhang
+    - Shuzhen Diao
+    - Tong Yang
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Circuits and Systems I:Regular Papers
+- title: "Accelerated gradient - based neuroadaptive synchronization control for antagonistic PAM robot hands with obstacle avoidance and motion constraints"
+  authors:
+    - Tong Yang
+    - Yuexuan Xu
+    - Yongchun Fang
+    - David Navarro - Alarcon
+    - Song Men
+    - Ning Sun*
+  journal: IEEE Transactions on Medical Robotics and Bionics
+  doi: 10.1109/TMRB.2025.3527695
+- title: "Hysteresis compensation - based intelligent control for pneumatic artificial muscle - driven humanoid robot manipulators with experiments verification"
+  authors:
+    - Xinlin Zhang
+    - Ning Sun*
+    - Gendi Liu
+    - Tong Yang
+    - Yongchun Fang
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 21
+  number: 3
+  pages: 2538 - 2551
+  time: July 2024
+- title: "Deep reinforcement learning - based control for asynchronous motor - actuated triple pendulum crane systems with distributed mass payloads"
+  authors:
+    - Qingxiang Wu
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 71
+  number: 2
+  pages: 1853-1862
+  time: Feb. 2024
+- title: "Adaptive compensation tracking control for parallel robots actuated by pneumatic artificial muscles with error constraints"
+  authors:
+    - Qihang Wang
+    - Tong Yang
+    - Gendi Liu
+    - Yanding Qin*
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 20
+  number: 2
+  pages: 1585-1595
+  time: Feb. 2024
+- title: "Assembly - oriented finite - time coordinated control of underactuated dual rotary cranes for payload position and attitude regulation"
+  authors:
+    - Zhuoqing Liu
+    - Ning Sun*
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 21
+  number: 3
+  pages: 3678 - 3690
+  time: July 2024
+- title: "Concurrent learning - based adaptive control of underactuated robotic systems with guaranteed transient performance for both actuated and unactuated motions"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 35
+  number: 12
+  pages: 18133-18144
+  time: Dec. 2024
+- title: "Adaptive Fuzzy control of underactuated switched systems with disturbance observation and actuated/unactuated motion constraints"
+  authors:
+    - Tong Yang
+    - Meng Zhai
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Fuzzy Systems
+  volume: 32
+  number: 3
+  pages: 1195-1207
+  time: March 2024
+- title: "Prescribed - time adaptive fuzzy control for pneumatic artificial muscle - actuated parallel robots with input constraints"
+  authors:
+    - Shuzhen Diao
+    - Gendi Liu
+    - Zhuoqing Liu
+    - Lu Zhou
+    - Wei Sun
+    - Yu Wang
+    - Ning Sun*
+  journal: IEEE Transactions on Fuzzy Systems
+  volume: 32
+  number: 4
+  pages: 2039-2051
+  time: Apr. 2024
+- title: "Data - based dual - loop learning control of underactuated systems with disturbance prediction and input - output constraints"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Meng Zhai
+    - Yongchun Fang
+    - Qingxiang Wu
+  journal: IEEE Transactions on Artificial Intelligence
+  volume: 5
+  number: 7
+  pages: 3419-3430
+  time: July 2024
+- title: "Unactuated and actuated states simultaneously constrained optimal trajectory planning - based path - following control for underactuated robots"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Meng Zhai
+    - Yongchun Fang
+  journal: IEEE Transactions on Cybernetics
+  volume: 54
+  number: 9
+  pages: 5127-5140
+  time: Sep. 2024
+- title: "Disturbance preview - based output feedback predictive control for pneumatic artificial muscle robot systems with hysteresis compensation"
+  authors:
+    - Xinlin Zhang
+    - Ning Sun*
+    - Gendi Liu
+    - Tong Yang
+    - Jun Yang*
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 29
+  number: 5
+  pages: 3936-3948
+  time: Oct. 2024
+- title: "Adaptive fuzzy control for underactuated robot systems with inaccurate actuated states and unavailable unactuated states"
+  authors:
+    - Meng Zhai
+    - Shuzhen Diao
+    - Tong Yang
+    - Qingxiang Wu
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 22
+  pages: 1566-1578
+  time: 2025
+- title: "A new three - dimensional deformation pneumatic soft actuator with mutually vertical PneuNets"
+  authors:
+    - Zehao Qiu
+    - Qingxiang Wu*
+    - Zhuoqing Liu
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 71
+  number: 12
+  pages: 16003-16012
+  time: Dec. 2024
+- title: "Supervisor learning control for compliant pneumatic artificial muscle robots with preassigned - time performance"
+  authors:
+    - Gendi Liu
+    - Shuzhen Diao
+    - Tong Yang
+    - Xinlin Zhang
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 54
+  number: 9
+  pages: 5352 - 5364
+  time: Sept. 2024
+- title: "Optimal trajectory - based control of 3 - D dual rotary cranes for payload dynamic regulation in complex environments"
+  authors:
+    - Zhuoqing Liu
+    - Tong Yang
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Artificial Intelligence
+  volume: 5
+  number: 11
+  pages: 5452-5464
+  time: Nov. 2024
+- title: "Adaptive set - membership filter based discrete sliding mode control for pneumatic artificial muscle systems with hardware experiments"
+  authors:
+    - Yanding Qin
+    - Haoqi Zhang
+    - Xiangyu Wang
+    - Ning Sun
+    - Jianda Han
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 21
+  number: 2
+  pages: 1682-1694
+  time: April 2024
+- title: "Precise motion control for self - reconfiguration wave - like crawling robots in parallel connection with limited resources"
+  authors:
+    - Haosheng Sun
+    - Qingxiang Wu
+    - Huawang Liu
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Robotics and Automation Letters
+  volume: 9
+  number: 9
+  pages: 7883 - 7890
+  time: Sept. 2024
+- title: "Underactuated mechanical systems with both actuator and actuated/unactuated state constraints: A predictive control - based approach"
+  authors:
+    - Meng Zhai
+    - Ning Sun*
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 28
+  number: 3
+  pages: 1359 - 1371
+  time: June 2023
+- title: "Ship - mounted cranes hoisting underwater payloads: Transportation control with guaranteed constraints on overshoots and swing"
+  authors:
+    - Yue Wang#
+    - Tong Yang#
+    - Meng Zhai
+    - Yongchun Fang
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 19
+  number: 10
+  pages: 9968 - 9978
+  time: Oct. 2023
+  doi: 10.1109/TII.2022.3230706
+- title: "Optimal collaborative motion planning of dual boom cranes for transporting payloads to desired positions and attitudes"
+  authors:
+    - Zhuoqing Liu
+    - Ning Sun*
+  journal: IEEE Transactions on Intelligent Transportation Systems
+  volume: 24
+  number: 6
+  pages: 6096 - 6110
+  time: June 2023
+- title: "Reinforcement - learning - based robust force control for compliant grinding via inverse hysteresis compensation"
+  authors:
+    - Haoqi Tang
+    - Zhuoqing Liu
+    - Tong Yang
+    - Lei Sun
+    - Yongchun Fang
+    - Xingjian Jing
+    - Ning Sun*
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 28
+  number: 6
+  pages: 3364 - 3375
+  time: Dec. 2023
+- title: "Adaptive optimal motion control of uncertain underactuated mechatronic systems with actuator constraints"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 28
+  number: 1
+  pages: 210 - 222
+  time: Feb. 2023
+  doi: 10.1109/TMECH.2022.3192002
+- title: "Reinforcement learning - based prescribed performance motion control of pneumatic muscle actuated robotic arms with measurement noises"
+  authors:
+    - Gendi Liu
+    - Ning Sun*
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 53
+  number: 3
+  pages: 1801 - 1812
+  time: Mar. 2023
+  doi: 10.1109/TSMC.2022.3207575
+- title: "New adaptive control methods for n - link robot manipulators with online gravity compensation: Design and experiments"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Yongchun Fang
+    - Xin Xin
+    - He Chen
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 69
+  number: 1
+  pages: 539 - 548
+  time: Jan. 2022
+  doi: 10.1109/TIE.2021.3050371
+- title: "Adaptive fuzzy control for a class of MIMO underactuated systems with plant uncertainties and actuator deadzones: Design and experiments"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Yongchun Fang
+  journal: IEEE Transactions on Cybernetics
+  volume: 52
+  number: 8
+  pages: 8213 - 8226
+  time: Aug. 2022
+  doi: 10.1109/TCYB.2021.3050475
+- title: "Adaptive fuzzy control for uncertain mechatronic systems with state estimation and input nonlinearities"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 18
+  number: 3
+  pages: 1770 - 1780
+  time: Mar. 2022
+  doi: 10.1109/TII.2021.3089143
+- title: "Energy - based motion control for pneumatic artificial muscle - actuated robots with experiments"
+  authors:
+    - Dingkun Liang
+    - Ning Sun*
+    - Yiming Wu
+    - Yiheng Chen
+    - Yongchun Fang
+    - Lianqing Liu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 69
+  number: 7
+  pages: 7295 - 7306
+  time: July 2022
+  doi: 10.1109/TIE.2021.3095788
+- title: "Adaptive coupling anti - swing tracking control of underactuated dual boom crane systems"
+  authors:
+    - Yu Fu
+    - Ning Sun*
+    - Tong Yang
+    - Zehao Qiu
+    - Yongchun Fang
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 52
+  number: 7
+  pages: 4697 - 4709
+  time: July 2022
+  doi: 10.1109/TSMC.2021.3102244
+- title: "Fuzzy - sliding mode control for humanoid arm robots actuated by pneumatic artificial muscles with unidirectional inputs, saturations, and dead zones"
+  authors:
+    - Dingkun Liang
+    - Ning Sun
+    - Yiming Wu
+    - Gendi Liu
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 18
+  number: 5
+  pages: 3011 - 3021
+  time: May 2022
+  doi: 10.1109/TII.2021.3111655
+- title: "New adaptive dynamic output feedback control of double - pendulum ship - mounted cranes with accurate gravitational compensation and constrained inputs"
+  authors:
+    - Yiming Wu
+    - Ning Sun*
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 69
+  number: 9
+  pages: 9196 - 9205
+  time: Sep. 2022
+  doi: 10.1109/TIE.2021.3112978
+- title: "Neuroadaptive control for complicated underactuated systems with simultaneous output and velocity constraints exerted on both actuated and unactuated states"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - Yongchun Fang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 34
+  number: 8
+  pages: 4488 - 4498
+  time: Aug. 2023
+- title: "An output feedback approach for regulation of 5 - DOF offshore cranes with ship yaw and roll perturbations"
+  authors:
+    - He Chen
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 69
+  number: 2
+  pages: 1705 - 1716
+  time: Feb. 2022
+  doi: 10.1109/TIE.2021.3055159
+- title: "Learning - based error - constrained motion control for pneumatic artificial muscle - actuated exoskeleton robots with hardware experiments"
+  authors:
+    - Tong Yang#
+    - Yiheng Chen#
+    - Ning Sun*
+    - Lianqing Liu*
+    - Yanding Qin
+    - Yongchun Fang
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 19
+  number: 4
+  pages: 3700 - 3711
+  time: Oct. 2022
+  doi: 10.1109/TASE.2021.3131034
+- title: "Collaborative antiswing hoisting control for dual rotary cranes with motion constraints"
+  authors:
+    - Zhuoqing Liu
+    - Yu Fu
+    - Ning Sun*
+    - Tong Yang
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 18
+  number: 9
+  pages: 6120 - 6130
+  time: Sep. 2022
+  doi: 10.1109/TII.2021.3137343
+- title: "Adaptive neural network output feedback control of uncertain underactuated systems with actuated and unactuated state constraints"
+  authors:
+    - Tong Yang
+    - He Chen
+    - Ning Sun*
+    - Yongchun Fang
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 52
+  number: 11
+  pages: 7027 - 7043
+  time: Nov. 2022
+  doi: 10.1109/TSMC.2021.3131843
+- title: "Observer - based adaptive fuzzy event - triggered control for mechatronic systems with inaccurate signal transmission and motion constraints"
+  authors:
+    - Tong Yang
+    - Xinlin Zhang
+    - Yongchun Fang
+    - Ning Sun*
+    - Makoto Iwasaki
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 27
+  number: 6
+  pages: 5208 - 5221
+  time: Dec. 2022
+- title: "Observer - based nonlinear control for tower cranes suffering from uncertain friction and actuator constraints with experimental verification"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 68
+  number: 7
+  pages: 6192 - 6204
+  time: July 2021
+  doi: 10.1109/TIE.2020.2992972
+- title: "Adaptive output feedback control for 5 - DOF varying - cable - length tower cranes with cargo mass estimation"
+  authors:
+    - Yiming Wu
+    - Ning Sun
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 17
+  number: 4
+  pages: 2453 - 2464
+  time: Apr. 2021
+  doi: 10.1109/TII.2020.3006179
+- title: "Adaptive control for pneumatic artificial muscle systems with parametric uncertainties and unidirectional input constraints"
+  authors:
+    - Ning Sun
+    - Dingkun Liang
+    - Yiming Wu
+    - Yiheng Chen
+    - Yanding Qin
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 16
+  number: 2
+  pages: 969 - 979
+  time: Feb. 2020
+  doi: 10.1109/TII.2019.2923715
+- title: "Nonlinear motion control of complicated dual rotary crane systems without velocity feedback: Design, analysis, and hardware experiments"
+  authors:
+    - Ning Sun
+    - Yu Fu
+    - Tong Yang
+    - Jianyi Zhang
+    - Yongchun Fang
+    - Xin Xin
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 17
+  number: 2
+  pages: 1017 - 1029
+  time: Apr. 2020
+  doi: 10.1109/TASE.2019.2961258
+- title: "Motion trajectory - based transportation control for 3 - D boom cranes: Analysis, design, and experiments"
+  authors:
+    - Tong Yang#
+    - Ning Sun#*
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 66
+  number: 5
+  pages: 3636 - 3646
+  time: May 2019
+  doi: 10.1109/TIE.2018.2853604
+- title: "Neural network - based adaptive antiswing control of an underactuated ship - mounted crane with roll motions and input dead zones"
+  authors:
+    - Tong Yang
+    - Ning Sun*
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 31
+  number: 3
+  pages: 901 - 914
+  time: Mar. 2020
+  doi: 10.1109/TNNLS.2019.2910580
+- title: "Nonlinear control of underactuated systems subject to both actuated and unactuated state constraints with experimental verification"
+  authors:
+    - He Chen
+    - Ning Sun*
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 67
+  number: 9
+  pages: 7702 - 7714
+  time: Sep. 2020
+  doi: 10.1109/TIE.2019.2946541
+- title: "An increased nonlinear coupling motion controller for underactuated multi - TORA systems: Theoretical design and hardware experimentation"
+  authors:
+    - Yiming Wu#
+    - Ning Sun3#*
+    - Yongchun Fang
+    - Dingkun Liang
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 49
+  number: 6
+  pages: 1186 - 1193
+  time: June 2019
+  doi: 10.1109/TSMC.2017.2723478
+- title: "Adaptive anti - swing and positioning control for 4 - DOF rotary cranes subject to uncertain/unknown parameters with hardware experiments"
+  authors:
+    - Ning Sun
+    - Tong Yang
+    - He Chen
+    - Yongchun Fang
+    - Yuzhe Qian
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 49
+  number: 7
+  pages: 1309 - 1321
+  time: July 2019
+  doi: 10.1109/TSMC.2017.2765183
+- title: "Transportation control of double - pendulum cranes with a nonlinear quasi - PID scheme: Design and experiments"
+  authors:
+    - Ning Sun
+    - Tong Yang
+    - Yongchun Fang
+    - Yiming Wu
+    - He Chen
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 49
+  number: 7
+  pages: 1408 - 1418
+  time: July 2019
+  doi: 10.1109/TSMC.2018.2871627
+- title: "Dynamic feedback antiswing control of shipboard cranes without velocity measurement: Theory and hardware experiments"
+  authors:
+    - Ning Sun
+    - Tong Yang
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 15
+  number: 5
+  pages: 2879 - 2891
+  time: May 2019
+  doi: "10.1109/TII.2018.2878935"
+- title: "Antiswing cargo transportation of underactuated tower crane systems by a nonlinear controller embedded with an integral term"
+  authors:
+    - Ning Sun
+    - Yiming Wu
+    - He Chen
+    - Yongchun Fang
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 16
+  number: 3
+  pages: 1387 - 1398
+  time: July 2019
+  doi: 10.1109/TASE.2018.2889434
+- title: "Nonlinear stable transportation control for double - pendulum shipboard cranes with ship - motion - induced disturbances"
+  authors:
+    - Ning Sun
+    - Yiming Wu
+    - Xiao Liang
+    - Yongchun Fang
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 66
+  number: 12
+  pages: 9467 - 9479
+  time: Dec. 2019
+  doi: 10.1109/TIE.2019.2893855
+- title: "Nonlinear stabilizing control for ship - mounted cranes with ship roll and heave movements: Design, analysis, and experiments"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Yiming Fu
+    - Biao Lu
+  journal: IEEE Transactions on Systems, Man, and Cybernetics：Systems
+  volume: 48
+  number: 10
+  pages: 1781 - 1793
+  time: Oct. 2018
+  doi: 10.1109/TSMC.2017.2700393
+- title: "Nonlinear antiswing control of offshore cranes with unknown parameters and persistent ship - induced perturbations: Theoretical design and hardware experiments"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Yiming Wu
+    - Biao Lu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 65
+  number: 3
+  pages: 2629 - 2641
+  time: Mar. 2018
+  doi: 10.1109/TIE.2017.2767523
+- title: "Nonlinear motion control of underactuated three - dimensional boom cranes with hardware experiments"
+  authors:
+    - Ning Sun
+    - Tong Yang
+    - Yongchun Fang
+    - Biao Lu
+    - Yuzhe Qian
+  journal: IEEE Transactions on Industrial Informatics
+  volume: 14
+  number: 3
+  pages: 887 - 897
+  time: Mar. 2018
+  doi: 10.1109/TII.2017.2754540
+- title: "Nonlinear antiswing control for crane systems with double - pendulum swing effects and uncertain parameters: Design and experiments"
+  authors:
+    - Ning Sun
+    - Yiming Wu
+    - Yongchun Fang
+    - He Chen
+  journal: IEEE Transactions on Automation Science and Engineering
+  volume: 15
+  number: 3
+  pages: 1413 - 1422
+  time: July 2018
+  doi: 10.1109/TASE.2017.2723539
+- title: "Amplitude - saturated nonlinear output feedback antiswing control for underactuated cranes with double - pendulum cargo dynamics"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Biao Lu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 64
+  number: 3
+  pages: 2135 - 2146
+  time: Mar. 2017
+  doi: 10.1109/TIE.2016.2623258
+- title: "Nonlinear stabilization control of multiple - RTAC systems subject to amplitude - restricted actuating torques using only angular position feedback"
+  authors:
+    - Ning Sun
+    - Yiming Wu
+    - Yongchun Fang
+    - He Chen
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 64
+  number: 4
+  pages: 3084 - 3094
+  time: Apr. 2017
+  doi: 10.1109/TIE.2016.2643598
+- title: "Nonlinear continuous global stabilization control for underactuated RTAC systems: Design, analysis, and experimentation"
+  authors:
+    - Ning Sun
+    - Yiming Wu
+    - Yongchun Fang
+    - He Chen
+    - Biao Lu
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 22
+  number: 2
+  pages: 1104 - 1115
+  time: Apr. 2017
+  doi: 10.1109/TMECH.2016.2631550
+- title: "Amplitude-saturated nonlinear output feedback antiswing control for underactuated cranes with double-pendulum cargo dynamics"
+  authors: 
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Biao Lu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 64
+  number: 3
+  pages: 2135-2146
+  time: Mar. 2017
+  doi: 10.1109/TIE.2016.2623258
+- title: "A new antiswing control method for underactuated cranes with unmodeled uncertainties: Theoretical design and hardware experiments"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 62
+  number: 1
+  pages: 453 - 465
+  time: Jan. 2015
+- title: "Adaptive nonlinear crane control with load hoisting/lowering and unknown parameters: Design and experiments"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Bo He
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 20
+  number: 5
+  pages: 2107 - 2119
+  time: Oct. 2015
+- title: "Nonlinear tracking control of underactuated cranes with load transferring and lowering: Theory and experimentation"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+  journal: Automatica
+  volume: 50
+  number: 9
+  pages: 2350 - 2357
+  time: Sep. 2014
+- title: "Slew/translation positioning and swing suppression for 4 - DOF tower cranes with parametric uncertainties: Design and hardware experimentation"
+  authors:
+    - Ning Sun
+    - Yongchun Fang
+    - He Chen
+    - Biao Lu
+    - Yiming Fu
+  journal: IEEE Transactions on Industrial Electronics
+  volume: 63
+  number: 10
+  pages: 6407 - 6418
+  time: Oct. 2016
+  doi: 10.1109/TIE.2016.2587249
 - title: "Energy coupling output feedback control of 4-DOF underactuated cranes with saturated inputs"
   authors: 
     - Ning Sun
@@ -26,15 +789,14 @@
   number: 12
   pages: 4723-4734
   time: Dec. 2012.
-- title: "Amplitude-saturated nonlinear output feedback antiswing control for underactuated cranes with double-pendulum cargo dynamics"
-  authors: 
+- title: "A novel kinematic coupling - based trajectory planning method for overhead cranes"
+  authors:
     - Ning Sun
     - Yongchun Fang
-    - He Chen
-    - Biao Lu
-  journal: IEEE Transactions on Industrial Electronics
-  volume: 64
-  number: 3
-  pages: 2135-2146
-  time: Mar. 2017
-  doi: 10.1109/TIE.2016.2623258
+    - Yudong Zhang
+    - Bojun Ma
+  journal: IEEE/ASME Transactions on Mechatronics
+  volume: 17
+  number: 1
+  pages: 166 - 173
+  time: Feb. 2012
