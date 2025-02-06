@@ -4,6 +4,7 @@ position: "硕士" # 写硕士或博士
 contact: "fuy@mail.nankai.edu.cn" # 邮箱
 description: "地面移动机器人运动规划与控制" # 研究课题
 photo: "/url_test/student/fuyu/photo.jpg" # 把wanghai改成自己名字的拼音
+place: 13
 item:
 - 南昌大学学士 # 改成自己的最高学位
 - 第十八届全国大学生智能汽车竞赛完全模型组全国一等奖 # 个人成果奖项奖励，总共不要超过4条，精简写

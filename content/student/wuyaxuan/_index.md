@@ -4,6 +4,7 @@ position: "硕士"
 contact: "wuyx@mail.nankai.edu.cn" 
 description: "悬吊微低重力模拟系统随动控制" 
 photo: "/url_test/student/wuyaxuan/photo.jpg" 
+place: 8
 item:
 - 吉林大学学士 
 - 发表EI会议论文1篇，授权发明专利一项

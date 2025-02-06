@@ -56,7 +56,58 @@
         {{ end }}
         {{ end }}
     </div>
-
+    <h3 style="margin-top: 0px;">即将入学</h3>
+    <div style="display: flex; width: 100%; flex-wrap: wrap; ">
+        {{ range (sort (where .Site.Pages "Type" "student") "Params.place" "asc") }}
+        {{ if eq .Params.position "硕士即将入学" }}
+        <div class="student-card">
+            {{ with .Params.photo }}
+            <div class="student-photo">
+                <img src="{{ . }}" alt="">
+            </div>
+            {{ end }}
+            <div class="student-info">
+                <p style="font-size: large; padding-bottom: 0.6rem; ">
+                    <span>
+                        {{ .Title }}
+                    </span>| <span style="color: rgb(25, 73, 163);">硕士研究生</span>
+                </p>
+                <p>电子邮箱： {{.Params.contact}}</p>
+                <p>研究方向： {{ .Params.description}}</p>
+                <ul>
+                    {{ range .Params.item }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+        {{ end }}
+        {{ if eq .Params.position "博士即将入学" }}
+        <div class="student-card">
+            {{ with .Params.photo }}
+            <div class="student-photo">
+                <img src="{{ . }}" alt="">
+            </div>
+            {{ end }}
+            <div class="student-info">
+                <p style="font-size: large; padding-bottom: 0.6rem; ">
+                    <span>
+                        {{ .Title }}
+                    </span>| <span style="color: rgb(25, 73, 163);">硕士研究生</span>
+                </p>
+                <p>电子邮箱： {{.Params.contact}}</p>
+                <p>研究方向： {{ .Params.description}}</p>
+                <ul>
+                    {{ range .Params.item }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    
 </div>
 
 <style>

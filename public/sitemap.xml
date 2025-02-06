@@ -133,9 +133,6 @@
     <loc>http://localhost:1313/url_test/carousel/carousel3/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/student/sunchaoye/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/url_test/alumnus/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -163,9 +160,6 @@
     <loc>http://localhost:1313/url_test/student/liuzhuoqing/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/student/liujidong/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/url_test/student/liutianle/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -188,6 +182,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/student/sunhaosheng/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/url_test/student/sunchaoye/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/student/suyuanhao/</loc>
