@@ -3,7 +3,11 @@
 }
 
 section#research_award div.flex {
-    max-width: 0vw!important ;
+    max-width: 90vw!important ;
+}
+
+section#research_award div.flex div.p {
+    width: 100%!important;
 }
 
 .professor-profile {
