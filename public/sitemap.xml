@@ -199,6 +199,9 @@
     <loc>http://localhost:1313/url_test/student/zhangxinlin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/url_test/student/zhangqiuming/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/url_test/student/xuyuexuan/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
