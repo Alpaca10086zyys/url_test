@@ -60,7 +60,7 @@
 
     .award-item {
         border-bottom: 1px solid rgb(185, 185, 185);
-        height: 120px;
+        padding: 10px;
     }
 
     .award-item p {
@@ -162,17 +162,18 @@
     </div>
     <div class="responsive-container">
         <div class="research-list">
-            <div style="display: flex; justify-content: space-between;">
-                <h3 style="margin-top: 0px;">研究方向</h3>
-                <a href="/url_test/research" style="margin: 5px 20px;">more</a>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h4 style="margin: 0; color: #711a5f;">研究方向</h4>
+                <a href="/url_test/research" style="margin: 0 20px;">more</a>
             </div>
+            
             {{ $item := (sort (where .Site.RegularPages "Section" "research") ".Params.place" "asc") }}
             {{ range first 3 $item }}
             {{ if eq .Params.type "docs" }}
             <div class="research-card">
                 <div class="research-text">
                     <a href="{{ .RelPermalink }}">
-                        <h4 style="font-size: 1.4rem; margin-top: 10px;">{{ .Title }}</h4>
+                        <h4 style="font-size: 1.1rem; margin-top: 10px;">{{ .Title }}</h4>
                         <p
                             style="font-size: 1.1rem; text-indent: 2em; text-align: justify; text-overflow: ellipsis; overflow: hidden;">
                             {{ .Summary }}
@@ -198,16 +199,16 @@
             {{ end }}
         </div> -->
         <div class="award-news">
-            <div style="display: flex; justify-content: space-between;">
-                <h3 style="margin-top: 0px;">科研动态</h3>
-                <a href="/url_test/research_news" style="margin: 5px 20px;">more</a>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h4 style="margin: 0; color: #711a5f;">科研动态</h4>
+                <a href="/url_test/research_news" style="margin: 0 20px;">more</a>
             </div>
             <!-- 动态内容容器 -->
             <div class="award-items">
                 {{ $item = .Site.Data.research_news }}
-                {{ range first 4 $item }}
+                {{ range first 5 $item }}
                 <div class="award-item">
-                    <p style="font-size: 1.1rem; margin-top: 0px;">{{ .title }} | {{ .date }}</p>
+                    <p style="font-size: 1rem; margin: 0 auto;">{{ .title }} | {{ .date }}</p>
                 </div>
                 {{ end }}
             </div>
@@ -223,93 +224,3 @@
     </div>
 </div>
 
-<!-- 自定义分页脚本 -->
-<script>
-    const itemsPerPage = 4;  // 每页显示的条目数
-    let currentPage = 1;
-    const items = document.querySelectorAll('.award-item');
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-    const maxPageButtons = 5;  // 最多显示5个页码按钮
-
-    // 初始化显示页面内容
-    function showPage(page) {
-        const start = (page - 1) * itemsPerPage;
-        const end = start + itemsPerPage;
-
-        // 隐藏所有内容
-        items.forEach(item => item.style.display = 'none');
-
-        // 显示当前页内容
-        for (let i = start; i < end && i < items.length; i++) {
-            items[i].style.display = 'block';
-        }
-
-        // 更新按钮状态
-        document.getElementById('prevBtn').disabled = page > 1 ? false : true;
-        document.getElementById('nextBtn').disabled = page < totalPages ? false : true;
-
-        // 更新页码显示
-        document.getElementById('pageNumber').textContent = `第 ${page} 页`;
-
-        // 更新页码按钮
-        updatePageButtons();
-    };
-
-    // 更新页码按钮
-    function updatePageButtons() {
-        const pageButtonsContainer = document.getElementById('pageButtons');
-        pageButtonsContainer.innerHTML = '';  // 清空现有的页码按钮
-
-        let startPage, endPage;
-
-        // 如果总页数小于等于最大显示的页码数，显示所有页码
-        if (totalPages <= maxPageButtons) {
-            startPage = 1;
-            endPage = totalPages;
-        } else {
-            // 计算开始和结束页码
-            if (currentPage <= 3) {
-                startPage = 1;
-                endPage = maxPageButtons;
-            } else if (currentPage >= totalPages - 2) {
-                startPage = totalPages - maxPageButtons + 1;
-                endPage = totalPages;
-            } else {
-                startPage = currentPage - 2;
-                endPage = currentPage + 2;
-            }
-        }
-
-        // 生成页码按钮
-        for (let i = startPage; i <= endPage; i++) {
-            const button = document.createElement('button');
-            button.textContent = i;
-            button.classList.add('page-button');
-            button.onclick = () => showPage(i);
-            if (i === currentPage) {
-                button.classList.add('active');  // 高亮当前页
-            }
-            pageButtonsContainer.appendChild(button);
-        }
-
-        // 如果页码中间有省略号，插入...
-        if (endPage < totalPages) {
-            const ellipsis = document.createElement('span');
-            ellipsis.textContent = '...';
-            ellipsis.classList.add('ellipsis');
-            pageButtonsContainer.appendChild(ellipsis);
-        }
-    }
-
-
-    // 切换页面
-    function changePage(direction) {
-        currentPage += direction;
-        if (currentPage < 1) currentPage = 1;
-        if (currentPage > totalPages) currentPage = totalPages;
-        showPage(currentPage);
-    }
-
-    // 初始化时显示第一页
-    showPage(currentPage);
-</script>
