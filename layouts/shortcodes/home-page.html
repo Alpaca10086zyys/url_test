@@ -204,7 +204,8 @@
             </div>
             <!-- 动态内容容器 -->
             <div class="award-items">
-                {{ range .Site.Data.research_news }}
+                {{ $item = .Site.Data.research_news }}
+                {{ range first 4 $item }}
                 <div class="award-item">
                     <p style="font-size: 1.1rem; margin-top: 0px;">{{ .title }} | {{ .date }}</p>
                 </div>
@@ -212,12 +213,12 @@
             </div>
 
             <!-- 分页按钮 -->
-            <div class="pagination">
+            <!-- <div class="pagination">
                 <button id="prevBtn" onclick="changePage(-1)">上一页</button>
                 <div id="pageButtons"></div>
                 <button id="nextBtn" onclick="changePage(1)">下一页</button>
                 <span id="pageNumber">第 1 页</span>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

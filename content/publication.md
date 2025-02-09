@@ -26,7 +26,7 @@ sections:
   - block: markdown
     id: papers
     content:
-      title: 论文发表
+      title: 论文
       text: |-
         {{< paper-list >}}
   - block: markdown

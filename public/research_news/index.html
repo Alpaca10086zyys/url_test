@@ -1391,12 +1391,7 @@
     </div>
 
     
-    <div class="pagination">
-        <button id="prevBtn" onclick="changePage(-1)">上一页</button>
-        <div id="pageButtons"></div>
-        <button id="nextBtn" onclick="changePage(1)">下一页</button>
-        <span id="pageNumber">第 1 页</span>
-    </div>
+    
 </div>
 
 <style>
@@ -1473,95 +1468,7 @@
 </style>
 
 
-<script>
-    const itemsPerPage = 10;  
-    let currentPage = 1;
-    const items = document.querySelectorAll('.award-item');
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-    const maxPageButtons = 5;  
 
-    
-    function showPage(page) {
-        const start = (page - 1) * itemsPerPage;
-        const end = start + itemsPerPage;
-
-        
-        items.forEach(item => item.style.display = 'none');
-
-        
-        for (let i = start; i < end && i < items.length; i++) {
-            items[i].style.display = 'block';
-        }
-
-        
-        document.getElementById('prevBtn').disabled = page > 1 ? false : true;
-        document.getElementById('nextBtn').disabled = page < totalPages ? false : true;
-
-        
-        document.getElementById('pageNumber').textContent = `第 ${page} 页`;
-
-        
-        updatePageButtons();
-    };
-
-    
-    function updatePageButtons() {
-        const pageButtonsContainer = document.getElementById('pageButtons');
-        pageButtonsContainer.innerHTML = '';  
-
-        let startPage, endPage;
-
-        
-        if (totalPages <= maxPageButtons) {
-            startPage = 1;
-            endPage = totalPages;
-        } else {
-            
-            if (currentPage <= 3) {
-                startPage = 1;
-                endPage = maxPageButtons;
-            } else if (currentPage >= totalPages - 2) {
-                startPage = totalPages - maxPageButtons + 1;
-                endPage = totalPages;
-            } else {
-                startPage = currentPage - 2;
-                endPage = currentPage + 2;
-            }
-        }
-
-        
-        for (let i = startPage; i <= endPage; i++) {
-            const button = document.createElement('button');
-            button.textContent = i;
-            button.classList.add('page-button');
-            button.onclick = () => showPage(i);
-            if (i === currentPage) {
-                button.classList.add('active');  
-            }
-            pageButtonsContainer.appendChild(button);
-        }
-
-        
-        if (endPage < totalPages) {
-            const ellipsis = document.createElement('span');
-            ellipsis.textContent = '...';
-            ellipsis.classList.add('ellipsis');
-            pageButtonsContainer.appendChild(ellipsis);
-        }
-    }
-
-
-    
-    function changePage(direction) {
-        currentPage += direction;
-        if (currentPage < 1) currentPage = 1;
-        if (currentPage > totalPages) currentPage = totalPages;
-        showPage(currentPage);
-    }
-
-    
-    showPage(currentPage);
-</script>
 </div>
 </div>
 
