@@ -1286,7 +1286,8 @@
     }
 
     .pagination .page-button {
-        padding: 5px 10px;   
+        padding: 5px 10px;
+         
         cursor: pointer;
         font-weight: bold;
         font-size: 1rem;
@@ -1295,12 +1296,14 @@
     }
 
     .pagination .page-button:hover {
-        color: #4CAF50;   
+        color: #4CAF50;
+         
         transform: scale(1.1);
     }
 
     .pagination .page-button.active {
-        color: #4CAF50;   
+        color: #4CAF50;
+         
     }
 
     .pagination .ellipsis {
@@ -1318,6 +1321,24 @@
             width: 80vw;
             flex-direction: column;
             align-items: center;
+        }
+
+        .research-list {
+            width: 100%;
+             
+        }
+
+        .research-card h4 {
+            font-size: 1rem !important;
+        }
+
+        .research-card p {
+            font-size: 0.8rem !important;
+        }
+
+        .award-news {
+            width: 100%;
+             
         }
 
     }
@@ -1540,6 +1561,27 @@
             .carousel-dots{
                 bottom: 2%;
             }
+        }
+    
+        @media (max-width:600px){
+            .carousel-image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;  
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .carousel-image-container img {
+            width: 100%;
+            height: 200px;
+            margin: 0;
+            object-fit: contain;
+            transition: transform 0.3s ease;  
+            display: block;
+        }
         }
     </style>
     

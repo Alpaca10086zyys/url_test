@@ -10,10 +10,9 @@
       <div class=" bg-white p-2 mb-2 w-full" style="border-top: 1px solid rgb(215, 210, 210);">
         <p>
           <span class="text-m text-gray-800 mb-2">
-            <strong>{{ index .authors 0 }} ,</strong>
             {{ if .authors }}
               {{ range $index, $author := .authors }}
-                {{ if ne $index 0 }}{{ $author }} ,{{ end }}
+                {{ $author }} ,
               {{ end }}
             {{ end }}
           </span>      
