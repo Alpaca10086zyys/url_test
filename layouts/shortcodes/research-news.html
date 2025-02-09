@@ -1,0 +1,181 @@
+<div class="paper-container">
+    <div class="award-items">
+        {{ range .Site.Data.research_news }}
+        <div class="award-item">
+            <p style="font-size: 1.1rem; margin-top: 0px;">▣  {{ .title }} | {{ .date }}</p>
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- 分页按钮 -->
+    <div class="pagination">
+        <button id="prevBtn" onclick="changePage(-1)">上一页</button>
+        <div id="pageButtons"></div>
+        <button id="nextBtn" onclick="changePage(1)">下一页</button>
+        <span id="pageNumber">第 1 页</span>
+    </div>
+</div>
+
+<style>
+    .paper-container {
+        width: 75vw;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+
+    .award-item {
+        border-bottom: 1px solid rgb(185, 185, 185);
+        padding: 10px;
+    }
+
+    .award-item p {
+        margin: 0 auto;
+        /* padding: 10px; */
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .pagination span {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333;
+        display: flex;
+        align-items: center;
+    }
+
+    .pagination .page-button {
+        padding: 5px 10px;  /* 较小的内边距 */
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #333;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    .pagination .page-button:hover {
+        color: #4CAF50;  /* 鼠标悬停时改变颜色 */
+        transform: scale(1.1);
+    }
+
+    .pagination .page-button.active {
+        color: #4CAF50;  /* 当前页高亮 */
+    }
+
+    .pagination .ellipsis {
+        font-weight: bold;
+        color: #333;
+    }
+
+    #pageButtons {
+        display: flex;
+        /* gap: 5px; */
+    }
+
+    @media (max-width: 800px) {
+        .responsive-container {
+            width: 80vw;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+</style>
+
+<!-- 自定义分页脚本 -->
+<script>
+    const itemsPerPage = 10;  // 每页显示的条目数
+    let currentPage = 1;
+    const items = document.querySelectorAll('.award-item');
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    const maxPageButtons = 5;  // 最多显示5个页码按钮
+
+    // 初始化显示页面内容
+    function showPage(page) {
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+
+        // 隐藏所有内容
+        items.forEach(item => item.style.display = 'none');
+
+        // 显示当前页内容
+        for (let i = start; i < end && i < items.length; i++) {
+            items[i].style.display = 'block';
+        }
+
+        // 更新按钮状态
+        document.getElementById('prevBtn').disabled = page > 1 ? false : true;
+        document.getElementById('nextBtn').disabled = page < totalPages ? false : true;
+
+        // 更新页码显示
+        document.getElementById('pageNumber').textContent = `第 ${page} 页`;
+
+        // 更新页码按钮
+        updatePageButtons();
+    };
+
+    // 更新页码按钮
+    function updatePageButtons() {
+        const pageButtonsContainer = document.getElementById('pageButtons');
+        pageButtonsContainer.innerHTML = '';  // 清空现有的页码按钮
+
+        let startPage, endPage;
+
+        // 如果总页数小于等于最大显示的页码数，显示所有页码
+        if (totalPages <= maxPageButtons) {
+            startPage = 1;
+            endPage = totalPages;
+        } else {
+            // 计算开始和结束页码
+            if (currentPage <= 3) {
+                startPage = 1;
+                endPage = maxPageButtons;
+            } else if (currentPage >= totalPages - 2) {
+                startPage = totalPages - maxPageButtons + 1;
+                endPage = totalPages;
+            } else {
+                startPage = currentPage - 2;
+                endPage = currentPage + 2;
+            }
+        }
+
+        // 生成页码按钮
+        for (let i = startPage; i <= endPage; i++) {
+            const button = document.createElement('button');
+            button.textContent = i;
+            button.classList.add('page-button');
+            button.onclick = () => showPage(i);
+            if (i === currentPage) {
+                button.classList.add('active');  // 高亮当前页
+            }
+            pageButtonsContainer.appendChild(button);
+        }
+
+        // 如果页码中间有省略号，插入...
+        if (endPage < totalPages) {
+            const ellipsis = document.createElement('span');
+            ellipsis.textContent = '...';
+            ellipsis.classList.add('ellipsis');
+            pageButtonsContainer.appendChild(ellipsis);
+        }
+    }
+
+
+    // 切换页面
+    function changePage(direction) {
+        currentPage += direction;
+        if (currentPage < 1) currentPage = 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        showPage(currentPage);
+    }
+
+    // 初始化时显示第一页
+    showPage(currentPage);
+</script>

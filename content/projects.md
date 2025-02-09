@@ -15,11 +15,5 @@ sections:
       title: 科研项目
       text: |-
         {{< project-list >}}
-  - block: markdown
-    id: research_award
-    content:
-      title: 科研奖励
-      text: |-
-        {{< project-award >}}
 
 ---

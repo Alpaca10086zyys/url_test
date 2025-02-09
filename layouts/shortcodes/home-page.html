@@ -177,8 +177,10 @@
             {{ end }}
         </div> -->
         <div class="award-news">
-            <h3 style="margin-top: 0px;">科研动态</h3>
-
+            <div style="display: flex; justify-content: space-between;">
+                <h3 style="margin-top: 0px;">科研动态</h3>
+                <a href="/url_test/research_news" style="margin: 5px 20px;">more</a>
+            </div>
             <!-- 动态内容容器 -->
             <div class="award-items">
                 {{ range .Site.Data.research_news }}

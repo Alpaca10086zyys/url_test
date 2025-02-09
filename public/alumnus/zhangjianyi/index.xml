@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>张健一 | 欠驱动机器人实验室</title>
+    <title>张建一 | 欠驱动机器人实验室</title>
     <link>http://localhost:1313/url_test/alumnus/zhangjianyi/</link>
       <atom:link href="http://localhost:1313/url_test/alumnus/zhangjianyi/index.xml" rel="self" type="application/rss+xml" />
-    <description>张健一</description>
+    <description>张建一</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
       <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
-      <title>张健一</title>
+      <title>张建一</title>
       <link>http://localhost:1313/url_test/alumnus/zhangjianyi/</link>
     </image>
     

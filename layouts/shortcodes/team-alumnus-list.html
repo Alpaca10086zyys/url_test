@@ -25,6 +25,7 @@
         {{ end }}
     </div>
     <h3 style="margin-top: 0px;">毕业生</h3>
+    <h4>博士毕业生</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}
         {{ if eq .Params.position "博士" }}
@@ -52,6 +53,9 @@
         </div>
         {{ end }}
         {{ end }}
+    </div>
+    <h4>硕士毕业生</h4>
+    <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}
         {{ if eq .Params.position "硕士" }}
         <div class="alumnus-card" style="height: 240px;">

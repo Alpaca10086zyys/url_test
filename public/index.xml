@@ -749,7 +749,7 @@
 
 
 
-&lt;div id=&#34;chart-148326975&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-418297365&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -767,7 +767,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-148326975&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-418297365&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1421,6 +1421,14 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/url_test/team/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>科研动态</title>
+      <link>http://localhost:1313/url_test/research_news/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research_news/</guid>
       <description></description>
     </item>
     
