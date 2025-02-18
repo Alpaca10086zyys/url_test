@@ -4,6 +4,7 @@ position: "博士" # 写硕士或博士
 contact: "lgendi@mail.nankai.edu.cn" # 邮箱
 description: "气动人工肌肉机器人的建模与运动控制" # 研究课题
 photo: "/url_test/student/liugendi/photo.jpg" # 把wanghai改成自己名字的拼音
+url: "/url_test/student/liugendi/"
 place: 1
 item:
 - 哈尔滨工程大学学士 # 改成自己的最高学位

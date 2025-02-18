@@ -5,5 +5,6 @@ photo: "/url_test/teacher/sunning/photo.jpg"
 contact: "sunn@nankai.edu.cn"
 description: "欠驱动机器人、仿生与变结构机器人、特种工业机器人、智能控制方法及应用"
 link: "https://ai.nankai.edu.cn/info/1033/5214.htm"
+url: "url_test/teacher/sunning"
 place: 1
 ---

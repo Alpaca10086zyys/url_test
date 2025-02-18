@@ -1,6 +1,6 @@
 <div class="team-alumnus-list">
-    <h2 style="margin-top: 0;">校友</h2>
-    <h3 style="margin-top: -10px;">博士后</h3>
+    <h4 style="margin-top: 0; color: #711a5f;">校友</h4>
+    <h4 style="margin-top: -10px;color: #711a5f;">博士后</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}
         {{ if eq .Params.position "博士后" }}
@@ -24,8 +24,8 @@
         {{ end }}
         {{ end }}
     </div>
-    <h3 style="margin-top: 0px;">毕业生</h3>
-    <h4>博士毕业生</h4>
+    <h4 style="margin-top: 0px; color: #711a5f;">毕业生</h4>
+    <h4 style="color: #711a5f;">博士毕业生</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}
         {{ if eq .Params.position "博士" }}
@@ -54,7 +54,7 @@
         {{ end }}
         {{ end }}
     </div>
-    <h4>硕士毕业生</h4>
+    <h4 style="color: #711a5f;">硕士毕业生</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "alumnus") "Params.place" "asc") }}
         {{ if eq .Params.position "硕士" }}

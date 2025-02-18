@@ -749,7 +749,7 @@
 
 
 
-&lt;div id=&#34;chart-184632759&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-582147693&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -767,7 +767,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-184632759&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-582147693&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1445,6 +1445,22 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/url_test/carousel/carousel3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/carousel/carousel3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>孙宁</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/sunning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/sunning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>方勇纯</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</guid>
       <description></description>
     </item>
     

@@ -1,6 +1,6 @@
 <div class="team-student-list">
-    <h2 style="margin-top: 0;">学生团队</h2>
-    <h3 style="margin-top: -10px;">博士生</h3>
+    <h4 style="margin-top: 0; color: #711a5f;">学生团队</h4>
+    <h4 style="margin-top: -10px; color: #711a5f;">博士生</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "student") "Params.place" "asc") }}
         {{ if eq .Params.position "博士" }}
@@ -13,11 +13,11 @@
             <div class="student-info">
                 <p style="font-size: large; padding-bottom: 0.6rem; ">
                     <span>
-                        {{ .Title }}
+                        <a href="{{.Params.url}}">{{ .Title }}</a>
                     </span>| <span style="color: rgb(25, 73, 163);">博士研究生</span>
                 </p>
-                <p>电子邮箱： {{.Params.contact}}</p>
-                <p>研究方向： {{ .Params.description}}</p>
+                <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
+                <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
                 <ul>
                     {{ range .Params.item }}
                     <li>{{ . }}</li>
@@ -28,7 +28,7 @@
         {{ end }}
         {{ end }}
     </div>
-    <h3 style="margin-top: 0px;">硕士生</h3>
+    <h4 style="margin-top: 0px; color: #711a5f;">硕士生</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "student") "Params.place" "asc") }}
         {{ if eq .Params.position "硕士" }}
@@ -44,8 +44,8 @@
                         {{ .Title }}
                     </span>| <span style="color: rgb(25, 73, 163);">硕士研究生</span>
                 </p>
-                <p>电子邮箱： {{.Params.contact}}</p>
-                <p>研究方向： {{ .Params.description}}</p>
+                <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
+                <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
                 <ul>
                     {{ range .Params.item }}
                     <li>{{ . }}</li>
@@ -56,7 +56,7 @@
         {{ end }}
         {{ end }}
     </div>
-    <h3 style="margin-top: 0px;">即将入学</h3>
+    <h4 style="margin-top: 0px; color: #711a5f;">即将入学</h4>
     <div style="display: flex; width: 100%; flex-wrap: wrap; ">
         {{ range (sort (where .Site.Pages "Type" "student") "Params.place" "asc") }}
         {{ if eq .Params.position "硕士即将入学" }}
@@ -72,8 +72,8 @@
                         {{ .Title }}
                     </span>| <span style="color: rgb(25, 73, 163);">硕士研究生</span>
                 </p>
-                <p>电子邮箱： {{.Params.contact}}</p>
-                <p>研究方向： {{ .Params.description}}</p>
+                <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
+                <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
                 <ul>
                     {{ range .Params.item }}
                     <li>{{ . }}</li>
@@ -95,8 +95,8 @@
                         {{ .Title }}
                     </span>| <span style="color: rgb(25, 73, 163);">硕士研究生</span>
                 </p>
-                <p>电子邮箱： {{.Params.contact}}</p>
-                <p>研究方向： {{ .Params.description}}</p>
+                <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
+                <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
                 <ul>
                     {{ range .Params.item }}
                     <li>{{ . }}</li>

@@ -12,5 +12,21 @@
       <link>http://localhost:1313/url_test/teacher/</link>
     </image>
     
+    <item>
+      <title>孙宁</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/sunning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/sunning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>方勇纯</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
