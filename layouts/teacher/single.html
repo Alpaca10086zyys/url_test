@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
+    <style>
+        .teacher-page {
+            width: 85vw;
+            margin: 0 auto;
+        }
+
+        .teacher-home-card {
+            width: 100%;
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+            border-bottom: solid 1px #cfcdcd;
+            display: flex;
+            gap: 50px;
+        }
+
+        .teacher-photo {
+            margin-left: 2rem;
+            display: flex;
+            align-items: center;
+            /* 垂直居中 */
+            text-align: center;
+            width: 170px;
+        }
+
+        .teacher-photo img {
+            width: 100%;
+            height: 200px;
+            margin: 0;
+            display: block;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .teacher-info {
+            font-family: "Noto Sans CJK", "Microsoft YaHei", "Arial", sans-serif;
+            padding-top: 5%;
+            margin-right: 10px;
+            width: calc(100% - 150px);
+        }
+
+        .teacher-info p {
+            margin: 0.4rem;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
+
 <body>
     <div class="teacher-page">
-        <h1>{{ .Title }}</h1>
-        <div class="teacher-details">
+        <div class="teacher-home-card">
             <div class="teacher-photo">
                 <img src="{{ .Params.photo }}" alt="{{ .Title }}">
             </div>
             <div class="teacher-info">
-                <p><strong>职位:</strong> {{ .Params.position }}</p>
-                <p><strong>电子邮箱:</strong> {{ .Params.contact }}</p>
-                <p><strong>研究方向:</strong> {{ .Params.description }}</p>
-                <p><strong>个人链接:</strong> <a href="{{ .Params.link }}" target="_blank">{{ .Params.link }}</a></p>
+                <h1 style=" cursor: pointer; padding-bottom: 0.8rem; margin: 0;"><a href="{{ .Permalink }}"
+                        style="cursor: pointer;">{{ .Title }}</a></h4>
+                <p style="color: rgb(25, 73, 163);">{{ .Params.position }}</p>
+                <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
+                <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
             </div>
         </div>
+        <div>
+            next line
+        </div>
     </div>
+
 </body>
+
+
 </html>

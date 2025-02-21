@@ -13,7 +13,7 @@
             <div class="student-info">
                 <p style="font-size: large; padding-bottom: 0.6rem; ">
                     <span>
-                        <a href="{{.Params.url}}">{{ .Title }}</a>
+                        <a href="{{.Permalink}}">{{ .Title }}</a>
                     </span>| <span style="color: rgb(25, 73, 163);">博士研究生</span>
                 </p>
                 <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
@@ -75,6 +75,7 @@
                 <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
                 <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
                 <ul>
+                    <li>{{ .Params.degree }}</li>
                     {{ range .Params.item }}
                     <li>{{ . }}</li>
                     {{ end }}

@@ -8,7 +8,7 @@ url: "/url_test/student/liugendi/"
 place: 1
 item:
 - 哈尔滨工程大学学士 # 改成自己的最高学位
--  2024，南开大学研究生国家奖学金# 个人成果奖项奖励，总共不要超过4条，精简写
+- 2024，南开大学研究生国家奖学金
 - 2022，The 8th International Conference on EECR--Best Paper Award
 - 2022，华北5省大学生机器人大赛--决赛一等奖
 - 2023，南方科技大学研究生论坛--口头报告奖
