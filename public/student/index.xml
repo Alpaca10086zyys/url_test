@@ -12,5 +12,109 @@
       <link>http://localhost:1313/url_test/student/</link>
     </image>
     
+    <item>
+      <title>付禹</title>
+      <link>http://localhost:1313/url_test/student/fuyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/fuyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>冯晓雪</title>
+      <link>http://localhost:1313/url_test/student/fengxiaoxue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/fengxiaoxue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刁淑贞</title>
+      <link>http://localhost:1313/url_test/student/diaoshuzhen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/diaoshuzhen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刘卓清</title>
+      <link>http://localhost:1313/url_test/student/liuzhuoqing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/liuzhuoqing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刘天乐</title>
+      <link>http://localhost:1313/url_test/student/liutianle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/liutianle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刘文成</title>
+      <link>http://localhost:1313/url_test/student/liuwencheng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/liuwencheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刘根娣</title>
+      <link>http://localhost:1313/url_test/url_test/student/liugendi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/student/liugendi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>徐悦轩</title>
+      <link>http://localhost:1313/url_test/student/xuyuexuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/xuyuexuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>樊昌达</title>
+      <link>http://localhost:1313/url_test/student/fanchangda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/fanchangda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焦雨璇</title>
+      <link>http://localhost:1313/url_test/student/jiaoyuxuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/jiaoyuxuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>邬雅轩</title>
+      <link>http://localhost:1313/url_test/student/wuyaxuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/wuyaxuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>高嘉宇</title>
+      <link>http://localhost:1313/url_test/student/gaojiayu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/gaojiayu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>高羽</title>
+      <link>http://localhost:1313/url_test/student/gaoyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/gaoyu/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

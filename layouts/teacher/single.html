@@ -13,7 +13,7 @@
 
         .teacher-home-card {
             width: 100%;
-            height: 300px;
+            /* height: 300px; */
             margin: 0 auto;
             position: relative;
             border-bottom: solid 1px #cfcdcd;
@@ -42,6 +42,7 @@
         .teacher-info {
             font-family: "Noto Sans CJK", "Microsoft YaHei", "Arial", sans-serif;
             padding-top: 5%;
+            padding-bottom: 50px;
             margin-right: 10px;
             width: calc(100% - 150px);
         }
@@ -49,6 +50,15 @@
         .teacher-info p {
             margin: 0.4rem;
             font-size: 1.1rem;
+        }
+
+        .teacher-detail-box ul {
+            font-size: 1.1rem;
+            color: #555555;
+        }
+
+        .teacher-detail-box li {
+            margin-bottom: 0.5rem;
         }
     </style>
 </head>
@@ -67,8 +77,47 @@
                 <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
             </div>
         </div>
-        <div>
-            next line
+        <div class="teacher-detail-box">
+            {{ if .Params.awards }}
+            <h4 style="color: #711a5f; font-size: 1.1rem;">代表性科研奖励</h4>
+            <ul>
+                {{ range .Params.awards }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ if .Params.papers }}
+            <h4 style="color: #711a5f;">代表性论文</h4>
+            <ul>
+                {{ range .Params.papers }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ if .Params.patents }}
+            <h4 style="color: #711a5f;">代表性专利</h4>
+            <ul>
+                {{ range .Params.patents }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ if .Params.courses }}
+            <h4 style="color: #711a5f;">讲授课程</h4>
+            <ul>
+                {{ range .Params.courses }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ if .Params.duties }}
+            <h4 style="color: #711a5f;">学术兼职</h4>
+            <ul>
+                {{ range .Params.duties }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
         </div>
     </div>
 
