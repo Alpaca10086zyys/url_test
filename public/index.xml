@@ -749,7 +749,7 @@
 
 
 
-&lt;div id=&#34;chart-851394726&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-853694721&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -767,7 +767,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-851394726&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-853694721&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1498,9 +1498,25 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>刘根娣</title>
-      <link>http://localhost:1313/url_test/url_test/student/liugendi/</link>
+      <link>http://localhost:1313/url_test/student/liugendi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/url_test/student/liugendi/</guid>
+      <guid>http://localhost:1313/url_test/student/liugendi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>吴庆祥</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>娄欢欢</title>
+      <link>http://localhost:1313/url_test/student/louhuanhuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/louhuanhuan/</guid>
       <description></description>
     </item>
     
@@ -1509,6 +1525,46 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/url_test/url_test/teacher/sunning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/url_test/teacher/sunning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>孙昊晟</title>
+      <link>http://localhost:1313/url_test/student/sunhaosheng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/sunhaosheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>孙朝业</title>
+      <link>http://localhost:1313/url_test/student/sunchaoye/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/sunchaoye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>宿元昊</title>
+      <link>http://localhost:1313/url_test/student/suyuanhao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/suyuanhao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>张欣霖</title>
+      <link>http://localhost:1313/url_test/student/zhangxinlin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/zhangxinlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>张秋明</title>
+      <link>http://localhost:1313/url_test/student/zhangqiuming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/zhangqiuming/</guid>
       <description></description>
     </item>
     
@@ -1529,6 +1585,14 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
+      <title>杨桐</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/yangtong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/yangtong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>樊昌达</title>
       <link>http://localhost:1313/url_test/student/fanchangda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1545,10 +1609,82 @@ Parallel 4   :         des6, after des4, 1d
     </item>
     
     <item>
+      <title>王奕轩</title>
+      <link>http://localhost:1313/url_test/student/wangyixuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/wangyixuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>王宇敖</title>
+      <link>http://localhost:1313/url_test/student/wangyuao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/wangyuao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>王海</title>
+      <link>http://localhost:1313/url_test/student/wanghai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/wanghai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>王雪兵</title>
+      <link>http://localhost:1313/url_test/student/wangxuebing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/wangxuebing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>石美琦</title>
+      <link>http://localhost:1313/url_test/student/shimeiqi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/shimeiqi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>翟猛</title>
+      <link>http://localhost:1313/url_test/student/zhaimeng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/zhaimeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>邬雅轩</title>
       <link>http://localhost:1313/url_test/student/wuyaxuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/student/wuyaxuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>邱泽昊</title>
+      <link>http://localhost:1313/url_test/student/qiuzehao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/qiuzehao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>韦晓梦</title>
+      <link>http://localhost:1313/url_test/student/weixiaomeng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/weixiaomeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>马益泽</title>
+      <link>http://localhost:1313/url_test/student/mayize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/mayize/</guid>
       <description></description>
     </item>
     
@@ -1565,6 +1701,14 @@ Parallel 4   :         des6, after des4, 1d
       <link>http://localhost:1313/url_test/student/gaoyu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/student/gaoyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>龙平平</title>
+      <link>http://localhost:1313/url_test/student/longpingping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/student/longpingping/</guid>
       <description></description>
     </item>
     

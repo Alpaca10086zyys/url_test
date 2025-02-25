@@ -71,7 +71,7 @@
             </div>
             <div class="teacher-info">
                 <h1 style=" cursor: pointer; padding-bottom: 0.8rem; margin: 0;"><a href="{{ .Permalink }}"
-                        style="cursor: pointer;">{{ .Title }}</a></h4>
+                        style="cursor: pointer;">{{ .Title }}</a></h1>
                 <p style="color: rgb(25, 73, 163);">{{ .Params.position }}</p>
                 <p><span style="color: #711a5f;">电子邮箱：</span> {{.Params.contact}}</p>
                 <p><span style="color: #711a5f;">研究方向：</span> {{ .Params.description}}</p>
@@ -79,7 +79,7 @@
         </div>
         <div class="teacher-detail-box">
             {{ if .Params.awards }}
-            <h4 style="color: #711a5f; font-size: 1.1rem;">代表性科研奖励</h4>
+            <h4 style="color: #711a5f; ">代表性科研奖励</h4>
             <ul>
                 {{ range .Params.awards }}
                 <li>{{ . }}</li>
@@ -98,7 +98,13 @@
             <h4 style="color: #711a5f;">代表性专利</h4>
             <ul>
                 {{ range .Params.patents }}
-                <li>{{ . }}</li>
+                <li>
+                    {{ if in . $.Title }}
+                        {{ replace . $.Title (printf "<strong>%s</strong>" $.Title) | safeHTML }}
+                    {{ else }}
+                        {{ . }}
+                    {{ end }}
+                </li>
                 {{ end }}
             </ul>
             {{ end }}

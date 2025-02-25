@@ -10,4 +10,7 @@ item:
 - 华北五省大学生机器人大赛(2022)一等奖 # 个人成果奖项奖励，总共不要超过4条，精简写
 - 第42届中国控制会议(CCC2023)优秀志愿者
 - 中国国际大学生创新大赛(2024)天津赛区高教主赛道铜奖
+papers:
+- "Yixuan Wang(王奕轩), Qingxiang Wu, Xuebing Wang, Ning Sun, Motion Planning for Wave-like-Actuated Manta-Inspired Amphibious Robots,The proceedings of 2023 International Conference on Applied Nonlinear Dynamics, Vibration and Control (ICANDVC2023)."
+- "Yixuan Wang(王奕轩), Qingxiang Wu, Xuebing Wang, Huawang Liu, Yongchun Fang, Ning Sun, NMPC-Based Obstacle Avoidance Trajectory Planning for Bionic Ray-Inspired Amphibious Robots With Dead Zone Compensation."
 ---

@@ -173,10 +173,10 @@
     <loc>http://localhost:1313/url_test/student/liuwencheng/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/student/liugendi/</loc>
+    <loc>http://localhost:1313/url_test/student/liugendi/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</loc>
+    <loc>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/url_test/alumnus/wuyiming/</loc>

@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>吴庆祥</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/wuqingxiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>孙宁</title>
       <link>http://localhost:1313/url_test/url_test/teacher/sunning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -25,6 +33,14 @@
       <link>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/url_test/teacher/fangyongchun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>杨桐</title>
+      <link>http://localhost:1313/url_test/url_test/teacher/yangtong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/url_test/teacher/yangtong/</guid>
       <description></description>
     </item>
     
