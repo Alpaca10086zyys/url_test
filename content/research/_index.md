@@ -23,4 +23,5 @@ sections:
     design:
       view: article-grid
       columns: 2
+      show_summary: false
 ---

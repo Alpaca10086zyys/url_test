@@ -2,15 +2,7 @@
 title: Research_award
 date: 2022-10-24
 type: landing
-# cms_exclude: true
 
-# # View.
-# view: citation
-
-# # Optional header image (relative to `static/media/` folder).
-# banner:
-#   caption: ''
-#   image: ''
 
 sections:
   - block: markdown
@@ -42,5 +34,5 @@ sections:
     design:
       spacing:
         padding: [0, 0, 0, 0] 
-        width: 90vw
+        width: 100vw
 ---
