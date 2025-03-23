@@ -1,11 +1,12 @@
 ---
-title: 微低重力模拟
-summary: 由一系列移动机器人模块组装而成、能够根据所处环境或任务的变化依靠模块间的相互通信和自主移动重组为另一种适应新环境、新任务构型的机器人.
+title: 悬吊微低重力模拟
+summary: 是一种常用模拟技术，通过吊装装置悬挂航天器，并控制吊绳张力等于其重力，以模拟微重力环境，广泛应用于运动控制测试.
 date: 2025-03-21
 type: docs
 tags:
-  - 质量轻 | 结构简单 | 力自重比大
+  - 航天器悬吊 | 气浮时微低重力模拟系统
 place: 3
+weight: 3
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

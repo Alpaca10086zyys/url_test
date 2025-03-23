@@ -1,11 +1,12 @@
 ---
 title: 欠驱动系统
 summary: 欠驱动系统是指系统的独立控制变量个数小于系统自由度个数的一类非线性系统.
-date: 2025-01-20
+date: 2025-03-21
 type: docs
 tags:
   - 陆地吊车控制 | 船用吊车控制 | 其他欠驱动系统
 place: 1
+weight: 1 
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

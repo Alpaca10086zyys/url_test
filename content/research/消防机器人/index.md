@@ -1,11 +1,12 @@
 ---
 title: 消防机器人
-summary: 由一系列移动机器人模块组装而成、能够根据所处环境或任务的变化依靠模块间的相互通信和自主移动重组为另一种适应新环境、新任务构型的机器人.
+summary: 研究内容涵盖火场态势感知与预测、机器人状态重构、智能指挥调度、集群编组与自主任务分配，以及自主智能协同作业技术.
 date: 2025-03-21
 type: docs
 tags:
-  - 质量轻 | 结构简单 | 力自重比大
+  - 快速定位 | 精准灭火与救援
 place: 4
+weight: 4
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

@@ -18,7 +18,7 @@ sections:
         folders:
           - research
       count: 999
-      sort_by: 'place'
+      sort_by: place
       sort_ascending: true
     design:
       view: article-grid

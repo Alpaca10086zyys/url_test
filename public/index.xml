@@ -13,895 +13,9 @@
     </image>
     
     <item>
-      <title>仿生/变结构机器人</title>
-      <link>http://localhost:1313/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;h2 id=&#34;61-陆空两栖机器人&#34;&gt;6.1 陆空两栖机器人&lt;/h2&gt;
-&lt;p&gt;陆空两栖机器人，一种融合了地面无人车辆与空中四旋翼飞行器的新型变结构机器人，与传统的无人车和无人机相比，具有较强的适应性和高灵活性。它不仅拥有更广泛的应用前景，还具备更深入的研究意义，因此逐渐成为国内外的研究热点。&lt;/p&gt;
-&lt;h3 id=&#34;611-研究挑战&#34;&gt;6.1.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;欠驱动特性：无论是在地面运动模态还是空中飞行模态下，陆空两栖机器人都面临着“以少控多”的挑战，这对控制方法的设计提出了更高的要求。&lt;/li&gt;
-&lt;li&gt;非线性、强耦合性：陆空两栖机器人的各个状态相互耦合且具有较强的非线性特征，引入折叠角后，系统的非线性和耦合性进一步增强。&lt;/li&gt;
-&lt;li&gt;模态切换特性：陆空两栖机器人在执行陆地/空中模态切换和空中展平/折叠模态切换任务时，往往会导致其动态系统发生变化，从而可能引发系统失衡，甚至失控。&lt;/li&gt;
-&lt;li&gt;跨域运动特性：陆空两栖机器人陆地/空中运动模式差异较大，然而同一任务往往要求机器人进行连续的跨域作业，这为其运动规划和控制方法带来了更大的挑战。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;612-研究成果&#34;&gt;6.1.2 研究成果&lt;/h3&gt;
-&lt;p&gt;搭建了陆空两栖机器人原型样机；&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;搭建了基于动捕平台的实验环境；&lt;/li&gt;
-&lt;li&gt;设计了变结构机器人统一系统框架；&lt;/li&gt;
-&lt;li&gt;提出了陆空两栖机器人陆空跨域路径规划方法；&lt;/li&gt;
-&lt;li&gt;提出了陆空两栖机器人变模态平滑切换方法；&lt;/li&gt;
-&lt;li&gt;提出了陆空两栖机器人路径跟踪方法；&lt;/li&gt;
-&lt;li&gt;17th ICIRA Best Paper Finalist Award&lt;/li&gt;
-&lt;li&gt;第一届全国建筑机器人技能大赛-创意竞赛金牌&lt;/li&gt;
-&lt;li&gt;第2届中国自动化学会博士学术交流会最佳海报奖&lt;/li&gt;
-&lt;li&gt;中国国际大学生创新大赛(2024)天津赛区高教主赛道铜奖&lt;/li&gt;
-&lt;li&gt;第二十六届中国国际高新技术成果交易会优秀科研成果创新奖&lt;/li&gt;
-&lt;li&gt;2024年天津机器人科技创新奖-技术突破奖&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;div style=&#34;display:flex&#34;&gt;
-&lt;img src=&#34;例图1.jpg&#34; /&gt;
-&lt;img src=&#34;例图2.jpg&#34; /&gt;
-&lt;/div&gt;
-&lt;span&gt;图1. 陆空两栖机器人原型样机&lt;/span&gt;
-&lt;/div&gt;
-&lt;!-- ![基于动捕平台的实验环境](例图1.jpg &#34;图2. 基于动捕平台的实验环境&#34;) --&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;例图3.jpg&#34; /&gt;
-&lt;span&gt;图2. 基于动捕平台的实验环境&lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;例图4.jpg&#34; /&gt;
-&lt;span&gt;图3. 变结构机器人统一系统框架&lt;/span&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;613-实验视频&#34;&gt;6.1.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZE9T&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEUq&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1JX9EYZELM&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEUb&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;62-变结构无人机&#34;&gt;6.2 变结构无人机&lt;/h2&gt;
-&lt;p&gt;无人机由于其操作简单，机动性强，成本低，稳定性高等优势，广泛应用于军事领域和民用领域，如侦察、打击、运输、资源勘探、搜索救援、工程巡检等场景。然而现有的传统固定结构无人机在面向复杂的作业环境时作业模态单一，环境适应性弱。因此，我们根据自然界中的鸟类飞行时可通过折叠翅膀的仿生学原理，研制了一种可变结构的无人机，从而提高无人机的环境适应性。&lt;/p&gt;
-&lt;h3 id=&#34;621-研究挑战&#34;&gt;6.2.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;机架刚度降低，稳定性降低：由于可变结构的设计，使得机身和机臂的连接处为可转动的关节，使得无人机整体刚性降低，稳定性降低；&lt;/li&gt;
-&lt;li&gt;变模态切换困难：模态切换时保持无人机的飞行稳定性控制困难；&lt;/li&gt;
-&lt;li&gt;建模困难：在建模时需要考虑无人机结构变化引起的重心和转动惯量变化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;622-研究成果&#34;&gt;6.2.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;研制了可稳定飞行的变结构无人机3代实验平台；&lt;/li&gt;
-&lt;li&gt;建立了考虑重心和转动惯量变化的完整动力学模型；&lt;/li&gt;
-&lt;li&gt;发表会议论文2篇，其中一篇获得17th ICIRA Best Paper Finalist Award，第一届全国建筑机器人技能大赛创意竞赛金牌，中国国际大学生创新大赛（2024）天津赛区高教主赛道铜奖，第二十六届中国高新技术成果交易会优秀科研成果创新奖等。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;变结构无人机平台.png&#34; /&gt;
-&lt;span&gt;图1. 变结构无人机平台&lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;四种常用模态.jpg&#34; /&gt;
-&lt;span&gt;图2. 四种常用模态&lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;电控系统图.jpg&#34; /&gt;
-&lt;span&gt;图3. 电控系统图&lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;img src=&#34;软件架构图.ipg&#34; /&gt;
-&lt;span&gt;图4. 软件架构图&lt;/span&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;623-实验视频&#34;&gt;6.2.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1nwPWeeE3p&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV16wPWeeEGY&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;63-自重构机器人&#34;&gt;6.3 自重构机器人&lt;/h2&gt;
-&lt;p&gt;传统的移动机器人结构固定，难以适应时变的环境。自重构模块化移动机器人是指由一系列移动机器人模块组装而成、能够根据所处环境或任务的变化依靠模块间的相互通信和自主移动重组为另一种适应新环境、新任务构型的机器人，具有多功能性、鲁棒性和重用性等诸多优点。此外，波状爬行机构受到微生物通过鞭毛游动的启发，其能够在不同的表面移动，并采用单个驱动器驱动整个机构爬行，具备高集成度的特点。将波状爬行机构应用于自重构模块化移动机器人，能够取长补短，具有较高的应用价值。&lt;/p&gt;
-&lt;h3 id=&#34;631-研究挑战&#34;&gt;6.3.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;自重构波状爬行机器人在并联模态下可以实现差速转向，执行任务时需考虑运动特性、目标设定和约束条件，因此运动规划是自重构功能的基础。&lt;/li&gt;
-&lt;li&gt;机器人通过物联网远程控制，其电池续航和资源有限，然而传统控制方法浪费资源，需通过触发机制减少通信频率，同时在控制律设计中平衡能耗与性能指标。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;632-研究成果&#34;&gt;6.3.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;研制了自重构波状爬行机器人控制系统及样机&lt;/li&gt;
-&lt;li&gt;发表SCI论文2篇（包括IEEE Robotics and Automation Letters），受理发明专利一项，获得2023年挑战杯天津市三等奖、2023年互联网+天津市铜奖等。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;633-实验视频&#34;&gt;6.3.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEn&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;64-水陆两栖&#34;&gt;6.4 水陆两栖&lt;/h2&gt;
-&lt;p&gt;自主移动机器人是可以在特定环境下进行坐标移动的机器人，其具有感知、交互、定位、运动规划、导航、决策等功能，可以执行特定任务，实现预期目标。&lt;/p&gt;
-&lt;p&gt;根据陆地、空中、水域等应用领域划分，主要包括单栖移动机器人和多栖移动机器人。就执行机构而言，陆地移动机器人的移动方式主要有足式、轮式、履带等，空中移动机器人的移动方式主要有螺旋桨，水域移动机器人的移动方式主要有喷水推进器、螺旋桨等，基于上述设计的移动机器人的理论基础与基本原理都已发展得非常成熟，趋于饱和。&lt;/p&gt;
-&lt;p&gt;在军事应用领域中，新型仿生水陆两栖机器人可用于水域和陆地任务，对军事领域具有战略价值。它可以执行水下侦察、搜救、情报收集和水下设施维护等任务。在军事操作中，仿鳐鱼机器人可以执行潜艇监测、水下爆炸物排除、敌方港口侦察等关键任务，减少人员风险。在经济应用领域中，仿鳐鱼两栖机器人可用于海洋资源开发，如水下采矿、渔业资源管理和海洋地质勘探。它还可以用于环境监测和污染控制，有助于保护海洋生态系统，促进可持续发展。&lt;/p&gt;
-&lt;h3 id=&#34;641-研究挑战&#34;&gt;6.4.1 研究挑战&lt;/h3&gt;
-&lt;p&gt;由于现有水陆两栖机器人复杂执行机构带来了诸多问题，亟需设计一种新型结构的水陆两栖机器人突破移动机构设计壁垒。同时，由于所设计的新型仿生水陆两栖机器人具有行波特性，存在高非线性、不确定性、水陆切换适应性，以及输入约束等研究难点。开发该机器人水陆两栖运动规划，陆地爬行控制和水域仿生鳍波动控制，使其能够实时应对环境变化，安全、高效地完成任务，具有重要的研究价值。&lt;/p&gt;
-&lt;h3 id=&#34;642-研究成果&#34;&gt;6.4.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;从工程角度出发，通过问题提炼，设计了新型仿生水陆两栖移动机器人，并搭建了实验样机平台&lt;/li&gt;
-&lt;li&gt;受理中国发明专利1件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;水陆两栖平台&#34; srcset=&#34;
-               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp 400w,
-               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu7047402828049291540.webp 760w,
-               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu17609560245914540184.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp&#34;
-               width=&#34;697&#34;
-               height=&#34;485&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;643-实验视频&#34;&gt;6.4.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4EXy&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4EXd&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;65-仿腕关节机器人&#34;&gt;6.5 仿腕关节机器人&lt;/h2&gt;
-&lt;p&gt;受人类手臂启发的机械手在制造业、物流和仓储、农业等领域发挥着关键作用，将工人从简单重复的任务中解放出来。同时，作为机械手的重要组成部分，关节直接决定了机械手的灵活性、机动性和刚度。然而，刚性连杆方式机械手只能通过离散关节实现弯曲运动，这严重限制了其在受限操作空间内的灵活性和机动性。飞机舱内装配、核电设备维护和太空舱外作业等领域对机械臂的灵活性提出了更高的要求。&lt;/p&gt;
-&lt;h3 id=&#34;651-研究挑战&#34;&gt;6.5.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;绳驱动刚性关节是提高机械手灵活性的绝佳选择，但其前端关节的驱动绳会穿过后端关节，在驱动前端关节移动时，不可避免地会影响后端关节的状态，导致定位精度降低。&lt;/li&gt;
-&lt;li&gt;软体关节理论上具有无限的自由度，但软性材料引起的低刚度和复杂的驱动非线性问题仍有待解决，限制了其在受限空间中的应用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;652-研究成果&#34;&gt;6.5.2 研究成果&lt;/h3&gt;
-&lt;p&gt;针对上述问题，课题组设计了一种新颖的仿腕关节，基于反平行四边形原理，利用单关节同时满足俯仰和偏转两个自由的运动需求。针对仿腕关节的运动学建模、轨迹规划等问题开展了深入研究，并将其应用在机械臂和机械抓手等操作平台。此外，通过自主搭建的仿腕关节实验平台，验证了系统的灵活性和适用性。相关成果发表在国际权威期刊Journal of Field Robotics，获得CFIMA最佳论文奖。&lt;/p&gt;
-&lt;h3 id=&#34;653-实验视频&#34;&gt;6.5.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1BqXsYuEwx&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>微低重力模拟</title>
-      <link>http://localhost:1313/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/</guid>
-      <description>&lt;h2 id=&#34;31-航天器悬吊气浮时微低重力模拟系统&#34;&gt;3.1 航天器悬吊/气浮时微低重力模拟系统&lt;/h2&gt;
-&lt;p&gt;航天器需在微低重力环境下运行，但其制造与测试必须在地球重力条件下进行。不同重力环境对航天器的动力学特性影响显著，因此，微低重力模拟系统对于验证航天器性能、确保任务执行至关重要。悬吊法是一种常用模拟技术，通过吊装装置悬挂航天器，并控制吊绳张力等于其重力，以模拟微重力环境，广泛应用于运动控制测试。&lt;/p&gt;
-&lt;h3 id=&#34;311-研究挑战&#34;&gt;3.1.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;高安全性的随动跟踪控制：二维平动机构需精准跟踪未知运动轨迹的卸载目标，具备快速响应能力，确保高效调整运动轨迹应对动态变化。&lt;/li&gt;
-&lt;li&gt;高精度恒张力控制：实时感知卸载力并动态调节吊绳运动，确保卸载过程中张力始终恒定。&lt;/li&gt;
-&lt;li&gt;大范围底座跟随控制：基于气浮技术的动平台可在大平面范围内广泛跟随目标，同时二维平动机构提供高响应速度和跟随精度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;312-研究成果&#34;&gt;3.1.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;研制大型空间结构智能提升装置，可对特定荷载进行重力卸载，并实现大范围随动跟随。核心技术包括二维平动机构、恒张力控制、气浮动平台及地面控制系统。&lt;/li&gt;
-&lt;li&gt;系统可自主执行规划轨迹运动，并在花岗岩平台上平稳越缝，无卡滞现象。&lt;/li&gt;
-&lt;li&gt;悬吊动态卸载误差≤1%（包括水平与竖直方向），所提基于CBF的随动控制方法将偏角误差限制在0.4°以内。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;自主搭建的悬吊系统随动控制平台&#34; srcset=&#34;
-               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu1182897320647800819.webp 400w,
-               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu5425546624156797850.webp 760w,
-               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu7674769131096006616.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu1182897320647800819.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;707&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;313-实验视频&#34;&gt;3.1.3 实验视频&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E4%BB%BF%E7%9C%9F%E9%A3%9E%E8%B7%83.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E6%89%80%E6%8F%90CBF%E9%9A%8F%E5%8A%A8.MP4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>有色金属自动打磨机器人</title>
-      <link>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</guid>
-      <description>&lt;h2 id=&#34;71-环境感知目标识别&#34;&gt;7.1 环境感知&amp;amp;目标识别&lt;/h2&gt;
-&lt;p&gt;当机器人在特种环境下作业时，如何获取作业对象的关键信息是亟待解决的科研难点。特种作业环境一般意味着高温、蒸汽和复杂混乱的背景等恶劣条件，这些恶劣条件会严重影响机器人信息获取的准确率和实时性，使得机器人无法依据实际环境情况进行工作。智能感知作为机器人的“眼睛”，需要通过更加高效的算法在特种作业环境下实现识别、检测和定位等感知功能。&lt;/p&gt;
-&lt;h3 id=&#34;711-研究挑战&#34;&gt;7.1.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;恶劣的环境条件：&lt;/strong&gt; 感知图像的背景极为复杂，存在着大量的干扰信息，需要准确将作业对象的信息提取出来。高温、蒸汽和持续变化的光照条件也会使图像信息发生变化，给准确感知作业对象关键信息带来了众多挑战。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;实时性强：&lt;/strong&gt; 由于机器人需要实时根据作业对象的信息进行作业调整，需要感知的算法具有强实时性，保证对不断变化的环境信息的实时反馈，对算法提出了一定的限制和要求。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;712-研究成果&#34;&gt;7.1.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;提出了一种基于金属锭打磨信息视觉识别的打磨方法及系统，实现了在工业现场准确提取作业对象关键信息&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图&#34; srcset=&#34;
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp 400w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu10118601097476383452.webp 760w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu3099306369766224264.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;482&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;713-实验视频&#34;&gt;7.1.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VV411j7Yn&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1g44y1r7WK&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1xy4y1g7Nv&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1iA411g7eG&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;721-机器人轨迹规划与控制&#34;&gt;7.2.1 机器人轨迹规划与控制&lt;/h2&gt;
-&lt;p&gt;目前工业机器人的应用大多采用点对点示教编程的方式，针对特定的作业场景，设定多个路径点，相邻两个路径点之间以直线或关节运动指令衔接。这种方式无法对作业执行时间或作业过程中的能耗进行优化，从而无法最大限度地发挥机器人的性能。因此在利用工业机器人进行作业时，进行&lt;strong&gt;合理的轨迹规划&lt;/strong&gt;十分重要。对于打磨机器人而言，除了需要在实现目标轨迹跟踪的同时，还必须用&lt;strong&gt;合适的力&lt;/strong&gt;对工件进行打磨，从而实现较好的打磨效果。对于这样的需求，需要对打磨过程中机械臂末端与环境接触产生的接触力进行建模，并设计&lt;strong&gt;力/位混合控制方法&lt;/strong&gt;，实现精确力跟踪。&lt;/p&gt;
-&lt;h3 id=&#34;721-研究挑战&#34;&gt;7.2.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;满足约束条件下快速规划合理轨迹：&lt;/strong&gt; 考虑打磨机器人的实际作业场景，末端执行器的路径形状被严格限制。进一步考虑实现机器人的最优轨迹规划时，计算复杂度和计算量会随着机器人自由度的增多而急剧增加，易引起“维数灾难”。此外受制于物理约束，机器人运行时的位置、速度、加速度和转矩等必须保持在特定范围内，机器人在执行特定工作任务的情况下，对速度和加速度等运动特性有更严苛的要求。如何在满足各种约束的条件下快速地规划出合理的最优作业轨迹是一大挑战。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;末端接触力控制：&lt;/strong&gt; 随着更多接触类作业的出现（如打磨），不仅对位置控制有一定的要求，还需要考虑机器人和环境之间的交互关系，即机器人柔顺性。主动柔顺（力控制），就是利用反馈的信息，设计一定的控制策略，从而实现对位置和接触力的控制。而如何在现今大多工业机器人力矩不开源和完整精确动力学模型难以获得的情况下，建立机械臂末端接触力模型，对末端接触力进行控制，则是一大挑战。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;722-研究成果&#34;&gt;7.2.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;提出一种结合路径参数化的最优轨迹规划方法，满足机器人状态约束，为机器人规划出合理的最优作业轨迹&lt;/li&gt;
-&lt;li&gt;给出了打磨过程中的机器人和环境间的接触力模型，提出了一种隐式力/位混合控制方法，设计了一种非线性力控制器，并使用李雅普诺夫方法证明了系统的稳定性
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图1&#34; srcset=&#34;
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu11374152273543507359.webp 400w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu13576770584495496403.webp 760w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu10070818227220017346.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu11374152273543507359.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;481&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图2&#34; srcset=&#34;
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu6331603357549991243.webp 400w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu7384910482812516193.webp 760w,
-               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu2968993765180282403.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu6331603357549991243.webp&#34;
-               width=&#34;468&#34;
-               height=&#34;295&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;723-实验视频&#34;&gt;7.2.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Ub4y1f7KL&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;论文专利&#34;&gt;论文专利&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;受理中国发明专利3件。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;支撑项目&#34;&gt;支撑项目&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;国家重点研发计划“智能机器人”重点专项课题， 2019.06-2022.05，课题负责人：孙宁。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>气动仿生机器人</title>
-      <link>http://localhost:1313/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;第四次智能浪潮的脚步接踵而至，工业制造、医疗康复、抢险救灾等领域智能化、自主化需求日益迫切，仅使用传统刚性驱动方式(如电机、液压等)去协助人类完成简单重复的机械任务，很难进一步推动新一轮科技革命和产业变革。与生物肌肉具有基本相似形态结构、如出一辙运动机理的柔性元件——&lt;strong&gt;气动人工肌肉(pneumatic artificial muscle，简称PAM)&lt;/strong&gt;，逐渐成为了机器人驱动、建模、控制领域的重点关注对象。PAM结构简单、材料轻便，当其作为智能机器人的主要驱动元件时，可颠覆性地突破传统驱动元件柔性不足、机构繁琐等局限性，进一步地提高人机交互的安全性和舒适性。&lt;/p&gt;
-&lt;h2 id=&#34;21-单pam机器人&#34;&gt;2.1 单PAM机器人&lt;/h2&gt;
-&lt;p&gt;气动肌肉的材料和结构特殊，导致其存在高非线性、时变特性、迟滞性等，当机器人结构模型较为复杂时，整体动力学模型建立与精确运动控制难度激增。由于单气动肌肉机器人自由度较低，整体机械结构也相对简单，因此单气动肌肉机器人成为了探索该领域的一个首选切入点。目前其主流建模方案主要分为静态特性建模和动态特性建模。其中，静态模型主要研究肌肉长度、收缩力和气压三者之间的关系，动态模型主要是通过分析肌肉伸缩过程中内部的气流作用，来描述其动态特性。&lt;/p&gt;
-&lt;h3 id=&#34;211-研究挑战&#34;&gt;2.1.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;单气动肌肉机器人存在高度非线性、不确定性、以及单向输入约束等问题&lt;/li&gt;
-&lt;li&gt;绝大多数文献没有考虑跟踪误差的边界约束问题，难以确保安全性&lt;/li&gt;
-&lt;li&gt;实际工作环境中不可避免地受到外界持续扰动，可能破坏系统稳定性&lt;/li&gt;
-&lt;li&gt;气动肌肉控制领域现存大多数自抗扰控制方法忽略扰动变化率的影响&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;212-研究成果&#34;&gt;2.1.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;提出连续自适应鲁棒控制方法&lt;/li&gt;
-&lt;li&gt;提出基于神经网络估计的自适应控制方法&lt;/li&gt;
-&lt;li&gt;提出基于高阶扰动观测器的非线性控制方法
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;单PAM机器人&#34; srcset=&#34;
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu12594383624592659129.webp 400w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7651315820551095087.webp 760w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu10977050032441244064.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu12594383624592659129.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;603&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;213-实验视频&#34;&gt;2.1.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1jU4y1b7hZ&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV14Q4y1R7cM&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1W54y1V7jr&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;22-双pam机器人&#34;&gt;2.2 双PAM机器人&lt;/h2&gt;
-&lt;p&gt;基于特殊的结构特性，单根气动肌肉仅能提供在&lt;strong&gt;单一直线方向上的收缩/伸展运动&lt;/strong&gt;。由于实际机器人通常需要实现复杂多变的控制目标，单根气动肌肉远不足以实现多个自由度的运动。因此，人们往往使用多根气动肌肉共同驱动机器人的多个关节来解决上述难题。此外，多气动肌肉机器人的控制方法并不是简单地从单肌肉平台移植而来，肌肉数目的增加、肌肉之间耦合程度的加剧，导致系统模型发生很大的变化，需结合多根气动肌肉的具体组合形式重新考虑控制器设计。在多气动肌肉机器人中，最为典型的为&lt;strong&gt;双气动肌肉机器人&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;221-研究挑战&#34;&gt;2.2.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;实际执行机构的驱动能力有限&lt;/li&gt;
-&lt;li&gt;单纯使用滑模控制去抑制系统不确定性容易加剧抖振现象&lt;/li&gt;
-&lt;li&gt;实际工况可能面临持续的未知干扰&lt;/li&gt;
-&lt;li&gt;多数相关工作尚未引入减振机制，很难消除残余振荡&lt;/li&gt;
-&lt;li&gt;现有模型大多是关于转矩的方程，而转矩并非系统真实的控制输入&lt;/li&gt;
-&lt;li&gt;现有方法并未限制系统超调和讨论奇异性，可能存在安全隐患&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;222-研究成果&#34;&gt;2.2.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;自行搭建设计了一台双气动肌肉机器人&lt;/li&gt;
-&lt;li&gt;建立更加直接有效的精确动力学模型&lt;/li&gt;
-&lt;li&gt;提出基于能量的非线性控制方法&lt;/li&gt;
-&lt;li&gt;提出考虑单向约束、饱和、死区的自适应模糊滑模控制方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;223-实验视频&#34;&gt;2.2.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1jf4y1Y7Ly&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV15U4y1b7aV&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;23-并联气动肌肉&#34;&gt;2.3 并联气动肌肉&lt;/h2&gt;
-&lt;p&gt;在人机共融的发展趋势下，气动人工肌肉这种质量轻、结构简单、力自重比大的新型软体驱动器逐渐备受青睐。特别地，气动人工肌肉可以通过充气和放气模仿生物肌肉的收缩和舒张行为，柔顺性更好，有助于调节并联机器人的刚度，使气动人工肌肉并联机器人表现出“刚柔耦合”特性，进而在仿生、医疗康复等需要“软接触”的场景中发挥更出色的价值。&lt;/p&gt;
-&lt;h3 id=&#34;231-研究挑战&#34;&gt;2.3.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;气动人工肌肉中存在多重输入约束（死区、饱和、单向输入）以及物理结构摩擦、变形等因素造成的复杂非线性输入－输出关系（迟滞、蠕变），这些特性会对气动人工肌肉系统的控制性能产生不利影响。&lt;/li&gt;
-&lt;li&gt;和串联机器人相比，并联机器人不仅具有高度非线性、不确定性和强耦合等特征，其闭环机械结构还会增加建模、运动控制的难度，且整体控制性能会受制于所有机械臂间的协调水平。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;232-研究成果&#34;&gt;2.3.2 研究成果&lt;/h3&gt;
-&lt;p&gt;基于实际应用需求和现有研究的不足，开展了气动人工肌肉并联机器人的准确建模和运动控制研究，发表/录用期刊/会议论文7篇。提出了以气压为系统输入的动力学模型、改进的积分/微分迟滞模型；充分考虑气动人工肌肉的多重输入约束以及具有累积效应的未知动力学特性，提出了基于运动约束/LSTM神经网络的预设性能控制方法，实现定量跟踪控制，改善暂态和稳态性能，提升运行安全性；针对并联结构的多运动链问题，提出了笛卡尔空间上的有限时间同步控制方法，提升机械臂的运动同步性，提高运动精度和工作效率；为应对复杂环境下的不利干扰，提出了基于扰动预见的模型预测控制方法，增强系统鲁棒性，提高模型预测准确度，降低计算成本。&lt;/p&gt;
-&lt;h3 id=&#34;233-实验视频&#34;&gt;2.3.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Vw9bYCE3s&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;24-外骨骼&#34;&gt;2.4 外骨骼&lt;/h2&gt;
-&lt;p&gt;气动肌肉驱动的外骨骼机器人凭借轻量化、柔性驱动和高功率密度等优势，能够显著提高人体的运动能力，在军事、民用及医疗康复等领域具有广泛的应用价值。然而，随着肌肉数目的增加和肌肉之间耦合程度的加剧，外骨骼机器人动力学建模变得极为复杂。由于精确的机理模型难以获取，并且需要综合考虑多根气动肌肉的具体组合形式，如何设计高效且稳定的运动控制方法，以确保轨迹跟踪的精度和系统的鲁棒性，已成为亟待解决的关键问题。&lt;/p&gt;
-&lt;h3 id=&#34;241-研究挑战&#34;&gt;2.4.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;气动肌肉驱动的外骨骼机器人存在高度非线性、耦合性、迟滞性和不确定性&lt;/li&gt;
-&lt;li&gt;密切的人机交互及外部非参数扰动组成的集总扰动严重降低控制性能&lt;/li&gt;
-&lt;li&gt;现有研究较少考虑跟踪误差的约束边界问题，使得外骨骼机器人难以在安全范围内稳定运行&lt;/li&gt;
-&lt;li&gt;初始控制输入过大或超出允许范围导致系统不稳定&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;242-研究成果&#34;&gt;2.4.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;提出基于学习和误差约束的非线性控制方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;外骨骼机器人&#34; srcset=&#34;
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7006819945524279912.webp 400w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu18392412339094004791.webp 760w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu415641453115223894.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7006819945524279912.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;683&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;243-实验视频&#34;&gt;2.4.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1DC9mY4EHJ&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;25-仿生手腕&#34;&gt;2.5 仿生手腕&lt;/h2&gt;
-&lt;p&gt;研究人员通常采用多根气动肌肉协同驱动的方式，以提升运动灵活性，从而满足复杂工况下的多样化作业需求。相比于串联或并联气动肌肉，拮抗式气动肌肉利用两根或多根气动肌肉间相互制约与协作的特点，通过调节主动肌和拮抗肌的气压变化，实现更精确的运动控制。基于此，仿腕关节机器人采用三对拮抗式气动肌肉进行设计，使其具备屈曲/伸展、尺偏/桡偏和旋前/旋后三个自由度的运动能力，从而具备更高的灵活性和适应性。然而，仿腕关节机器人存在着高度非线性和强耦合特性，导致其动力学方程十分复杂，进一步增加了控制方法的设计难度。&lt;/p&gt;
-&lt;h3 id=&#34;251-研究挑战&#34;&gt;2.5.1 研究挑战&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;仿腕关节机器人存在强非线性、迟滞性和不确定性，每对拮抗关节之间存在强耦合性&lt;/li&gt;
-&lt;li&gt;每对拮抗关节中主动肌过度收缩导致拮抗肌承受过大张力，从而影响系统稳定性，甚至导致肌肉损伤或断裂&lt;/li&gt;
-&lt;li&gt;实际工况可能面临持续的未知干扰&lt;/li&gt;
-&lt;li&gt;传感器测量误差、气压输入延迟以及硬件故障普遍存在&lt;/li&gt;
-&lt;li&gt;在复杂工况下，实现每对拮抗关节的跟踪误差同步收敛是一个关键挑战&lt;/li&gt;
-&lt;li&gt;现有方法较少能在固定时间内确保跟踪误差收敛，同时保证安全的人机交互&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;252-研究成果&#34;&gt;2.5.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;自行搭建设计了一台仿腕关节气动肌肉机器人&lt;/li&gt;
-&lt;li&gt;提出基于迭代学习和非对称状态约束的非线性控制方法&lt;/li&gt;
-&lt;li&gt;提出基于固定时间扰动观测器的鲁棒控制方法&lt;/li&gt;
-&lt;li&gt;提出基于动态避障和梯度加速的自适应同步控制方法&lt;/li&gt;
-&lt;li&gt;提出基于动态轨迹修正、多模态约束和设备故障的自适应模糊控制方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;仿生手腕&#34; srcset=&#34;
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu3586455191234656283.webp 400w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu5769698388089214981.webp 760w,
-               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu1697369669924990120.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu3586455191234656283.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;504&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;253-实验视频&#34;&gt;2.5.3 实验视频&lt;/h3&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1uC9mYtE2L&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4Ex2&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>消防机器人</title>
-      <link>http://localhost:1313/url_test/research/%E6%B6%88%E9%98%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E6%B6%88%E9%98%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;聚焦于室内复杂受限空间内多机器人协同作业任务，旨在提升灭火、救援机器人的协同作业效能。研究内容涵盖火场态势感知与预测、机器人状态重构、智能指挥调度、集群编组与自主任务分配，以及自主智能协同作业技术。项目致力于实现机器人在火场中的高效协同，包括快速定位、精准灭火与救援等任务，以提高整体救援效率与安全性。&lt;/p&gt;
-&lt;h2 id=&#34;41-自主与集群智能消防机器人&#34;&gt;4.1 自主与集群智能消防机器人&lt;/h2&gt;
-&lt;h3 id=&#34;411-研究挑战&#34;&gt;4.1.1 研究挑战&lt;/h3&gt;
-&lt;p&gt;火场环境下的机器人状态重构需处理大量状态数据，确保机器人运动路径的实时动态重构。
-智能指挥调度需考虑火场信息感知受限、通信中断等问题，对调度策略进行优化。
-集群编组与自主任务分配需考虑能源、负载、救援任务高优先级等因素，实现多机器人任务的最优分配。
-自主智能协同作业技术需解决机器人在复杂火场环境中的协同作业问题，包括联合破拆、清障与灭火等任务。&lt;/p&gt;
-&lt;h3 id=&#34;412-研究成果&#34;&gt;4.1.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;提出一种考虑能耗、运动速度以及移动距离的最优路径规划方法，为火场场景下消防机器人规划出合理的运动路径&lt;/li&gt;
-&lt;li&gt;提出一种改进dwa和rrt融合路径规划算法，为消防机器人在复杂空间规划出合理的路径&lt;/li&gt;
-&lt;li&gt;提出基于 SOM 网络的消防机器人增强型路径规划法，满足多机器人作业需求，规划高效无碰撞路径。&lt;/li&gt;
-&lt;li&gt;研发可动态调整神经元配置、增强环境适应性的改进SOM算法，设计两种路径优化方法，实现复杂环境下高效避障与任务协同分配。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;413-实验视频&#34;&gt;4.1.3 实验视频&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eDAfe9Evi&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br /&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eDAfe9EaF&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br /&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV15DAfeREc8&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>软体机器人</title>
-      <link>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;软体机器人作为当前机器人行业研究和发展的前沿热点领域之一，相较于传统的刚体机器人，具备运动自由度高、环境柔顺性强、制作成本低、可适应复杂的外界环境并与人良好交互等显著优势，在抢险救灾、军事侦察、医疗康复等重要领域拥有巨大的应用潜力。然而，现有软体机器人的设计结构负载能力弱，运动速度慢，不具备在不同平面上稳定运动的能力。此外，考虑软体驱动器的强非线性、强耦合性以及制作误差，软体机器人的运动非常容易偏离目标，甚至操作不当还会导致驱动器的损坏。因而，当前软体机器人的运动仍高度依赖于人工操作经验。为此，需要设计新结构的软体驱动器与机器人，提出有效的建模与控制算法，实现软体机器人在不同环境中快速、准确、稳定运动。&lt;/p&gt;
-&lt;h2 id=&#34;51-气动软体机器人&#34;&gt;5.1 气动软体机器人&lt;/h2&gt;
-&lt;h3 id=&#34;511-研究挑战&#34;&gt;5.1.1 研究挑战&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;复杂的结构设计与制作：为充分模仿生物特性，提升负载能力与运动速度，软体机器人及其驱动器的结构设计较为困难，不仅需要考虑运动功能的实现，还要尽可能减少气路消耗、避免复杂结构以及还原生物运动模态。此外，弹性较好的柔性材料往往需要通过人工进行浇铸制作，导致模具与制作流程的设计难点以及大量的稳定性测试。&lt;/li&gt;
-&lt;li&gt;模型难以描述：由于自身的柔性材料和复杂结构，软体机器人及其驱动器往往伴随着强非线性（无限自由度、弹性等）、强耦合性（驱动器内部形变、多驱动器协作等）等特性，使得其模型特性很难被准确描述，严重限制了对软体机器人形变的量化说明以及后续的规划与控制研究。&lt;/li&gt;
-&lt;li&gt;形变与运动控制困难：受限于由自身弹性及驱动系统产生的迟滞、由柔性材料导致的有限承载能力等因素，使软体机器人的形变与运动控制设计不能简单专注于跟踪精度，必须综合考虑多个方面。此外，软体驱动器初始加载气压时容易产生较大的振荡，可导致后续运动的不准确。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;512-研究成果&#34;&gt;5.1.2 研究成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;设计了一种新结构的三维形变气动软体驱动器，一种受鳄鱼启发的气动软体爬行机器人以及一种环抱式气动软体抓手，提供了相应的制作方法与性能分析。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;受鳄鱼启发的爬行机器人设计思路&#34; srcset=&#34;
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp 400w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu6795402529534941543.webp 760w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu1998543919302818909.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp&#34;
-               width=&#34;752&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;爬行机器人实物&#34; srcset=&#34;
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp 400w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu9874184322400508864.webp 760w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu17886783812432603615.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;570&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;建立了三维形变气动软体驱动器的分析模型、运动学模型和动力学模型。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;三维形变气动软体驱动器实物&#34; srcset=&#34;
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp 400w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10628308493146041434.webp 760w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu8892539562270189490.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;541&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;软体抓手实物&#34; srcset=&#34;
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp 400w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu10263874054604617140.webp 760w,
-               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu8320445082052881443.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;540&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;提出了一种基于迟滞补偿的三维形变气动软体驱动器代理滑模跟踪控制方法。&lt;/li&gt;
-&lt;li&gt;提出了一种基于动力学模型的三维形变气动软体驱动器自适应模糊形变控制方法。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;513-实验视频&#34;&gt;5.1.3 实验视频&lt;/h3&gt;
-&lt;h4 id=&#34;软体机器人&#34;&gt;软体机器人&lt;/h4&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqELh&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqEKC&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VSPMejEyk&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;驱动器&#34;&gt;驱动器&lt;/h4&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEFn&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
-  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEph&amp;page=1&#34;
-  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
-  class=&#34;w-full h-full&#34;
-  &gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>欠驱动系统</title>
       <link>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/</guid>
       <description>&lt;h2 id=&#34;11-桥式吊车&#34;&gt;1.1 桥式吊车&lt;/h2&gt;
 &lt;p&gt;在各类吊车中，桥式吊车最具代表性，应用也最为广泛。对于吊车系统而言，其所面临的最大问题在于台车运动及外界干扰(如风力等)引发的负载摆动，这不仅会降低整体的效率，影响负载在落吊过程中的精确放置操作，还可能引发碰撞而造成安全事故。在一些特殊的场合，如钢水包搬运，甚至期望能实现“无摆”运送，以防止高温钢水溢溅。&lt;/p&gt;
@@ -1356,6 +470,892 @@
     </item>
     
     <item>
+      <title>气动仿生机器人</title>
+      <link>http://localhost:1313/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;第四次智能浪潮的脚步接踵而至，工业制造、医疗康复、抢险救灾等领域智能化、自主化需求日益迫切，仅使用传统刚性驱动方式(如电机、液压等)去协助人类完成简单重复的机械任务，很难进一步推动新一轮科技革命和产业变革。与生物肌肉具有基本相似形态结构、如出一辙运动机理的柔性元件——&lt;strong&gt;气动人工肌肉(pneumatic artificial muscle，简称PAM)&lt;/strong&gt;，逐渐成为了机器人驱动、建模、控制领域的重点关注对象。PAM结构简单、材料轻便，当其作为智能机器人的主要驱动元件时，可颠覆性地突破传统驱动元件柔性不足、机构繁琐等局限性，进一步地提高人机交互的安全性和舒适性。&lt;/p&gt;
+&lt;h2 id=&#34;21-单pam机器人&#34;&gt;2.1 单PAM机器人&lt;/h2&gt;
+&lt;p&gt;气动肌肉的材料和结构特殊，导致其存在高非线性、时变特性、迟滞性等，当机器人结构模型较为复杂时，整体动力学模型建立与精确运动控制难度激增。由于单气动肌肉机器人自由度较低，整体机械结构也相对简单，因此单气动肌肉机器人成为了探索该领域的一个首选切入点。目前其主流建模方案主要分为静态特性建模和动态特性建模。其中，静态模型主要研究肌肉长度、收缩力和气压三者之间的关系，动态模型主要是通过分析肌肉伸缩过程中内部的气流作用，来描述其动态特性。&lt;/p&gt;
+&lt;h3 id=&#34;211-研究挑战&#34;&gt;2.1.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;单气动肌肉机器人存在高度非线性、不确定性、以及单向输入约束等问题&lt;/li&gt;
+&lt;li&gt;绝大多数文献没有考虑跟踪误差的边界约束问题，难以确保安全性&lt;/li&gt;
+&lt;li&gt;实际工作环境中不可避免地受到外界持续扰动，可能破坏系统稳定性&lt;/li&gt;
+&lt;li&gt;气动肌肉控制领域现存大多数自抗扰控制方法忽略扰动变化率的影响&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;212-研究成果&#34;&gt;2.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出连续自适应鲁棒控制方法&lt;/li&gt;
+&lt;li&gt;提出基于神经网络估计的自适应控制方法&lt;/li&gt;
+&lt;li&gt;提出基于高阶扰动观测器的非线性控制方法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;单PAM机器人&#34; srcset=&#34;
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu12594383624592659129.webp 400w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7651315820551095087.webp 760w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu10977050032441244064.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8D%95PAM%E6%9C%BA%E5%99%A8%E4%BA%BA_hu12594383624592659129.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;603&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;213-实验视频&#34;&gt;2.1.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1jU4y1b7hZ&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV14Q4y1R7cM&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1W54y1V7jr&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;22-双pam机器人&#34;&gt;2.2 双PAM机器人&lt;/h2&gt;
+&lt;p&gt;基于特殊的结构特性，单根气动肌肉仅能提供在&lt;strong&gt;单一直线方向上的收缩/伸展运动&lt;/strong&gt;。由于实际机器人通常需要实现复杂多变的控制目标，单根气动肌肉远不足以实现多个自由度的运动。因此，人们往往使用多根气动肌肉共同驱动机器人的多个关节来解决上述难题。此外，多气动肌肉机器人的控制方法并不是简单地从单肌肉平台移植而来，肌肉数目的增加、肌肉之间耦合程度的加剧，导致系统模型发生很大的变化，需结合多根气动肌肉的具体组合形式重新考虑控制器设计。在多气动肌肉机器人中，最为典型的为&lt;strong&gt;双气动肌肉机器人&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;221-研究挑战&#34;&gt;2.2.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;实际执行机构的驱动能力有限&lt;/li&gt;
+&lt;li&gt;单纯使用滑模控制去抑制系统不确定性容易加剧抖振现象&lt;/li&gt;
+&lt;li&gt;实际工况可能面临持续的未知干扰&lt;/li&gt;
+&lt;li&gt;多数相关工作尚未引入减振机制，很难消除残余振荡&lt;/li&gt;
+&lt;li&gt;现有模型大多是关于转矩的方程，而转矩并非系统真实的控制输入&lt;/li&gt;
+&lt;li&gt;现有方法并未限制系统超调和讨论奇异性，可能存在安全隐患&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;222-研究成果&#34;&gt;2.2.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;自行搭建设计了一台双气动肌肉机器人&lt;/li&gt;
+&lt;li&gt;建立更加直接有效的精确动力学模型&lt;/li&gt;
+&lt;li&gt;提出基于能量的非线性控制方法&lt;/li&gt;
+&lt;li&gt;提出考虑单向约束、饱和、死区的自适应模糊滑模控制方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;223-实验视频&#34;&gt;2.2.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1jf4y1Y7Ly&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV15U4y1b7aV&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;23-并联气动肌肉&#34;&gt;2.3 并联气动肌肉&lt;/h2&gt;
+&lt;p&gt;在人机共融的发展趋势下，气动人工肌肉这种质量轻、结构简单、力自重比大的新型软体驱动器逐渐备受青睐。特别地，气动人工肌肉可以通过充气和放气模仿生物肌肉的收缩和舒张行为，柔顺性更好，有助于调节并联机器人的刚度，使气动人工肌肉并联机器人表现出“刚柔耦合”特性，进而在仿生、医疗康复等需要“软接触”的场景中发挥更出色的价值。&lt;/p&gt;
+&lt;h3 id=&#34;231-研究挑战&#34;&gt;2.3.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;气动人工肌肉中存在多重输入约束（死区、饱和、单向输入）以及物理结构摩擦、变形等因素造成的复杂非线性输入－输出关系（迟滞、蠕变），这些特性会对气动人工肌肉系统的控制性能产生不利影响。&lt;/li&gt;
+&lt;li&gt;和串联机器人相比，并联机器人不仅具有高度非线性、不确定性和强耦合等特征，其闭环机械结构还会增加建模、运动控制的难度，且整体控制性能会受制于所有机械臂间的协调水平。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;232-研究成果&#34;&gt;2.3.2 研究成果&lt;/h3&gt;
+&lt;p&gt;基于实际应用需求和现有研究的不足，开展了气动人工肌肉并联机器人的准确建模和运动控制研究，发表/录用期刊/会议论文7篇。提出了以气压为系统输入的动力学模型、改进的积分/微分迟滞模型；充分考虑气动人工肌肉的多重输入约束以及具有累积效应的未知动力学特性，提出了基于运动约束/LSTM神经网络的预设性能控制方法，实现定量跟踪控制，改善暂态和稳态性能，提升运行安全性；针对并联结构的多运动链问题，提出了笛卡尔空间上的有限时间同步控制方法，提升机械臂的运动同步性，提高运动精度和工作效率；为应对复杂环境下的不利干扰，提出了基于扰动预见的模型预测控制方法，增强系统鲁棒性，提高模型预测准确度，降低计算成本。&lt;/p&gt;
+&lt;h3 id=&#34;233-实验视频&#34;&gt;2.3.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Vw9bYCE3s&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;24-外骨骼&#34;&gt;2.4 外骨骼&lt;/h2&gt;
+&lt;p&gt;气动肌肉驱动的外骨骼机器人凭借轻量化、柔性驱动和高功率密度等优势，能够显著提高人体的运动能力，在军事、民用及医疗康复等领域具有广泛的应用价值。然而，随着肌肉数目的增加和肌肉之间耦合程度的加剧，外骨骼机器人动力学建模变得极为复杂。由于精确的机理模型难以获取，并且需要综合考虑多根气动肌肉的具体组合形式，如何设计高效且稳定的运动控制方法，以确保轨迹跟踪的精度和系统的鲁棒性，已成为亟待解决的关键问题。&lt;/p&gt;
+&lt;h3 id=&#34;241-研究挑战&#34;&gt;2.4.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;气动肌肉驱动的外骨骼机器人存在高度非线性、耦合性、迟滞性和不确定性&lt;/li&gt;
+&lt;li&gt;密切的人机交互及外部非参数扰动组成的集总扰动严重降低控制性能&lt;/li&gt;
+&lt;li&gt;现有研究较少考虑跟踪误差的约束边界问题，使得外骨骼机器人难以在安全范围内稳定运行&lt;/li&gt;
+&lt;li&gt;初始控制输入过大或超出允许范围导致系统不稳定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;242-研究成果&#34;&gt;2.4.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出基于学习和误差约束的非线性控制方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;外骨骼机器人&#34; srcset=&#34;
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7006819945524279912.webp 400w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu18392412339094004791.webp 760w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu415641453115223894.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA_hu7006819945524279912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;683&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;243-实验视频&#34;&gt;2.4.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1DC9mY4EHJ&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;25-仿生手腕&#34;&gt;2.5 仿生手腕&lt;/h2&gt;
+&lt;p&gt;研究人员通常采用多根气动肌肉协同驱动的方式，以提升运动灵活性，从而满足复杂工况下的多样化作业需求。相比于串联或并联气动肌肉，拮抗式气动肌肉利用两根或多根气动肌肉间相互制约与协作的特点，通过调节主动肌和拮抗肌的气压变化，实现更精确的运动控制。基于此，仿腕关节机器人采用三对拮抗式气动肌肉进行设计，使其具备屈曲/伸展、尺偏/桡偏和旋前/旋后三个自由度的运动能力，从而具备更高的灵活性和适应性。然而，仿腕关节机器人存在着高度非线性和强耦合特性，导致其动力学方程十分复杂，进一步增加了控制方法的设计难度。&lt;/p&gt;
+&lt;h3 id=&#34;251-研究挑战&#34;&gt;2.5.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;仿腕关节机器人存在强非线性、迟滞性和不确定性，每对拮抗关节之间存在强耦合性&lt;/li&gt;
+&lt;li&gt;每对拮抗关节中主动肌过度收缩导致拮抗肌承受过大张力，从而影响系统稳定性，甚至导致肌肉损伤或断裂&lt;/li&gt;
+&lt;li&gt;实际工况可能面临持续的未知干扰&lt;/li&gt;
+&lt;li&gt;传感器测量误差、气压输入延迟以及硬件故障普遍存在&lt;/li&gt;
+&lt;li&gt;在复杂工况下，实现每对拮抗关节的跟踪误差同步收敛是一个关键挑战&lt;/li&gt;
+&lt;li&gt;现有方法较少能在固定时间内确保跟踪误差收敛，同时保证安全的人机交互&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;252-研究成果&#34;&gt;2.5.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;自行搭建设计了一台仿腕关节气动肌肉机器人&lt;/li&gt;
+&lt;li&gt;提出基于迭代学习和非对称状态约束的非线性控制方法&lt;/li&gt;
+&lt;li&gt;提出基于固定时间扰动观测器的鲁棒控制方法&lt;/li&gt;
+&lt;li&gt;提出基于动态避障和梯度加速的自适应同步控制方法&lt;/li&gt;
+&lt;li&gt;提出基于动态轨迹修正、多模态约束和设备故障的自适应模糊控制方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;仿生手腕&#34; srcset=&#34;
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu3586455191234656283.webp 400w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu5769698388089214981.webp 760w,
+               /url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu1697369669924990120.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E7%94%9F%E6%89%8B%E8%85%95_hu3586455191234656283.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;504&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;253-实验视频&#34;&gt;2.5.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1uC9mYtE2L&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4Ex2&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>悬吊微低重力模拟</title>
+      <link>http://localhost:1313/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/</guid>
+      <description>&lt;h2 id=&#34;31-航天器悬吊气浮时微低重力模拟系统&#34;&gt;3.1 航天器悬吊/气浮时微低重力模拟系统&lt;/h2&gt;
+&lt;p&gt;航天器需在微低重力环境下运行，但其制造与测试必须在地球重力条件下进行。不同重力环境对航天器的动力学特性影响显著，因此，微低重力模拟系统对于验证航天器性能、确保任务执行至关重要。悬吊法是一种常用模拟技术，通过吊装装置悬挂航天器，并控制吊绳张力等于其重力，以模拟微重力环境，广泛应用于运动控制测试。&lt;/p&gt;
+&lt;h3 id=&#34;311-研究挑战&#34;&gt;3.1.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;高安全性的随动跟踪控制：二维平动机构需精准跟踪未知运动轨迹的卸载目标，具备快速响应能力，确保高效调整运动轨迹应对动态变化。&lt;/li&gt;
+&lt;li&gt;高精度恒张力控制：实时感知卸载力并动态调节吊绳运动，确保卸载过程中张力始终恒定。&lt;/li&gt;
+&lt;li&gt;大范围底座跟随控制：基于气浮技术的动平台可在大平面范围内广泛跟随目标，同时二维平动机构提供高响应速度和跟随精度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;312-研究成果&#34;&gt;3.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;研制大型空间结构智能提升装置，可对特定荷载进行重力卸载，并实现大范围随动跟随。核心技术包括二维平动机构、恒张力控制、气浮动平台及地面控制系统。&lt;/li&gt;
+&lt;li&gt;系统可自主执行规划轨迹运动，并在花岗岩平台上平稳越缝，无卡滞现象。&lt;/li&gt;
+&lt;li&gt;悬吊动态卸载误差≤1%（包括水平与竖直方向），所提基于CBF的随动控制方法将偏角误差限制在0.4°以内。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;自主搭建的悬吊系统随动控制平台&#34; srcset=&#34;
+               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu1182897320647800819.webp 400w,
+               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu5425546624156797850.webp 760w,
+               /url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu7674769131096006616.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E8%87%AA%E4%B8%BB%E6%90%AD%E5%BB%BA%E7%9A%84%E6%82%AC%E5%90%8A%E7%B3%BB%E7%BB%9F%E9%9A%8F%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%B9%B3%E5%8F%B0_hu1182897320647800819.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;707&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;313-实验视频&#34;&gt;3.1.3 实验视频&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E4%BB%BF%E7%9C%9F%E9%A3%9E%E8%B7%83.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%82%AC%E5%90%8A%E5%BE%AE%E4%BD%8E%E9%87%8D%E5%8A%9B%E6%A8%A1%E6%8B%9F/%E6%89%80%E6%8F%90CBF%E9%9A%8F%E5%8A%A8.MP4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>消防机器人</title>
+      <link>http://localhost:1313/url_test/research/%E6%B6%88%E9%98%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E6%B6%88%E9%98%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;聚焦于室内复杂受限空间内多机器人协同作业任务，旨在提升灭火、救援机器人的协同作业效能。研究内容涵盖火场态势感知与预测、机器人状态重构、智能指挥调度、集群编组与自主任务分配，以及自主智能协同作业技术。项目致力于实现机器人在火场中的高效协同，包括快速定位、精准灭火与救援等任务，以提高整体救援效率与安全性。&lt;/p&gt;
+&lt;h2 id=&#34;41-自主与集群智能消防机器人&#34;&gt;4.1 自主与集群智能消防机器人&lt;/h2&gt;
+&lt;h3 id=&#34;411-研究挑战&#34;&gt;4.1.1 研究挑战&lt;/h3&gt;
+&lt;p&gt;火场环境下的机器人状态重构需处理大量状态数据，确保机器人运动路径的实时动态重构。
+智能指挥调度需考虑火场信息感知受限、通信中断等问题，对调度策略进行优化。
+集群编组与自主任务分配需考虑能源、负载、救援任务高优先级等因素，实现多机器人任务的最优分配。
+自主智能协同作业技术需解决机器人在复杂火场环境中的协同作业问题，包括联合破拆、清障与灭火等任务。&lt;/p&gt;
+&lt;h3 id=&#34;412-研究成果&#34;&gt;4.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出一种考虑能耗、运动速度以及移动距离的最优路径规划方法，为火场场景下消防机器人规划出合理的运动路径&lt;/li&gt;
+&lt;li&gt;提出一种改进dwa和rrt融合路径规划算法，为消防机器人在复杂空间规划出合理的路径&lt;/li&gt;
+&lt;li&gt;提出基于 SOM 网络的消防机器人增强型路径规划法，满足多机器人作业需求，规划高效无碰撞路径。&lt;/li&gt;
+&lt;li&gt;研发可动态调整神经元配置、增强环境适应性的改进SOM算法，设计两种路径优化方法，实现复杂环境下高效避障与任务协同分配。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;413-实验视频&#34;&gt;4.1.3 实验视频&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eDAfe9Evi&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eDAfe9EaF&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV15DAfeREc8&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>软体机器人</title>
+      <link>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;软体机器人作为当前机器人行业研究和发展的前沿热点领域之一，相较于传统的刚体机器人，具备运动自由度高、环境柔顺性强、制作成本低、可适应复杂的外界环境并与人良好交互等显著优势，在抢险救灾、军事侦察、医疗康复等重要领域拥有巨大的应用潜力。然而，现有软体机器人的设计结构负载能力弱，运动速度慢，不具备在不同平面上稳定运动的能力。此外，考虑软体驱动器的强非线性、强耦合性以及制作误差，软体机器人的运动非常容易偏离目标，甚至操作不当还会导致驱动器的损坏。因而，当前软体机器人的运动仍高度依赖于人工操作经验。为此，需要设计新结构的软体驱动器与机器人，提出有效的建模与控制算法，实现软体机器人在不同环境中快速、准确、稳定运动。&lt;/p&gt;
+&lt;h2 id=&#34;51-气动软体机器人&#34;&gt;5.1 气动软体机器人&lt;/h2&gt;
+&lt;h3 id=&#34;511-研究挑战&#34;&gt;5.1.1 研究挑战&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;复杂的结构设计与制作：为充分模仿生物特性，提升负载能力与运动速度，软体机器人及其驱动器的结构设计较为困难，不仅需要考虑运动功能的实现，还要尽可能减少气路消耗、避免复杂结构以及还原生物运动模态。此外，弹性较好的柔性材料往往需要通过人工进行浇铸制作，导致模具与制作流程的设计难点以及大量的稳定性测试。&lt;/li&gt;
+&lt;li&gt;模型难以描述：由于自身的柔性材料和复杂结构，软体机器人及其驱动器往往伴随着强非线性（无限自由度、弹性等）、强耦合性（驱动器内部形变、多驱动器协作等）等特性，使得其模型特性很难被准确描述，严重限制了对软体机器人形变的量化说明以及后续的规划与控制研究。&lt;/li&gt;
+&lt;li&gt;形变与运动控制困难：受限于由自身弹性及驱动系统产生的迟滞、由柔性材料导致的有限承载能力等因素，使软体机器人的形变与运动控制设计不能简单专注于跟踪精度，必须综合考虑多个方面。此外，软体驱动器初始加载气压时容易产生较大的振荡，可导致后续运动的不准确。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;512-研究成果&#34;&gt;5.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;设计了一种新结构的三维形变气动软体驱动器，一种受鳄鱼启发的气动软体爬行机器人以及一种环抱式气动软体抓手，提供了相应的制作方法与性能分析。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;受鳄鱼启发的爬行机器人设计思路&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu6795402529534941543.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu1998543919302818909.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp&#34;
+               width=&#34;752&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;爬行机器人实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu9874184322400508864.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu17886783812432603615.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;建立了三维形变气动软体驱动器的分析模型、运动学模型和动力学模型。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;三维形变气动软体驱动器实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10628308493146041434.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu8892539562270189490.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;541&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;软体抓手实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu10263874054604617140.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu8320445082052881443.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;提出了一种基于迟滞补偿的三维形变气动软体驱动器代理滑模跟踪控制方法。&lt;/li&gt;
+&lt;li&gt;提出了一种基于动力学模型的三维形变气动软体驱动器自适应模糊形变控制方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;513-实验视频&#34;&gt;5.1.3 实验视频&lt;/h3&gt;
+&lt;h4 id=&#34;软体机器人&#34;&gt;软体机器人&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqELh&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqEKC&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VSPMejEyk&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;驱动器&#34;&gt;驱动器&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEFn&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEph&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>仿生/变结构机器人</title>
+      <link>http://localhost:1313/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;h2 id=&#34;61-陆空两栖机器人&#34;&gt;6.1 陆空两栖机器人&lt;/h2&gt;
+&lt;p&gt;陆空两栖机器人，一种融合了地面无人车辆与空中四旋翼飞行器的新型变结构机器人，与传统的无人车和无人机相比，具有较强的适应性和高灵活性。它不仅拥有更广泛的应用前景，还具备更深入的研究意义，因此逐渐成为国内外的研究热点。&lt;/p&gt;
+&lt;h3 id=&#34;611-研究挑战&#34;&gt;6.1.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;欠驱动特性：无论是在地面运动模态还是空中飞行模态下，陆空两栖机器人都面临着“以少控多”的挑战，这对控制方法的设计提出了更高的要求。&lt;/li&gt;
+&lt;li&gt;非线性、强耦合性：陆空两栖机器人的各个状态相互耦合且具有较强的非线性特征，引入折叠角后，系统的非线性和耦合性进一步增强。&lt;/li&gt;
+&lt;li&gt;模态切换特性：陆空两栖机器人在执行陆地/空中模态切换和空中展平/折叠模态切换任务时，往往会导致其动态系统发生变化，从而可能引发系统失衡，甚至失控。&lt;/li&gt;
+&lt;li&gt;跨域运动特性：陆空两栖机器人陆地/空中运动模式差异较大，然而同一任务往往要求机器人进行连续的跨域作业，这为其运动规划和控制方法带来了更大的挑战。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;612-研究成果&#34;&gt;6.1.2 研究成果&lt;/h3&gt;
+&lt;p&gt;搭建了陆空两栖机器人原型样机；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搭建了基于动捕平台的实验环境；&lt;/li&gt;
+&lt;li&gt;设计了变结构机器人统一系统框架；&lt;/li&gt;
+&lt;li&gt;提出了陆空两栖机器人陆空跨域路径规划方法；&lt;/li&gt;
+&lt;li&gt;提出了陆空两栖机器人变模态平滑切换方法；&lt;/li&gt;
+&lt;li&gt;提出了陆空两栖机器人路径跟踪方法；&lt;/li&gt;
+&lt;li&gt;17th ICIRA Best Paper Finalist Award&lt;/li&gt;
+&lt;li&gt;第一届全国建筑机器人技能大赛-创意竞赛金牌&lt;/li&gt;
+&lt;li&gt;第2届中国自动化学会博士学术交流会最佳海报奖&lt;/li&gt;
+&lt;li&gt;中国国际大学生创新大赛(2024)天津赛区高教主赛道铜奖&lt;/li&gt;
+&lt;li&gt;第二十六届中国国际高新技术成果交易会优秀科研成果创新奖&lt;/li&gt;
+&lt;li&gt;2024年天津机器人科技创新奖-技术突破奖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;div style=&#34;display:flex&#34;&gt;
+&lt;img src=&#34;例图1.jpg&#34; /&gt;
+&lt;img src=&#34;例图2.jpg&#34; /&gt;
+&lt;/div&gt;
+&lt;span&gt;图1. 陆空两栖机器人原型样机&lt;/span&gt;
+&lt;/div&gt;
+&lt;!-- ![基于动捕平台的实验环境](例图1.jpg &#34;图2. 基于动捕平台的实验环境&#34;) --&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;例图3.jpg&#34; /&gt;
+&lt;span&gt;图2. 基于动捕平台的实验环境&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;例图4.jpg&#34; /&gt;
+&lt;span&gt;图3. 变结构机器人统一系统框架&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;613-实验视频&#34;&gt;6.1.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZE9T&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEUq&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1JX9EYZELM&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEUb&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;62-变结构无人机&#34;&gt;6.2 变结构无人机&lt;/h2&gt;
+&lt;p&gt;无人机由于其操作简单，机动性强，成本低，稳定性高等优势，广泛应用于军事领域和民用领域，如侦察、打击、运输、资源勘探、搜索救援、工程巡检等场景。然而现有的传统固定结构无人机在面向复杂的作业环境时作业模态单一，环境适应性弱。因此，我们根据自然界中的鸟类飞行时可通过折叠翅膀的仿生学原理，研制了一种可变结构的无人机，从而提高无人机的环境适应性。&lt;/p&gt;
+&lt;h3 id=&#34;621-研究挑战&#34;&gt;6.2.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;机架刚度降低，稳定性降低：由于可变结构的设计，使得机身和机臂的连接处为可转动的关节，使得无人机整体刚性降低，稳定性降低；&lt;/li&gt;
+&lt;li&gt;变模态切换困难：模态切换时保持无人机的飞行稳定性控制困难；&lt;/li&gt;
+&lt;li&gt;建模困难：在建模时需要考虑无人机结构变化引起的重心和转动惯量变化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;622-研究成果&#34;&gt;6.2.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;研制了可稳定飞行的变结构无人机3代实验平台；&lt;/li&gt;
+&lt;li&gt;建立了考虑重心和转动惯量变化的完整动力学模型；&lt;/li&gt;
+&lt;li&gt;发表会议论文2篇，其中一篇获得17th ICIRA Best Paper Finalist Award，第一届全国建筑机器人技能大赛创意竞赛金牌，中国国际大学生创新大赛（2024）天津赛区高教主赛道铜奖，第二十六届中国高新技术成果交易会优秀科研成果创新奖等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;变结构无人机平台.png&#34; /&gt;
+&lt;span&gt;图1. 变结构无人机平台&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;四种常用模态.jpg&#34; /&gt;
+&lt;span&gt;图2. 四种常用模态&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;电控系统图.jpg&#34; /&gt;
+&lt;span&gt;图3. 电控系统图&lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;img src=&#34;软件架构图.ipg&#34; /&gt;
+&lt;span&gt;图4. 软件架构图&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;623-实验视频&#34;&gt;6.2.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1nwPWeeE3p&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV16wPWeeEGY&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;63-自重构机器人&#34;&gt;6.3 自重构机器人&lt;/h2&gt;
+&lt;p&gt;传统的移动机器人结构固定，难以适应时变的环境。自重构模块化移动机器人是指由一系列移动机器人模块组装而成、能够根据所处环境或任务的变化依靠模块间的相互通信和自主移动重组为另一种适应新环境、新任务构型的机器人，具有多功能性、鲁棒性和重用性等诸多优点。此外，波状爬行机构受到微生物通过鞭毛游动的启发，其能够在不同的表面移动，并采用单个驱动器驱动整个机构爬行，具备高集成度的特点。将波状爬行机构应用于自重构模块化移动机器人，能够取长补短，具有较高的应用价值。&lt;/p&gt;
+&lt;h3 id=&#34;631-研究挑战&#34;&gt;6.3.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;自重构波状爬行机器人在并联模态下可以实现差速转向，执行任务时需考虑运动特性、目标设定和约束条件，因此运动规划是自重构功能的基础。&lt;/li&gt;
+&lt;li&gt;机器人通过物联网远程控制，其电池续航和资源有限，然而传统控制方法浪费资源，需通过触发机制减少通信频率，同时在控制律设计中平衡能耗与性能指标。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;632-研究成果&#34;&gt;6.3.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;研制了自重构波状爬行机器人控制系统及样机&lt;/li&gt;
+&lt;li&gt;发表SCI论文2篇（包括IEEE Robotics and Automation Letters），受理发明专利一项，获得2023年挑战杯天津市三等奖、2023年互联网+天津市铜奖等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;633-实验视频&#34;&gt;6.3.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1EX9EYZEn&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;64-水陆两栖&#34;&gt;6.4 水陆两栖&lt;/h2&gt;
+&lt;p&gt;自主移动机器人是可以在特定环境下进行坐标移动的机器人，其具有感知、交互、定位、运动规划、导航、决策等功能，可以执行特定任务，实现预期目标。&lt;/p&gt;
+&lt;p&gt;根据陆地、空中、水域等应用领域划分，主要包括单栖移动机器人和多栖移动机器人。就执行机构而言，陆地移动机器人的移动方式主要有足式、轮式、履带等，空中移动机器人的移动方式主要有螺旋桨，水域移动机器人的移动方式主要有喷水推进器、螺旋桨等，基于上述设计的移动机器人的理论基础与基本原理都已发展得非常成熟，趋于饱和。&lt;/p&gt;
+&lt;p&gt;在军事应用领域中，新型仿生水陆两栖机器人可用于水域和陆地任务，对军事领域具有战略价值。它可以执行水下侦察、搜救、情报收集和水下设施维护等任务。在军事操作中，仿鳐鱼机器人可以执行潜艇监测、水下爆炸物排除、敌方港口侦察等关键任务，减少人员风险。在经济应用领域中，仿鳐鱼两栖机器人可用于海洋资源开发，如水下采矿、渔业资源管理和海洋地质勘探。它还可以用于环境监测和污染控制，有助于保护海洋生态系统，促进可持续发展。&lt;/p&gt;
+&lt;h3 id=&#34;641-研究挑战&#34;&gt;6.4.1 研究挑战&lt;/h3&gt;
+&lt;p&gt;由于现有水陆两栖机器人复杂执行机构带来了诸多问题，亟需设计一种新型结构的水陆两栖机器人突破移动机构设计壁垒。同时，由于所设计的新型仿生水陆两栖机器人具有行波特性，存在高非线性、不确定性、水陆切换适应性，以及输入约束等研究难点。开发该机器人水陆两栖运动规划，陆地爬行控制和水域仿生鳍波动控制，使其能够实时应对环境变化，安全、高效地完成任务，具有重要的研究价值。&lt;/p&gt;
+&lt;h3 id=&#34;642-研究成果&#34;&gt;6.4.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;从工程角度出发，通过问题提炼，设计了新型仿生水陆两栖移动机器人，并搭建了实验样机平台&lt;/li&gt;
+&lt;li&gt;受理中国发明专利1件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;水陆两栖平台&#34; srcset=&#34;
+               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp 400w,
+               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu7047402828049291540.webp 760w,
+               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu17609560245914540184.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp&#34;
+               width=&#34;697&#34;
+               height=&#34;485&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;643-实验视频&#34;&gt;6.4.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4EXy&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4EXd&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;65-仿腕关节机器人&#34;&gt;6.5 仿腕关节机器人&lt;/h2&gt;
+&lt;p&gt;受人类手臂启发的机械手在制造业、物流和仓储、农业等领域发挥着关键作用，将工人从简单重复的任务中解放出来。同时，作为机械手的重要组成部分，关节直接决定了机械手的灵活性、机动性和刚度。然而，刚性连杆方式机械手只能通过离散关节实现弯曲运动，这严重限制了其在受限操作空间内的灵活性和机动性。飞机舱内装配、核电设备维护和太空舱外作业等领域对机械臂的灵活性提出了更高的要求。&lt;/p&gt;
+&lt;h3 id=&#34;651-研究挑战&#34;&gt;6.5.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;绳驱动刚性关节是提高机械手灵活性的绝佳选择，但其前端关节的驱动绳会穿过后端关节，在驱动前端关节移动时，不可避免地会影响后端关节的状态，导致定位精度降低。&lt;/li&gt;
+&lt;li&gt;软体关节理论上具有无限的自由度，但软性材料引起的低刚度和复杂的驱动非线性问题仍有待解决，限制了其在受限空间中的应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;652-研究成果&#34;&gt;6.5.2 研究成果&lt;/h3&gt;
+&lt;p&gt;针对上述问题，课题组设计了一种新颖的仿腕关节，基于反平行四边形原理，利用单关节同时满足俯仰和偏转两个自由的运动需求。针对仿腕关节的运动学建模、轨迹规划等问题开展了深入研究，并将其应用在机械臂和机械抓手等操作平台。此外，通过自主搭建的仿腕关节实验平台，验证了系统的灵活性和适用性。相关成果发表在国际权威期刊Journal of Field Robotics，获得CFIMA最佳论文奖。&lt;/p&gt;
+&lt;h3 id=&#34;653-实验视频&#34;&gt;6.5.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1BqXsYuEwx&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>有色金属自动打磨机器人</title>
+      <link>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</guid>
+      <description>&lt;h2 id=&#34;71-环境感知目标识别&#34;&gt;7.1 环境感知&amp;amp;目标识别&lt;/h2&gt;
+&lt;p&gt;当机器人在特种环境下作业时，如何获取作业对象的关键信息是亟待解决的科研难点。特种作业环境一般意味着高温、蒸汽和复杂混乱的背景等恶劣条件，这些恶劣条件会严重影响机器人信息获取的准确率和实时性，使得机器人无法依据实际环境情况进行工作。智能感知作为机器人的“眼睛”，需要通过更加高效的算法在特种作业环境下实现识别、检测和定位等感知功能。&lt;/p&gt;
+&lt;h3 id=&#34;711-研究挑战&#34;&gt;7.1.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;恶劣的环境条件：&lt;/strong&gt; 感知图像的背景极为复杂，存在着大量的干扰信息，需要准确将作业对象的信息提取出来。高温、蒸汽和持续变化的光照条件也会使图像信息发生变化，给准确感知作业对象关键信息带来了众多挑战。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时性强：&lt;/strong&gt; 由于机器人需要实时根据作业对象的信息进行作业调整，需要感知的算法具有强实时性，保证对不断变化的环境信息的实时反馈，对算法提出了一定的限制和要求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;712-研究成果&#34;&gt;7.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出了一种基于金属锭打磨信息视觉识别的打磨方法及系统，实现了在工业现场准确提取作业对象关键信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu10118601097476383452.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu3099306369766224264.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;482&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;713-实验视频&#34;&gt;7.1.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VV411j7Yn&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1g44y1r7WK&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1xy4y1g7Nv&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1iA411g7eG&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;721-机器人轨迹规划与控制&#34;&gt;7.2.1 机器人轨迹规划与控制&lt;/h2&gt;
+&lt;p&gt;目前工业机器人的应用大多采用点对点示教编程的方式，针对特定的作业场景，设定多个路径点，相邻两个路径点之间以直线或关节运动指令衔接。这种方式无法对作业执行时间或作业过程中的能耗进行优化，从而无法最大限度地发挥机器人的性能。因此在利用工业机器人进行作业时，进行&lt;strong&gt;合理的轨迹规划&lt;/strong&gt;十分重要。对于打磨机器人而言，除了需要在实现目标轨迹跟踪的同时，还必须用&lt;strong&gt;合适的力&lt;/strong&gt;对工件进行打磨，从而实现较好的打磨效果。对于这样的需求，需要对打磨过程中机械臂末端与环境接触产生的接触力进行建模，并设计&lt;strong&gt;力/位混合控制方法&lt;/strong&gt;，实现精确力跟踪。&lt;/p&gt;
+&lt;h3 id=&#34;721-研究挑战&#34;&gt;7.2.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;满足约束条件下快速规划合理轨迹：&lt;/strong&gt; 考虑打磨机器人的实际作业场景，末端执行器的路径形状被严格限制。进一步考虑实现机器人的最优轨迹规划时，计算复杂度和计算量会随着机器人自由度的增多而急剧增加，易引起“维数灾难”。此外受制于物理约束，机器人运行时的位置、速度、加速度和转矩等必须保持在特定范围内，机器人在执行特定工作任务的情况下，对速度和加速度等运动特性有更严苛的要求。如何在满足各种约束的条件下快速地规划出合理的最优作业轨迹是一大挑战。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;末端接触力控制：&lt;/strong&gt; 随着更多接触类作业的出现（如打磨），不仅对位置控制有一定的要求，还需要考虑机器人和环境之间的交互关系，即机器人柔顺性。主动柔顺（力控制），就是利用反馈的信息，设计一定的控制策略，从而实现对位置和接触力的控制。而如何在现今大多工业机器人力矩不开源和完整精确动力学模型难以获得的情况下，建立机械臂末端接触力模型，对末端接触力进行控制，则是一大挑战。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;722-研究成果&#34;&gt;7.2.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出一种结合路径参数化的最优轨迹规划方法，满足机器人状态约束，为机器人规划出合理的最优作业轨迹&lt;/li&gt;
+&lt;li&gt;给出了打磨过程中的机器人和环境间的接触力模型，提出了一种隐式力/位混合控制方法，设计了一种非线性力控制器，并使用李雅普诺夫方法证明了系统的稳定性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图1&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu802187705233288138.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu9236187397772749060.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu10070818227220017346.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu802187705233288138.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图2&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu10140212370315625481.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu1425329990252708203.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu2968993765180282403.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu10140212370315625481.webp&#34;
+               width=&#34;468&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;723-实验视频&#34;&gt;7.2.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Ub4y1f7KL&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;论文专利&#34;&gt;论文专利&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;受理中国发明专利3件。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;支撑项目&#34;&gt;支撑项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;国家重点研发计划“智能机器人”重点专项课题， 2019.06-2022.05，课题负责人：孙宁。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>🌟 测试</title>
       <link>http://localhost:1313/url_test/post/test/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
@@ -1670,7 +1670,7 @@
 
 
 
-&lt;div id=&#34;chart-245369871&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-524371689&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1688,7 +1688,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-245369871&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-524371689&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

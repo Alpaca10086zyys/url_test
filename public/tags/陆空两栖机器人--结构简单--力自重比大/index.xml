@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陆空两栖机器人 | 结构简单 | 力自重比大 | 欠驱动机器人实验室</title>
+    <link>http://localhost:1313/url_test/tags/%E9%99%86%E7%A9%BA%E4%B8%A4%E6%A0%96%E6%9C%BA%E5%99%A8%E4%BA%BA--%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95--%E5%8A%9B%E8%87%AA%E9%87%8D%E6%AF%94%E5%A4%A7/</link>
+      <atom:link href="http://localhost:1313/url_test/tags/%E9%99%86%E7%A9%BA%E4%B8%A4%E6%A0%96%E6%9C%BA%E5%99%A8%E4%BA%BA--%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95--%E5%8A%9B%E8%87%AA%E9%87%8D%E6%AF%94%E5%A4%A7/index.xml" rel="self" type="application/rss+xml" />
+    <description>陆空两栖机器人 | 结构简单 | 力自重比大</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
+      <title>陆空两栖机器人 | 结构简单 | 力自重比大</title>
+      <link>http://localhost:1313/url_test/tags/%E9%99%86%E7%A9%BA%E4%B8%A4%E6%A0%96%E6%9C%BA%E5%99%A8%E4%BA%BA--%E7%BB%93%E6%9E%84%E7%AE%80%E5%8D%95--%E5%8A%9B%E8%87%AA%E9%87%8D%E6%AF%94%E5%A4%A7/</link>
+    </image>
+    
+  </channel>
+</rss>

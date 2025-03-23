@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>运动自由度高 | 环境柔顺性强 | 制作成本低 | 欠驱动机器人实验室</title>
+    <link>http://localhost:1313/url_test/tags/%E8%BF%90%E5%8A%A8%E8%87%AA%E7%94%B1%E5%BA%A6%E9%AB%98--%E7%8E%AF%E5%A2%83%E6%9F%94%E9%A1%BA%E6%80%A7%E5%BC%BA--%E5%88%B6%E4%BD%9C%E6%88%90%E6%9C%AC%E4%BD%8E/</link>
+      <atom:link href="http://localhost:1313/url_test/tags/%E8%BF%90%E5%8A%A8%E8%87%AA%E7%94%B1%E5%BA%A6%E9%AB%98--%E7%8E%AF%E5%A2%83%E6%9F%94%E9%A1%BA%E6%80%A7%E5%BC%BA--%E5%88%B6%E4%BD%9C%E6%88%90%E6%9C%AC%E4%BD%8E/index.xml" rel="self" type="application/rss+xml" />
+    <description>运动自由度高 | 环境柔顺性强 | 制作成本低</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/url_test/media/icon_hu7672366286948310955.png</url>
+      <title>运动自由度高 | 环境柔顺性强 | 制作成本低</title>
+      <link>http://localhost:1313/url_test/tags/%E8%BF%90%E5%8A%A8%E8%87%AA%E7%94%B1%E5%BA%A6%E9%AB%98--%E7%8E%AF%E5%A2%83%E6%9F%94%E9%A1%BA%E6%80%A7%E5%BC%BA--%E5%88%B6%E4%BD%9C%E6%88%90%E6%9C%AC%E4%BD%8E/</link>
+    </image>
+    
+    <item>
+      <title>软体机器人</title>
+      <link>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;软体机器人作为当前机器人行业研究和发展的前沿热点领域之一，相较于传统的刚体机器人，具备运动自由度高、环境柔顺性强、制作成本低、可适应复杂的外界环境并与人良好交互等显著优势，在抢险救灾、军事侦察、医疗康复等重要领域拥有巨大的应用潜力。然而，现有软体机器人的设计结构负载能力弱，运动速度慢，不具备在不同平面上稳定运动的能力。此外，考虑软体驱动器的强非线性、强耦合性以及制作误差，软体机器人的运动非常容易偏离目标，甚至操作不当还会导致驱动器的损坏。因而，当前软体机器人的运动仍高度依赖于人工操作经验。为此，需要设计新结构的软体驱动器与机器人，提出有效的建模与控制算法，实现软体机器人在不同环境中快速、准确、稳定运动。&lt;/p&gt;
+&lt;h2 id=&#34;51-气动软体机器人&#34;&gt;5.1 气动软体机器人&lt;/h2&gt;
+&lt;h3 id=&#34;511-研究挑战&#34;&gt;5.1.1 研究挑战&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;复杂的结构设计与制作：为充分模仿生物特性，提升负载能力与运动速度，软体机器人及其驱动器的结构设计较为困难，不仅需要考虑运动功能的实现，还要尽可能减少气路消耗、避免复杂结构以及还原生物运动模态。此外，弹性较好的柔性材料往往需要通过人工进行浇铸制作，导致模具与制作流程的设计难点以及大量的稳定性测试。&lt;/li&gt;
+&lt;li&gt;模型难以描述：由于自身的柔性材料和复杂结构，软体机器人及其驱动器往往伴随着强非线性（无限自由度、弹性等）、强耦合性（驱动器内部形变、多驱动器协作等）等特性，使得其模型特性很难被准确描述，严重限制了对软体机器人形变的量化说明以及后续的规划与控制研究。&lt;/li&gt;
+&lt;li&gt;形变与运动控制困难：受限于由自身弹性及驱动系统产生的迟滞、由柔性材料导致的有限承载能力等因素，使软体机器人的形变与运动控制设计不能简单专注于跟踪精度，必须综合考虑多个方面。此外，软体驱动器初始加载气压时容易产生较大的振荡，可导致后续运动的不准确。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;512-研究成果&#34;&gt;5.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;设计了一种新结构的三维形变气动软体驱动器，一种受鳄鱼启发的气动软体爬行机器人以及一种环抱式气动软体抓手，提供了相应的制作方法与性能分析。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;受鳄鱼启发的爬行机器人设计思路&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu6795402529534941543.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu1998543919302818909.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%8F%97%E9%B3%84%E9%B1%BC%E5%90%AF%E5%8F%91%E7%9A%84%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF_hu16780166353384900152.webp&#34;
+               width=&#34;752&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;爬行机器人实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu9874184322400508864.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu17886783812432603615.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%88%AC%E8%A1%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E7%89%A9_hu7255561984857080057.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;建立了三维形变气动软体驱动器的分析模型、运动学模型和动力学模型。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;三维形变气动软体驱动器实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10628308493146041434.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu8892539562270189490.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%B8%89%E7%BB%B4%E5%BD%A2%E5%8F%98%E6%B0%94%E5%8A%A8%E8%BD%AF%E4%BD%93%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%AE%9E%E7%89%A9_hu10199835978405728069.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;541&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;软体抓手实物&#34; srcset=&#34;
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp 400w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu10263874054604617140.webp 760w,
+               /url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu8320445082052881443.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E8%BD%AF%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA/%E8%BD%AF%E4%BD%93%E6%8A%93%E6%89%8B%E5%AE%9E%E7%89%A9_hu5542472985760410673.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;提出了一种基于迟滞补偿的三维形变气动软体驱动器代理滑模跟踪控制方法。&lt;/li&gt;
+&lt;li&gt;提出了一种基于动力学模型的三维形变气动软体驱动器自适应模糊形变控制方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;513-实验视频&#34;&gt;5.1.3 实验视频&lt;/h3&gt;
+&lt;h4 id=&#34;软体机器人&#34;&gt;软体机器人&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqELh&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1bEPMeqEKC&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VSPMejEyk&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;驱动器&#34;&gt;驱动器&lt;/h4&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEFn&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1eSPMejEph&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
