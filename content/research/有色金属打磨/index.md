@@ -1,6 +1,6 @@
 ---
 title: 有色金属自动打磨机器人
-# summary: 智能感知作为机器人的“眼睛”，需要通过更加高效的算法在特种作业环境下实现识别、检测和定位等感知功能.
+quote: 智能感知作为机器人的“眼睛”，需要通过更加高效的算法在特种作业环境下实现识别、检测和定位等感知功能.
 date: 2025-03-21
 type: docs
 tags:
@@ -9,6 +9,7 @@ place: 7
 weight: 7
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
+class: research-page
 ---
 <!--more-->
 

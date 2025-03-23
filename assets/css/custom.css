@@ -5,3 +5,8 @@
 section#research_award div.flex {
     max-width: 90vw!important ;
 }
+
+/* 段落首行缩进2字符 */
+p {
+    text-indent: 2em;  /* 缩进2个汉字字符宽度 */
+}
