@@ -174,10 +174,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;水陆两栖平台&#34; srcset=&#34;
-               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu84424646378328437.webp 400w,
-               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu12850177273027670131.webp 760w,
+               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp 400w,
+               /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu7047402828049291540.webp 760w,
                /url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu17609560245914540184.webp 1200w&#34;
-               src=&#34;http://localhost:1313/url_test/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu84424646378328437.webp&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E4%BB%BF%E7%94%9F%E5%8F%98%E7%BB%93%E6%9E%84%E6%9C%BA%E5%99%A8%E4%BA%BA/%E6%B0%B4%E9%99%86%E4%B8%A4%E6%A0%96%E5%B9%B3%E5%8F%B0_hu4534097233776676283.webp&#34;
                width=&#34;697&#34;
                height=&#34;485&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -309,11 +309,156 @@
     </item>
     
     <item>
-      <title>有色金属打磨</title>
+      <title>有色金属自动打磨机器人</title>
       <link>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;71-环境感知目标识别&#34;&gt;7.1 环境感知&amp;amp;目标识别&lt;/h2&gt;
+&lt;p&gt;当机器人在特种环境下作业时，如何获取作业对象的关键信息是亟待解决的科研难点。特种作业环境一般意味着高温、蒸汽和复杂混乱的背景等恶劣条件，这些恶劣条件会严重影响机器人信息获取的准确率和实时性，使得机器人无法依据实际环境情况进行工作。智能感知作为机器人的“眼睛”，需要通过更加高效的算法在特种作业环境下实现识别、检测和定位等感知功能。&lt;/p&gt;
+&lt;h3 id=&#34;711-研究挑战&#34;&gt;7.1.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;恶劣的环境条件：&lt;/strong&gt; 感知图像的背景极为复杂，存在着大量的干扰信息，需要准确将作业对象的信息提取出来。高温、蒸汽和持续变化的光照条件也会使图像信息发生变化，给准确感知作业对象关键信息带来了众多挑战。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时性强：&lt;/strong&gt; 由于机器人需要实时根据作业对象的信息进行作业调整，需要感知的算法具有强实时性，保证对不断变化的环境信息的实时反馈，对算法提出了一定的限制和要求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;712-研究成果&#34;&gt;7.1.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出了一种基于金属锭打磨信息视觉识别的打磨方法及系统，实现了在工业现场准确提取作业对象关键信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu10118601097476383452.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu3099306369766224264.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/featured_hu1984595351332826114.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;482&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;713-实验视频&#34;&gt;7.1.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1VV411j7Yn&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1g44y1r7WK&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1xy4y1g7Nv&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1iA411g7eG&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;721-机器人轨迹规划与控制&#34;&gt;7.2.1 机器人轨迹规划与控制&lt;/h2&gt;
+&lt;p&gt;目前工业机器人的应用大多采用点对点示教编程的方式，针对特定的作业场景，设定多个路径点，相邻两个路径点之间以直线或关节运动指令衔接。这种方式无法对作业执行时间或作业过程中的能耗进行优化，从而无法最大限度地发挥机器人的性能。因此在利用工业机器人进行作业时，进行&lt;strong&gt;合理的轨迹规划&lt;/strong&gt;十分重要。对于打磨机器人而言，除了需要在实现目标轨迹跟踪的同时，还必须用&lt;strong&gt;合适的力&lt;/strong&gt;对工件进行打磨，从而实现较好的打磨效果。对于这样的需求，需要对打磨过程中机械臂末端与环境接触产生的接触力进行建模，并设计&lt;strong&gt;力/位混合控制方法&lt;/strong&gt;，实现精确力跟踪。&lt;/p&gt;
+&lt;h3 id=&#34;721-研究挑战&#34;&gt;7.2.1 研究挑战&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;满足约束条件下快速规划合理轨迹：&lt;/strong&gt; 考虑打磨机器人的实际作业场景，末端执行器的路径形状被严格限制。进一步考虑实现机器人的最优轨迹规划时，计算复杂度和计算量会随着机器人自由度的增多而急剧增加，易引起“维数灾难”。此外受制于物理约束，机器人运行时的位置、速度、加速度和转矩等必须保持在特定范围内，机器人在执行特定工作任务的情况下，对速度和加速度等运动特性有更严苛的要求。如何在满足各种约束的条件下快速地规划出合理的最优作业轨迹是一大挑战。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;末端接触力控制：&lt;/strong&gt; 随着更多接触类作业的出现（如打磨），不仅对位置控制有一定的要求，还需要考虑机器人和环境之间的交互关系，即机器人柔顺性。主动柔顺（力控制），就是利用反馈的信息，设计一定的控制策略，从而实现对位置和接触力的控制。而如何在现今大多工业机器人力矩不开源和完整精确动力学模型难以获得的情况下，建立机械臂末端接触力模型，对末端接触力进行控制，则是一大挑战。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;722-研究成果&#34;&gt;7.2.2 研究成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;提出一种结合路径参数化的最优轨迹规划方法，满足机器人状态约束，为机器人规划出合理的最优作业轨迹&lt;/li&gt;
+&lt;li&gt;给出了打磨过程中的机器人和环境间的接触力模型，提出了一种隐式力/位混合控制方法，设计了一种非线性力控制器，并使用李雅普诺夫方法证明了系统的稳定性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图1&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu11374152273543507359.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu13576770584495496403.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu10070818227220017346.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE1_hu11374152273543507359.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;481&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;例图2&#34; srcset=&#34;
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu6331603357549991243.webp 400w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu7384910482812516193.webp 760w,
+               /url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu2968993765180282403.webp 1200w&#34;
+               src=&#34;http://localhost:1313/url_test/url_test/research/%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E6%89%93%E7%A3%A8/%E4%BE%8B%E5%9B%BE2_hu6331603357549991243.webp&#34;
+               width=&#34;468&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;723-实验视频&#34;&gt;7.2.3 实验视频&lt;/h3&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Ub4y1f7KL&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;论文专利&#34;&gt;论文专利&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;受理中国发明专利3件。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;支撑项目&#34;&gt;支撑项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;国家重点研发计划“智能机器人”重点专项课题， 2019.06-2022.05，课题负责人：孙宁。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -425,27 +570,12 @@
 &lt;h3 id=&#34;232-研究成果&#34;&gt;2.3.2 研究成果&lt;/h3&gt;
 &lt;p&gt;基于实际应用需求和现有研究的不足，开展了气动人工肌肉并联机器人的准确建模和运动控制研究，发表/录用期刊/会议论文7篇。提出了以气压为系统输入的动力学模型、改进的积分/微分迟滞模型；充分考虑气动人工肌肉的多重输入约束以及具有累积效应的未知动力学特性，提出了基于运动约束/LSTM神经网络的预设性能控制方法，实现定量跟踪控制，改善暂态和稳态性能，提升运行安全性；针对并联结构的多运动链问题，提出了笛卡尔空间上的有限时间同步控制方法，提升机械臂的运动同步性，提高运动精度和工作效率；为应对复杂环境下的不利干扰，提出了基于扰动预见的模型预测控制方法，增强系统鲁棒性，提高模型预测准确度，降低计算成本。&lt;/p&gt;
 &lt;h3 id=&#34;233-实验视频&#34;&gt;2.3.3 实验视频&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91_%E6%B0%94%E5%8A%A8%E4%BA%BA%E5%B7%A5%E8%82%8C%E8%82%89%E5%B9%B6%E8%81%94%E6%9C%BA%E5%99%A8%E4%BA%BA.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1Vw9bYCE3s&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;24-外骨骼&#34;&gt;2.4 外骨骼&lt;/h2&gt;
 &lt;p&gt;气动肌肉驱动的外骨骼机器人凭借轻量化、柔性驱动和高功率密度等优势，能够显著提高人体的运动能力，在军事、民用及医疗康复等领域具有广泛的应用价值。然而，随着肌肉数目的增加和肌肉之间耦合程度的加剧，外骨骼机器人动力学建模变得极为复杂。由于精确的机理模型难以获取，并且需要综合考虑多根气动肌肉的具体组合形式，如何设计高效且稳定的运动控制方法，以确保轨迹跟踪的精度和系统的鲁棒性，已成为亟待解决的关键问题。&lt;/p&gt;
 &lt;h3 id=&#34;241-研究挑战&#34;&gt;2.4.1 研究挑战&lt;/h3&gt;
@@ -488,27 +618,12 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;243-实验视频&#34;&gt;2.4.3 实验视频&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E5%A4%96%E9%AA%A8%E9%AA%BC%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E9%AA%8C%E8%A7%86%E9%A2%91.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1DC9mY4EHJ&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;25-仿生手腕&#34;&gt;2.5 仿生手腕&lt;/h2&gt;
 &lt;p&gt;研究人员通常采用多根气动肌肉协同驱动的方式，以提升运动灵活性，从而满足复杂工况下的多样化作业需求。相比于串联或并联气动肌肉，拮抗式气动肌肉利用两根或多根气动肌肉间相互制约与协作的特点，通过调节主动肌和拮抗肌的气压变化，实现更精确的运动控制。基于此，仿腕关节机器人采用三对拮抗式气动肌肉进行设计，使其具备屈曲/伸展、尺偏/桡偏和旋前/旋后三个自由度的运动能力，从而具备更高的灵活性和适应性。然而，仿腕关节机器人存在着高度非线性和强耦合特性，导致其动力学方程十分复杂，进一步增加了控制方法的设计难度。&lt;/p&gt;
 &lt;h3 id=&#34;251-研究挑战&#34;&gt;2.5.1 研究挑战&lt;/h3&gt;
@@ -557,48 +672,18 @@
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;253-实验视频&#34;&gt;2.5.3 实验视频&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E8%85%95%E5%85%B3%E8%8A%82%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E9%AA%8C%E8%A7%86%E9%A2%91-ILC.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%B0%94%E5%8A%A8%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA/%E4%BB%BF%E8%85%95%E5%85%B3%E8%8A%82%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%9E%E9%AA%8C%E8%A7%86%E9%A2%91-%E5%AF%BC%E7%BA%B3.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1uC9mYtE2L&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&#34;w-full h-auto aspect-video relative&#34;&gt;
+  &lt;iframe src=&#34;//player.bilibili.com/player.html?bvid=BV1SC9mY4Ex2&amp;page=1&#34;
+  allow=&#34;accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture;&#34;
+  class=&#34;w-full h-full&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -884,29 +969,6 @@
   class=&#34;w-full h-full&#34;
   &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
-&lt;!-- 
-**插入视频的方法三（本地视频）：**
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-&lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/url_test/url_test/research/%E6%AC%A0%E9%A9%B1%E5%8A%A8/%E6%A0%B7%E4%BE%8B.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
- --&gt;
 &lt;h2 id=&#34;12-塔式吊车&#34;&gt;1.2 塔式吊车&lt;/h2&gt;
 &lt;p&gt;相比于桥式吊车，塔式吊车包含旋臂的旋转运动，且其工作环境更为恶劣(高空、强干扰等)。旋转运动更容易激发负载在空间内的摆动，因此塔吊具有&lt;strong&gt;更加复杂的欠驱动特性、更强的非线性，且系统状态之间具有更强的耦合性&lt;/strong&gt;。在这种情况下，非常难以实现负载的快速精准定位与消摆。然而，塔身高、回转半径大等特点，又使得塔式吊车的工作空间广、垂直作业效率高，更加适用于高层建筑的建设与修缮，这使其成为建筑业不可或缺的关键设备之一。因此，如何实现塔式吊车的高性能制动控制，具有非常重要的实际应用价值与意义。&lt;/p&gt;
 &lt;h3 id=&#34;121-研究挑战&#34;&gt;1.2.1 研究挑战&lt;/h3&gt;

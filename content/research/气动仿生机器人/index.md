@@ -70,7 +70,7 @@ image:
 
 ### 2.3.3 实验视频
 
-{{< video src="研究方向_气动人工肌肉并联机器人.mp4" controls="yes" >}}
+{{< bilibili id="BV1Vw9bYCE3s" >}}
 
 ## 2.4 外骨骼
 
@@ -91,7 +91,7 @@ image:
 
 ### 2.4.3 实验视频
 
-{{< video src="外骨骼机器人实验视频.mp4" controls="yes" >}}
+{{< bilibili id="BV1DC9mY4EHJ" >}}
 
 ## 2.5 仿生手腕
 
@@ -118,6 +118,6 @@ image:
 
 ### 2.5.3 实验视频
 
-{{< video src="仿腕关节机器人实验视频-ILC.mp4" controls="yes" >}}
+{{< bilibili id="BV1uC9mYtE2L" >}}
 
-{{< video src="仿腕关节机器人实验视频-导纳.mp4" controls="yes" >}}
+{{< bilibili id="BV1SC9mY4Ex2" >}}
